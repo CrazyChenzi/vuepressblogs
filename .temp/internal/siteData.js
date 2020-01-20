@@ -7,6 +7,19 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
+      "title": "About me",
+      "frontmatter": {
+        "title": "About me",
+        "sidebar": false,
+        "publish": false
+      },
+      "regularPath": "/About.html",
+      "relativePath": "About.md",
+      "key": "v-12da3b52",
+      "path": "/About.html",
+      "lastUpdated": "2020-1-20 15:01:57"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -23,17 +36,852 @@ export const siteData = {
       "lastUpdated": "2020-1-20 15:01:57"
     },
     {
-      "title": "About me",
+      "title": "Flex布局",
       "frontmatter": {
-        "title": "About me",
-        "sidebar": false,
-        "publish": false
+        "title": "Flex布局",
+        "date": "2018-09-11T22:02:24.000Z",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "CSS"
+        ]
       },
-      "regularPath": "/About.html",
-      "relativePath": "About.md",
-      "key": "v-12da3b52",
-      "path": "/About.html",
-      "lastUpdated": "2020-1-20 15:01:57"
+      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "relativePath": "views/Flex布局.md",
+      "key": "v-593c16bc",
+      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、Flex布局是什么",
+          "slug": "一、flex布局是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、基本概念",
+          "slug": "二、基本概念"
+        },
+        {
+          "level": 2,
+          "title": "三、容器的属性",
+          "slug": "三、容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3.1 flex-direction属性",
+          "slug": "_3-1-flex-direction属性"
+        },
+        {
+          "level": 3,
+          "title": "3.2 flex-wrap属性",
+          "slug": "_3-2-flex-wrap属性"
+        },
+        {
+          "level": 3,
+          "title": "3.3 flex-flow",
+          "slug": "_3-3-flex-flow"
+        },
+        {
+          "level": 3,
+          "title": "3.4 justify-content属性",
+          "slug": "_3-4-justify-content属性"
+        },
+        {
+          "level": 3,
+          "title": "3.5 align-items属性",
+          "slug": "_3-5-align-items属性"
+        },
+        {
+          "level": 3,
+          "title": "3.6 align-content属性",
+          "slug": "_3-6-align-content属性"
+        },
+        {
+          "level": 2,
+          "title": "四、项目的属性",
+          "slug": "四、项目的属性"
+        },
+        {
+          "level": 3,
+          "title": "4.1 order属性",
+          "slug": "_4-1-order属性"
+        },
+        {
+          "level": 3,
+          "title": "4.2 flex-grow属性",
+          "slug": "_4-2-flex-grow属性"
+        },
+        {
+          "level": 3,
+          "title": "4.3 flex-shrink属性",
+          "slug": "_4-3-flex-shrink属性"
+        },
+        {
+          "level": 3,
+          "title": "4.4 flex-basis属性",
+          "slug": "_4-4-flex-basis属性"
+        },
+        {
+          "level": 3,
+          "title": "4.5 flex属性",
+          "slug": "_4-5-flex属性"
+        },
+        {
+          "level": 3,
+          "title": "4.6 align-self属性",
+          "slug": "_4-6-align-self属性"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n"
+    },
+    {
+      "title": "Array",
+      "frontmatter": {
+        "title": "Array",
+        "date": "2018-10-31T21:09:34.000Z",
+        "tags": [
+          "javaScript",
+          "ES6"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/Array.html",
+      "relativePath": "views/Array.md",
+      "key": "v-7497a936",
+      "path": "/views/Array.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Array.from()",
+          "slug": "array-from"
+        },
+        {
+          "level": 2,
+          "title": "Array.of()",
+          "slug": "array-of"
+        },
+        {
+          "level": 2,
+          "title": "pop",
+          "slug": "pop"
+        },
+        {
+          "level": 2,
+          "title": "push",
+          "slug": "push"
+        },
+        {
+          "level": 2,
+          "title": "reverse",
+          "slug": "reverse"
+        },
+        {
+          "level": 2,
+          "title": "shift",
+          "slug": "shift"
+        },
+        {
+          "level": 2,
+          "title": "sort",
+          "slug": "sort"
+        },
+        {
+          "level": 2,
+          "title": "splice",
+          "slug": "splice"
+        },
+        {
+          "level": 2,
+          "title": "unshift",
+          "slug": "unshift"
+        },
+        {
+          "level": 2,
+          "title": "copyWithin",
+          "slug": "copywithin"
+        },
+        {
+          "level": 2,
+          "title": "fill",
+          "slug": "fill"
+        },
+        {
+          "level": 2,
+          "title": "concat",
+          "slug": "concat"
+        },
+        {
+          "level": 2,
+          "title": "includes",
+          "slug": "includes"
+        },
+        {
+          "level": 2,
+          "title": "join",
+          "slug": "join"
+        },
+        {
+          "level": 2,
+          "title": "toString",
+          "slug": "tostring"
+        },
+        {
+          "level": 2,
+          "title": "toLocaleString",
+          "slug": "tolocalestring"
+        },
+        {
+          "level": 2,
+          "title": "indexOf",
+          "slug": "indexof"
+        },
+        {
+          "level": 2,
+          "title": "lastIndexOf",
+          "slug": "lastindexof"
+        },
+        {
+          "level": 2,
+          "title": "toSource",
+          "slug": "tosource"
+        },
+        {
+          "level": 2,
+          "title": "forEach",
+          "slug": "foreach"
+        },
+        {
+          "level": 2,
+          "title": "every",
+          "slug": "every"
+        },
+        {
+          "level": 2,
+          "title": "some",
+          "slug": "some"
+        },
+        {
+          "level": 2,
+          "title": "filter",
+          "slug": "filter"
+        },
+        {
+          "level": 2,
+          "title": "map",
+          "slug": "map"
+        },
+        {
+          "level": 2,
+          "title": "reduce",
+          "slug": "reduce"
+        },
+        {
+          "level": 2,
+          "title": "reduceRight",
+          "slug": "reduceright"
+        },
+        {
+          "level": 2,
+          "title": "entries",
+          "slug": "entries"
+        },
+        {
+          "level": 2,
+          "title": "find",
+          "slug": "find"
+        },
+        {
+          "level": 2,
+          "title": "findIndex",
+          "slug": "findindex"
+        },
+        {
+          "level": 2,
+          "title": "keys",
+          "slug": "keys"
+        },
+        {
+          "level": 2,
+          "title": "values",
+          "slug": "values"
+        },
+        {
+          "level": 2,
+          "title": "浏览器兼容性",
+          "slug": "浏览器兼容性"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<!--beforebegin--><div class=\"language-js line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-js\"><code><span class=\"token comment\">// 使用Array构造器</span>\n<span class=\"token keyword\">var</span> a <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Array</span><span class=\"token punctuation\">(</span><span class=\"token number\">5</span><span class=\"token punctuation\">)</span>  <span class=\"token comment\">// [empty × 5]</span>\n<span class=\"token comment\">// 使用对象字面量</span>\n<span class=\"token keyword\">var</span> b <span class=\"token operator\">=</span> <span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span>\nb<span class=\"token punctuation\">.</span>length <span class=\"token operator\">=</span> <span class=\"token number\">5</span>  <span class=\"token comment\">// [empty × 5]</span>\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br><span class=\"line-number\">5</span><br></div><!--beforeend--></div><!--afterend--><p>Array构造器根据参数长度的不同，有如下两种不同的处理：</p>\n<ul>\n<li>new Array(arg1, arg2,…)，参数长度为0或长度大于等于2时，传入的参数将按照顺序依次成为新数组的第0至N项（参数长度为0时，返回空数组）。</li>\n<li>new Array(len)，当len不是数值时，处理同上，返回一个只包含len元素一项的数组；当len为数值时，则创建一个以该数值为长度的数组，数值大小不能超过2^32 否则会抛出错误</li>\n</ul>\n</div>\n"
+    },
+    {
+      "title": "JavaScript进阶之继承的多种方式",
+      "frontmatter": {
+        "title": "JavaScript进阶之继承的多种方式",
+        "date": "2019-07-15T18:16:23.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "relativePath": "views/JavaScript继承的多种方式.md",
+      "key": "v-718b1126",
+      "path": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原型链继承",
+          "slug": "原型链继承"
+        },
+        {
+          "level": 2,
+          "title": "借用构造函数(经典继承)",
+          "slug": "借用构造函数-经典继承"
+        },
+        {
+          "level": 2,
+          "title": "组合继承",
+          "slug": "组合继承"
+        },
+        {
+          "level": 2,
+          "title": "原型式继承",
+          "slug": "原型式继承"
+        },
+        {
+          "level": 2,
+          "title": "寄生式继承",
+          "slug": "寄生式继承"
+        },
+        {
+          "level": 2,
+          "title": "寄生组合式继承",
+          "slug": "寄生组合式继承"
+        },
+        {
+          "level": 2,
+          "title": "ES6 extends 继承",
+          "slug": "es6-extends-继承"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n"
+    },
+    {
+      "title": "ShadowSocks配置",
+      "frontmatter": {
+        "title": "ShadowSocks配置",
+        "date": "2018-09-10T21:12:56.000Z",
+        "tags": [
+          "杂谈",
+          "Linux"
+        ],
+        "categories": [
+          "其它"
+        ]
+      },
+      "regularPath": "/views/ShadowSocks%E9%85%8D%E7%BD%AE.html",
+      "relativePath": "views/ShadowSocks配置.md",
+      "key": "v-3ea9d6d5",
+      "path": "/views/ShadowSocks%E9%85%8D%E7%BD%AE.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "配置开机自动启动，并先手动启动服务",
+          "slug": "配置开机自动启动，并先手动启动服务"
+        },
+        {
+          "level": 2,
+          "title": "多用户配置",
+          "slug": "多用户配置"
+        },
+        {
+          "level": 3,
+          "title": "(1)",
+          "slug": "_1"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n"
+    },
+    {
+      "title": "addRoutes",
+      "frontmatter": {
+        "title": "addRoutes",
+        "date": "2018-04-23T10:46:56.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/addRoutes.html",
+      "relativePath": "views/addRoutes.md",
+      "key": "v-262844b6",
+      "path": "/views/addRoutes.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>用动态路由实现权限控制，是一个很nice的方案不是么？ 初始路由只有登录页，根据用户的id查询对应的权限，然后addRoutes，将获取到的菜单数据放入vuex和浏览器缓存中。</p>\n<blockquote>\n<p>动态添加更多的路由规则。参数必须是一个符合 routes 选项要求的<code>数组</code>。</p>\n</blockquote>\n</div>\n"
+    },
+    {
+      "title": "This",
+      "frontmatter": {
+        "title": "This",
+        "date": "2019-03-07T17:42:53.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/This.html",
+      "relativePath": "views/This.md",
+      "key": "v-14bfd013",
+      "path": "/views/This.html",
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n"
+    },
+    {
+      "title": "JavaScript进阶之arguments对象（类数组对象）",
+      "frontmatter": {
+        "title": "JavaScript进阶之arguments对象（类数组对象）",
+        "date": "2019-07-12T16:52:52.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/arguments.html",
+      "relativePath": "views/arguments.md",
+      "key": "v-14eabb85",
+      "path": "/views/arguments.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "arguments对象",
+          "slug": "arguments对象"
+        },
+        {
+          "level": 3,
+          "title": "length属性",
+          "slug": "length属性"
+        },
+        {
+          "level": 3,
+          "title": "callee属性",
+          "slug": "callee属性"
+        },
+        {
+          "level": 3,
+          "title": "arguments 和对应参数的绑定",
+          "slug": "arguments-和对应参数的绑定"
+        },
+        {
+          "level": 3,
+          "title": "使用ES6的...运算符可以将arguments快速转为数组",
+          "slug": "使用es6的-运算符可以将arguments快速转为数组"
+        },
+        {
+          "level": 2,
+          "title": "类数组对象",
+          "slug": "类数组对象"
+        },
+        {
+          "level": 3,
+          "title": "使用一些数组特定方法，比如push",
+          "slug": "使用一些数组特定方法，比如push"
+        },
+        {
+          "level": 3,
+          "title": "类数组对象转数组",
+          "slug": "类数组对象转数组"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzALn.jpg\" alt=\"lCzALn.jpg\"></p>\n"
+    },
+    {
+      "title": "JavaScript进阶之call/apply的模拟实现",
+      "frontmatter": {
+        "title": "JavaScript进阶之call/apply的模拟实现",
+        "date": "2019-07-22T23:12:31.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
+      "relativePath": "views/call、apply的模拟实现.md",
+      "key": "v-40c79614",
+      "path": "/views/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "call",
+          "slug": "call"
+        },
+        {
+          "level": 3,
+          "title": "语法",
+          "slug": "语法"
+        },
+        {
+          "level": 3,
+          "title": "返回值",
+          "slug": "返回值"
+        },
+        {
+          "level": 2,
+          "title": "call的模拟实现",
+          "slug": "call的模拟实现"
+        },
+        {
+          "level": 3,
+          "title": "开始模拟实现",
+          "slug": "开始模拟实现"
+        },
+        {
+          "level": 3,
+          "title": "我们得到了我们想要的结果，但假设bar方法需要return出去一个值呢，又或者context为null或者一个非Object的值呢",
+          "slug": "我们得到了我们想要的结果，但假设bar方法需要return出去一个值呢，又或者context为null或者一个非object的值呢"
+        },
+        {
+          "level": 3,
+          "title": "测试代码如下",
+          "slug": "测试代码如下"
+        },
+        {
+          "level": 3,
+          "title": "ES6的实现",
+          "slug": "es6的实现"
+        },
+        {
+          "level": 2,
+          "title": "apply的实现",
+          "slug": "apply的实现"
+        },
+        {
+          "level": 3,
+          "title": "ES6的实现",
+          "slug": "es6的实现-2"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCjjld.png\" alt=\"lCjjld.png\"></p>\n"
+    },
+    {
+      "title": "eventloop",
+      "frontmatter": {
+        "title": "eventloop",
+        "date": "2019-03-07T17:42:38.000Z",
+        "tags": [
+          "javaScript",
+          "nodejs",
+          "javaScript进阶"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/eventloop.html",
+      "relativePath": "views/eventloop.md",
+      "key": "v-e227d6f6",
+      "path": "/views/eventloop.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n"
+    },
+    {
+      "title": "git Please move or remove them before you can merge",
+      "frontmatter": {
+        "title": "git Please move or remove them before you can merge",
+        "date": "2019-02-28T13:33:59.000Z",
+        "tags": [
+          "版本控制",
+          "日常错误问题收集"
+        ],
+        "categories": [
+          "Git"
+        ]
+      },
+      "regularPath": "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "relativePath": "views/git Please move or remove them before you can merge.md",
+      "key": "v-431480a4",
+      "path": "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n"
+    },
+    {
+      "title": "gitalk搭建遇见的问题",
+      "frontmatter": {
+        "title": "gitalk搭建遇见的问题",
+        "date": "2018-10-17T21:58:17.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "hexo"
+        ]
+      },
+      "regularPath": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "relativePath": "views/gitalk搭建遇见的问题.md",
+      "key": "v-c2269632",
+      "path": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n"
+    },
+    {
+      "title": "jQuery is not defind",
+      "frontmatter": {
+        "title": "jQuery is not defind",
+        "date": "2019-03-18T21:32:32.000Z",
+        "tags": [
+          "javaScript",
+          "日常错误问题收集"
+        ],
+        "categories": [
+          "Electron"
+        ]
+      },
+      "regularPath": "/views/jQuery%20is%20not%20defind.html",
+      "relativePath": "views/jQuery is not defind.md",
+      "key": "v-0daf3dd6",
+      "path": "/views/jQuery%20is%20not%20defind.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n"
+    },
+    {
+      "title": "hexo next主题集成gitalk评论插件",
+      "frontmatter": {
+        "title": "hexo next主题集成gitalk评论插件",
+        "date": "2018-10-16T21:55:41.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "hexo"
+        ]
+      },
+      "regularPath": "/views/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "relativePath": "views/hexo-next主题集成gitalk评论插件.md",
+      "key": "v-24076933",
+      "path": "/views/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Register a new OAuth application",
+          "slug": "register-a-new-oauth-application"
+        },
+        {
+          "level": 2,
+          "title": "gitalk.swig",
+          "slug": "gitalk-swig"
+        },
+        {
+          "level": 2,
+          "title": "comments.swig",
+          "slug": "comments-swig"
+        },
+        {
+          "level": 2,
+          "title": "index.swig",
+          "slug": "index-swig"
+        },
+        {
+          "level": 2,
+          "title": "gitalk.styl",
+          "slug": "gitalk-styl"
+        },
+        {
+          "level": 2,
+          "title": "third-party.styl",
+          "slug": "third-party-styl"
+        },
+        {
+          "level": 2,
+          "title": "_config.yml",
+          "slug": "config-yml"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n"
+    },
+    {
+      "title": "markdown语法简介",
+      "frontmatter": {
+        "title": "markdown语法简介",
+        "date": "2019-05-08T16:42:53.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "其它"
+        ]
+      },
+      "regularPath": "/views/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
+      "relativePath": "views/markdown语法简介.md",
+      "key": "v-7d1daac0",
+      "path": "/views/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "粗体",
+          "slug": "粗体"
+        },
+        {
+          "level": 2,
+          "title": "斜体",
+          "slug": "斜体"
+        },
+        {
+          "level": 2,
+          "title": "标题",
+          "slug": "标题"
+        },
+        {
+          "level": 2,
+          "title": "分割线",
+          "slug": "分割线"
+        },
+        {
+          "level": 2,
+          "title": "^上^角~下~标",
+          "slug": "上-角-下-标"
+        },
+        {
+          "level": 2,
+          "title": "++下划线++ ~~中划线~~",
+          "slug": "下划线-中划线"
+        },
+        {
+          "level": 2,
+          "title": "==标记==",
+          "slug": "标记"
+        },
+        {
+          "level": 2,
+          "title": "段落引用",
+          "slug": "段落引用"
+        },
+        {
+          "level": 2,
+          "title": "列表",
+          "slug": "列表"
+        },
+        {
+          "level": 2,
+          "title": "任务列表",
+          "slug": "任务列表"
+        },
+        {
+          "level": 2,
+          "title": "链接",
+          "slug": "链接"
+        },
+        {
+          "level": 2,
+          "title": "代码段落",
+          "slug": "代码段落"
+        },
+        {
+          "level": 2,
+          "title": "表格(table)",
+          "slug": "表格-table"
+        },
+        {
+          "level": 2,
+          "title": "脚注(footnote)",
+          "slug": "脚注-footnote"
+        },
+        {
+          "level": 2,
+          "title": "表情(emoji)",
+          "slug": "表情-emoji"
+        },
+        {
+          "level": 2,
+          "title": "$\\KaTeX$公式",
+          "slug": "公式"
+        },
+        {
+          "level": 2,
+          "title": "布局",
+          "slug": "布局"
+        },
+        {
+          "level": 2,
+          "title": "定义",
+          "slug": "定义"
+        },
+        {
+          "level": 2,
+          "title": "abbr",
+          "slug": "abbr"
+        }
+      ],
+      "excerpt": "<p><a href=\"https://commonmark.org/help/\" target=\"_blank\" rel=\"noopener noreferrer\">语法详解<OutboundLink/></a></p>\n<p><img src=\"https://s2.ax1x.com/2019/05/08/E6ycZV.png\" alt=\"E6ycZV.png\"></p>\n"
+    },
+    {
+      "title": "nodejs写日志",
+      "frontmatter": {
+        "title": "nodejs写日志",
+        "date": "2019-01-24T15:09:34.000Z",
+        "tags": [
+          "javaScript",
+          "nodejs"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
+      "relativePath": "views/nodejs写日志.md",
+      "key": "v-551ba676",
+      "path": "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>基于nodejs的书写简单日志，使用appendFile进行日志添加</p>\n</div>\n"
+    },
+    {
+      "title": "registerModule",
+      "frontmatter": {
+        "title": "registerModule",
+        "date": "2018-04-24T14:20:22.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/registerModule.html",
+      "relativePath": "views/registerModule.md",
+      "key": "v-6761b4b1",
+      "path": "/views/registerModule.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>在 store 创建之后，你可以使用 store.registerModule 方法注册模块：<a href=\"https://vuex.vuejs.org/zh-cn/modules.html\" target=\"_blank\" rel=\"noopener noreferrer\">registerModule<OutboundLink/></a></p>\n</blockquote>\n<p><code>动态注册vuex模块，对于自定义生成组件很有用</code></p>\n</div>\n"
+    },
+    {
+      "title": "renderVModel",
+      "frontmatter": {
+        "title": "renderVModel",
+        "date": "2018-04-23T18:08:29.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/renderVModel.html",
+      "relativePath": "views/renderVModel.md",
+      "key": "v-3af48d06",
+      "path": "/views/renderVModel.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>使用render函数实现表格与form表单之间的双向绑定以及表格中使用slot分发（多个slot，分发不同的内容）。</code></p>\n<p>通过props给表单组件的value进行赋值，之后通过change、blur等元素监听事件，进行取值，然后通过表格当前行索引对表格相应元素进行赋值。这样就完成了一个数据的双向绑定了。</p>\n</div>\n"
     },
     {
       "title": "Vue的几种通信方式",
@@ -107,6 +955,50 @@ export const siteData = {
       "lastUpdated": "2020-1-20 15:01:57"
     },
     {
+      "title": "vscode插件篇",
+      "frontmatter": {
+        "title": "vscode插件篇",
+        "date": "2018-10-16T21:49:04.000Z",
+        "tags": [
+          "编辑器"
+        ],
+        "categories": [
+          "其它"
+        ]
+      },
+      "regularPath": "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "relativePath": "views/vscode插件篇.md",
+      "key": "v-4607b33e",
+      "path": "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n"
+    },
+    {
+      "title": "原型和原型链",
+      "frontmatter": {
+        "title": "原型和原型链",
+        "date": "2019-02-25T18:45:31.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+      "relativePath": "views/原型和原型链.md",
+      "key": "v-7386a882",
+      "path": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n"
+    },
+    {
       "title": "探索Vue生命周期",
       "frontmatter": {
         "title": "探索Vue生命周期",
@@ -124,6 +1016,236 @@ export const siteData = {
       "path": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
       "lastUpdated": "2020-1-20 15:01:57"
+    },
+    {
+      "title": "正则表达式",
+      "frontmatter": {
+        "title": "正则表达式",
+        "date": "2019-05-08T11:51:35.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+      "relativePath": "views/正则表达式.md",
+      "key": "v-80476ae2",
+      "path": "/views/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "元字符",
+          "slug": "元字符"
+        },
+        {
+          "level": 2,
+          "title": "简写字符集",
+          "slug": "简写字符集"
+        },
+        {
+          "level": 2,
+          "title": "零度断言",
+          "slug": "零度断言"
+        },
+        {
+          "level": 2,
+          "title": "标志",
+          "slug": "标志"
+        },
+        {
+          "level": 2,
+          "title": "贪婪匹配与惰性匹配",
+          "slug": "贪婪匹配与惰性匹配"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/05/08/E6yJqP.png\" alt=\"E6yJqP.png\"></p>\n"
+    },
+    {
+      "title": "模块规范",
+      "frontmatter": {
+        "title": "模块规范",
+        "date": "2018-10-30T21:03:41.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
+      "relativePath": "views/模块规范.md",
+      "key": "v-002ca637",
+      "path": "/views/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "CommonJS",
+          "slug": "commonjs"
+        },
+        {
+          "level": 2,
+          "title": "CMD(Common Module Definition，通用模块定义)",
+          "slug": "cmd-common-module-definition，通用模块定义"
+        },
+        {
+          "level": 2,
+          "title": "AMD(Asynchronous Module Definition，异步模块定义)",
+          "slug": "amd-asynchronous-module-definition，异步模块定义"
+        },
+        {
+          "level": 2,
+          "title": "ESM(ESMA Script Module，ES标准模块)",
+          "slug": "esm-esma-script-module，es标准模块"
+        },
+        {
+          "level": 2,
+          "title": "UMD(Universal Module Definition)",
+          "slug": "umd-universal-module-definition"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>模块规范CommonJS、CMD、AMD、ESM、UMD</p>\n</div>\n"
+    },
+    {
+      "title": "深究JavaScript值传递和引用传递",
+      "frontmatter": {
+        "title": "深究JavaScript值传递和引用传递",
+        "date": "2019-02-27T20:21:47.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+      "relativePath": "views/深究JavaScript值传递和引用传递.md",
+      "key": "v-4a68f5fe",
+      "path": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "== 和 ===",
+          "slug": "和"
+        },
+        {
+          "level": 2,
+          "title": "函数方法",
+          "slug": "函数方法"
+        },
+        {
+          "level": 2,
+          "title": "参考题",
+          "slug": "参考题"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n"
+    },
+    {
+      "title": "理解async&await",
+      "frontmatter": {
+        "title": "理解async&await",
+        "date": "2019-01-25T18:20:34.000Z",
+        "tags": [
+          "javaScript",
+          "ES6"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E7%90%86%E8%A7%A3async&await.html",
+      "relativePath": "views/理解async&await.md",
+      "key": "v-50824c3e",
+      "path": "/views/%E7%90%86%E8%A7%A3async&await.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>async function 声明用于定义一个返回 AsyncFunction 对象的异步函数。异步函数是指通过事件循环异步执行的函数，它会通过一个隐式的 Promise 返回其结果。但是如果你的代码使用了\n异步函数，它的语法和结构会更像是标准的同步函数。</p>\n</div>\n"
+    },
+    {
+      "title": "js节流和防抖",
+      "frontmatter": {
+        "title": "js节流和防抖",
+        "date": "2018-12-04T21:49:34.000Z",
+        "tags": [
+          "javaScript"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
+      "relativePath": "views/节流防抖.md",
+      "key": "v-07af64f9",
+      "path": "/views/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "函数节流",
+          "slug": "函数节流"
+        },
+        {
+          "level": 2,
+          "title": "函数防抖",
+          "slug": "函数防抖"
+        },
+        {
+          "level": 2,
+          "title": "区别",
+          "slug": "区别"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>函数的节流和防抖实际上都是优化高频执行js代码的一种方式\n函数节流是指，在规定的时间内这个函数只会被执行一次\n函数防抖是指，在频繁触发的情况下，只有足够的空闲时间才会执行代码</p>\n</div>\n"
+    },
+    {
+      "title": "JavaScript 之引擎、运行时和堆栈调用",
+      "frontmatter": {
+        "title": "JavaScript 之引擎、运行时和堆栈调用",
+        "date": "2019-01-24T18:19:34.000Z",
+        "tags": [
+          "javaScript"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
+      "relativePath": "views/调用堆栈.md",
+      "key": "v-2f18f7d2",
+      "path": "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>JavaScript是单线程的</p>\n<p>Google V8引擎是一个比较流行的JavaScript引擎示例，V8 引擎是在诸如 Chrome 和 Node.js 等内部使用的。</p>\n<p>该引擎包括两个主要组件：</p>\n<ul>\n<li>\n<p>Memory Heap 内存堆 ——  这是内存分配发生的地方</p>\n</li>\n<li>\n<p>Call Stack 调用堆栈 ——  这是在你代码执行时栈帧存放的位置</p>\n</li>\n</ul>\n</div>\n"
+    },
+    {
+      "title": "JavaScript进阶之词法作用域、动态作用域、变量提升、函数提升",
+      "frontmatter": {
+        "title": "JavaScript进阶之词法作用域、动态作用域、变量提升、函数提升",
+        "date": "2019-06-18T17:45:31.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
+      "relativePath": "views/词法作用域、动态作用域、变量提升.md",
+      "key": "v-2f5a4617",
+      "path": "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "变量提升",
+          "slug": "变量提升"
+        },
+        {
+          "level": 2,
+          "title": "函数提升",
+          "slug": "函数提升"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>作用域是指程序源代码中定义变量的区域。</p>\n<p>作用域规定了如何查找变量，也就是确定当前执行代码对变量的访问权限。</p>\n</div>\n"
     },
     {
       "frontmatter": {
@@ -155,11 +1277,110 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "CSS tags"
+      },
+      "regularPath": "/tags/CSS/",
+      "key": "v-667ad12d",
+      "path": "/tags/CSS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "javaScript tags"
+      },
+      "regularPath": "/tags/javaScript/",
+      "key": "v-7689a2be",
+      "path": "/tags/javaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "ES6 tags"
+      },
+      "regularPath": "/tags/ES6/",
+      "key": "v-667bb668",
+      "path": "/tags/ES6/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "JavaScript进阶 tags"
+      },
+      "regularPath": "/tags/JavaScript%E8%BF%9B%E9%98%B6/",
+      "key": "v-192cbbf0",
+      "path": "/tags/JavaScript进阶/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "杂谈 tags"
+      },
+      "regularPath": "/tags/%E6%9D%82%E8%B0%88/",
+      "key": "v-4b59882e",
+      "path": "/tags/杂谈/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "Linux tags"
+      },
+      "regularPath": "/tags/Linux/",
+      "key": "v-78ab8fc8",
+      "path": "/tags/Linux/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "Vue tags"
       },
       "regularPath": "/tags/Vue/",
       "key": "v-6683f60a",
       "path": "/tags/Vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "nodejs tags"
+      },
+      "regularPath": "/tags/nodejs/",
+      "key": "v-7c4d3eba",
+      "path": "/tags/nodejs/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "javaScript进阶 tags"
+      },
+      "regularPath": "/tags/javaScript%E8%BF%9B%E9%98%B6/",
+      "key": "v-43294c10",
+      "path": "/tags/javaScript进阶/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "版本控制 tags"
+      },
+      "regularPath": "/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/",
+      "key": "v-3f1ff168",
+      "path": "/tags/版本控制/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "日常错误问题收集 tags"
+      },
+      "regularPath": "/tags/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
+      "key": "v-cfb027b8",
+      "path": "/tags/日常错误问题收集/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "编辑器 tags"
+      },
+      "regularPath": "/tags/%E7%BC%96%E8%BE%91%E5%99%A8/",
+      "key": "v-0961137e",
+      "path": "/tags/编辑器/"
     },
     {
       "frontmatter": {
@@ -169,6 +1390,69 @@ export const siteData = {
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
       "key": "v-14bbbf36",
       "path": "/categories/前端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "其它 categories"
+      },
+      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
+      "key": "v-33c9dede",
+      "path": "/categories/其它/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "后端 categories"
+      },
+      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
+      "key": "v-12afc5a1",
+      "path": "/categories/后端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Git categories"
+      },
+      "regularPath": "/categories/Git/",
+      "key": "v-7f008cdb",
+      "path": "/categories/Git/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "hexo categories"
+      },
+      "regularPath": "/categories/hexo/",
+      "key": "v-62e05b9d",
+      "path": "/categories/hexo/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Electron categories"
+      },
+      "regularPath": "/categories/Electron/",
+      "key": "v-dbc4c9e2",
+      "path": "/categories/Electron/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Layout",
+        "title": "Page 1 - javaScript | tags"
+      },
+      "regularPath": "/tags/javaScript/page/2/",
+      "key": "v-1dac5ffc",
+      "path": "/tags/javaScript/page/2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Layout",
+        "title": "Page 1 - 前端 | categories"
+      },
+      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/page/2/",
+      "key": "v-260e2472",
+      "path": "/categories/前端/page/2/"
     }
   ],
   "themeConfig": {
