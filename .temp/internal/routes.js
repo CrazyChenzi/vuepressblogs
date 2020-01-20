@@ -4,24 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "F:\\blacklisten\\blacklisten.github.io\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-b8ec1006",
-    path: "/About.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b8ec1006").then(next)
-    },
-  },
-  {
-    name: "v-7f43af84",
+    name: "v-78d5e149",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7f43af84").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-78d5e149").then(next)
     },
   },
   {
@@ -29,19 +21,27 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-4e942b50",
-    path: "/views/vue-communication.html",
+    name: "v-12da3b52",
+    path: "/About.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4e942b50").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-12da3b52").then(next)
     },
   },
   {
-    name: "v-c263b034",
+    name: "v-6e0fafb6",
+    path: "/views/vue-communication.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6e0fafb6").then(next)
+    },
+  },
+  {
+    name: "v-427cde8a",
     path: "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c263b034").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-427cde8a").then(next)
     },
   },
   {

@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tags/Vue/",
       "pageKeys": [
-        "v-4e942b50",
-        "v-c263b034"
+        "v-6e0fafb6",
+        "v-427cde8a"
       ]
     }
   },
@@ -19,8 +19,8 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-4e942b50",
-        "v-c263b034"
+        "v-6e0fafb6",
+        "v-427cde8a"
       ]
     }
   },

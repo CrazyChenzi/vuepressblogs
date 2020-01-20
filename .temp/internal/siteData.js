@@ -7,19 +7,6 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
-      "title": "About me",
-      "frontmatter": {
-        "title": "About me",
-        "sidebar": false,
-        "publish": false
-      },
-      "regularPath": "/About.html",
-      "relativePath": "About.md",
-      "key": "v-b8ec1006",
-      "path": "/About.html",
-      "lastUpdated": "2019-12-26 14:34:03"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -31,9 +18,22 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-7f43af84",
+      "key": "v-78d5e149",
       "path": "/",
-      "lastUpdated": "2019-12-26 14:34:03"
+      "lastUpdated": "2020-1-20 15:01:57"
+    },
+    {
+      "title": "About me",
+      "frontmatter": {
+        "title": "About me",
+        "sidebar": false,
+        "publish": false
+      },
+      "regularPath": "/About.html",
+      "relativePath": "About.md",
+      "key": "v-12da3b52",
+      "path": "/About.html",
+      "lastUpdated": "2020-1-20 15:01:57"
     },
     {
       "title": "Vue的几种通信方式",
@@ -49,7 +49,7 @@ export const siteData = {
       },
       "regularPath": "/views/vue-communication.html",
       "relativePath": "views/vue-communication.md",
-      "key": "v-4e942b50",
+      "key": "v-6e0fafb6",
       "path": "/views/vue-communication.html",
       "headers": [
         {
@@ -104,7 +104,7 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue常用的几种通信传递</p>\n</div>\n",
-      "lastUpdated": "2019-12-26 14:34:03"
+      "lastUpdated": "2020-1-20 15:01:57"
     },
     {
       "title": "探索Vue生命周期",
@@ -120,10 +120,10 @@ export const siteData = {
       },
       "regularPath": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
       "relativePath": "views/探索Vue生命周期.md",
-      "key": "v-c263b034",
+      "key": "v-427cde8a",
       "path": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
-      "lastUpdated": "2019-12-26 14:34:03"
+      "lastUpdated": "2020-1-20 15:01:57"
     },
     {
       "frontmatter": {
@@ -221,7 +221,7 @@ export const siteData = {
     "vssueConfig": {
       "platform": "github",
       "owner": "blacklisten",
-      "repo": "blacklisten.github.io",
+      "repo": "vuepressblogs",
       "clientId": "62731e14a44db4625efe",
       "clientSecret": "8d9dd74aa3d13f0fa7d8a20eaa225d425878e0e8"
     },
