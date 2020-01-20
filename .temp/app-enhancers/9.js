@@ -1,0 +1,1 @@
+export { default } from "F:\\blacklisten\\blacklisten.github.io\\node_modules\\vuepress-plugin-ribbon\\bin\\enhanceAppFile.js"

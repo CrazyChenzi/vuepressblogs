@@ -1,0 +1,1 @@
+export { default } from "F:\\blacklisten\\blacklisten.github.io\\node_modules\\@vuepress-reco\\vuepress-plugin-screenfull\\bin\\enhanceAppFile.js"
