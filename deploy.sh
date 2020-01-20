@@ -15,7 +15,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/blacklisten/blacklisten.github.io.git master:gh-page
+git push -f https://github.com/blacklisten/vuepressblogs.git master:gh-page
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages

@@ -138,7 +138,7 @@ module.exports = {
     vssueConfig: {
       platform: "github",
       owner: "blacklisten",
-      repo: "blacklisten.github.io",
+      repo: "vuepressblogs",
       clientId: "62731e14a44db4625efe",
       clientSecret: "8d9dd74aa3d13f0fa7d8a20eaa225d425878e0e8"
     },
