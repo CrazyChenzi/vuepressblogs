@@ -7,17 +7,10 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "CSS",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/CSS/","interval":[0,1]}],
-},
-{
-  pid: "tags",
   id: "javaScript",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/javaScript/","interval":[0,9]},{"path":"/tags/javaScript/page/2/","interval":[10,15]}],
+  pages: [{"path":"/tags/javaScript/","interval":[0,9]},{"path":"/tags/javaScript/page/2/","interval":[10,16]}],
 },
 {
   pid: "tags",
@@ -28,6 +21,13 @@ export default [{
 },
 {
   pid: "tags",
+  id: "日常错误问题收集",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/日常错误问题收集/","interval":[0,3]}],
+},
+{
+  pid: "tags",
   id: "JavaScript进阶",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -35,17 +35,10 @@ export default [{
 },
 {
   pid: "tags",
-  id: "杂谈",
+  id: "CSS",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/杂谈/","interval":[0,5]}],
-},
-{
-  pid: "tags",
-  id: "Linux",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/Linux/","interval":[0,1]}],
+  pages: [{"path":"/tags/CSS/","interval":[0,1]}],
 },
 {
   pid: "tags",
@@ -70,17 +63,24 @@ export default [{
 },
 {
   pid: "tags",
+  id: "杂谈",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/杂谈/","interval":[0,5]}],
+},
+{
+  pid: "tags",
+  id: "Linux",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/Linux/","interval":[0,1]}],
+},
+{
+  pid: "tags",
   id: "版本控制",
   filter: filters.tags,
   sorter: sorters.tags,
   pages: [{"path":"/tags/版本控制/","interval":[0,1]}],
-},
-{
-  pid: "tags",
-  id: "日常错误问题收集",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/日常错误问题收集/","interval":[0,2]}],
 },
 {
   pid: "tags",
@@ -98,10 +98,10 @@ export default [{
 },
 {
   pid: "categories",
-  id: "其它",
+  id: "Electron",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/其它/","interval":[0,3]}],
+  pages: [{"path":"/categories/Electron/","interval":[0,2]}],
 },
 {
   pid: "categories",
@@ -109,6 +109,13 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/后端/","interval":[0,2]}],
+},
+{
+  pid: "categories",
+  id: "其它",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/其它/","interval":[0,3]}],
 },
 {
   pid: "categories",
@@ -123,11 +130,4 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/hexo/","interval":[0,2]}],
-},
-{
-  pid: "categories",
-  id: "Electron",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/Electron/","interval":[0,1]}],
 }]

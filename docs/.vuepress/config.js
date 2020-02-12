@@ -91,7 +91,7 @@ module.exports = {
     ["@vuepress-reco/back-to-top", false],
     ["@vuepress-reco/extract-code", false],
     // 流程图
-    ["flowchart"]
+    ["flowchart"],
   ],
 
   // 主题配置
