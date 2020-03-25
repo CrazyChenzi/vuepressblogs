@@ -1,1 +1,1 @@
-export { default } from "I:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\classification.js"
+export { default } from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\classification.js"
