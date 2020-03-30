@@ -7,6 +7,13 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
+  id: "nodejs",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/nodejs/","interval":[0,5]}],
+},
+{
+  pid: "tags",
   id: "javaScript",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -21,17 +28,17 @@ export default [{
 },
 {
   pid: "tags",
-  id: "nodejs",
+  id: "编辑器",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/nodejs/","interval":[0,4]}],
+  pages: [{"path":"/tags/编辑器/","interval":[0,2]}],
 },
 {
   pid: "tags",
-  id: "JavaScript进阶",
+  id: "ES6",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/JavaScript进阶/","interval":[0,8]}],
+  pages: [{"path":"/tags/ES6/","interval":[0,2]}],
 },
 {
   pid: "tags",
@@ -42,10 +49,10 @@ export default [{
 },
 {
   pid: "tags",
-  id: "ES6",
+  id: "JavaScript进阶",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/ES6/","interval":[0,2]}],
+  pages: [{"path":"/tags/JavaScript进阶/","interval":[0,8]}],
 },
 {
   pid: "tags",
@@ -83,11 +90,11 @@ export default [{
   pages: [{"path":"/tags/版本控制/","interval":[0,1]}],
 },
 {
-  pid: "tags",
-  id: "编辑器",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/编辑器/","interval":[0,1]}],
+  pid: "categories",
+  id: "杂谈",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/杂谈/","interval":[0,1]}],
 },
 {
   pid: "categories",
@@ -95,6 +102,13 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/Electron/","interval":[0,2]}],
+},
+{
+  pid: "categories",
+  id: "其它",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/其它/","interval":[0,4]}],
 },
 {
   pid: "categories",
@@ -112,10 +126,10 @@ export default [{
 },
 {
   pid: "categories",
-  id: "其它",
+  id: "Git",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/其它/","interval":[0,3]}],
+  pages: [{"path":"/categories/Git/","interval":[0,1]}],
 },
 {
   pid: "categories",
@@ -123,11 +137,4 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/hexo/","interval":[0,2]}],
-},
-{
-  pid: "categories",
-  id: "Git",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/Git/","interval":[0,1]}],
 }]

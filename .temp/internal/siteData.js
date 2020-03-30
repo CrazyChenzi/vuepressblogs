@@ -7,6 +7,65 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
+      "title": "About me",
+      "frontmatter": {
+        "title": "About me",
+        "sidebar": false,
+        "publish": false
+      },
+      "regularPath": "/About.html",
+      "relativePath": "About.md",
+      "key": "v-12da3b52",
+      "path": "/About.html",
+      "lastUpdated": "2020-1-20 15:01:57"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "bgImage": "https://s2.ax1x.com/2019/07/03/ZNFR3j.png",
+        "bgImageStyle": {
+          "height": "350px"
+        },
+        "faceImage": "/avatar.jpg"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-78d5e149",
+      "path": "/",
+      "lastUpdated": "2020-1-20 15:01:57"
+    },
+    {
+      "title": "Chrome Config by flags",
+      "frontmatter": {
+        "title": "Chrome Config by flags",
+        "date": "2020-03-30T14:09:26.000Z",
+        "tags": [
+          "nodejs"
+        ],
+        "categories": [
+          "杂谈"
+        ]
+      },
+      "regularPath": "/views/2020/ChromeConfig.html",
+      "relativePath": "views/2020/ChromeConfig.md",
+      "key": "v-7bd064d2",
+      "path": "/views/2020/ChromeConfig.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Chrome choose force-dark",
+          "slug": "chrome-choose-force-dark"
+        },
+        {
+          "level": 2,
+          "title": "Chrome screenshot",
+          "slug": "chrome-screenshot"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p><router-link to=\"chrome://flags/\">chrome://flags/</router-link></p>\n</div>\n"
+    },
+    {
       "title": "Electron win7 black screen",
       "frontmatter": {
         "title": "Electron win7 black screen",
@@ -32,6 +91,41 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>Electron6.0.0版本部分window7设备上黑屏问题解决方案，官方问题<a href=\"https://github.com/electron/electron/issues/19569\" target=\"_blank\" rel=\"noopener noreferrer\">issues<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "2020-2-12 16:42:35"
+    },
+    {
+      "title": "win下vscode运行bash终端",
+      "frontmatter": {
+        "title": "win下vscode运行bash终端",
+        "date": "2020-03-30T14:26:56.000Z",
+        "tags": [
+          "编辑器"
+        ],
+        "categories": [
+          "其它"
+        ]
+      },
+      "regularPath": "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html",
+      "relativePath": "views/2020/win下vscode运行bash终端.md",
+      "key": "v-784fb80c",
+      "path": "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "环境变量中添加",
+          "slug": "环境变量中添加"
+        },
+        {
+          "level": 3,
+          "title": "Git添加到环境变量",
+          "slug": "git添加到环境变量"
+        },
+        {
+          "level": 2,
+          "title": "默认配置",
+          "slug": "默认配置"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>window vscode如何运行bash终端？</p>\n<p><a href=\"https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal\" target=\"_blank\" rel=\"noopener noreferrer\">How do I use Bash on Windows from the Visual Studio Code integrated terminal?<OutboundLink/></a></p>\n</div>\n"
     },
     {
       "title": "如何安装多个版本的Node",
@@ -61,194 +155,34 @@ export const siteData = {
           "slug": "mac下使用nvm"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n"
+      "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "2020-3-25 17:00:01"
     },
     {
-      "title": "Home",
+      "title": "如何自定义切换Node源",
       "frontmatter": {
-        "home": true,
-        "bgImage": "https://s2.ax1x.com/2019/07/03/ZNFR3j.png",
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "faceImage": "/avatar.jpg"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-78d5e149",
-      "path": "/",
-      "lastUpdated": "2020-1-20 15:01:57"
-    },
-    {
-      "title": "About me",
-      "frontmatter": {
-        "title": "About me",
-        "sidebar": false,
-        "publish": false
-      },
-      "regularPath": "/About.html",
-      "relativePath": "About.md",
-      "key": "v-12da3b52",
-      "path": "/About.html",
-      "lastUpdated": "2020-1-20 15:01:57"
-    },
-    {
-      "title": "JavaScript进阶之继承的多种方式",
-      "frontmatter": {
-        "title": "JavaScript进阶之继承的多种方式",
-        "date": "2019-07-15T18:16:23.000Z",
+        "title": "如何自定义切换Node源",
+        "date": "2020-03-25T16:56:23.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "nodejs"
         ],
         "categories": [
-          "前端"
+          "后端"
         ]
       },
-      "regularPath": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
-      "relativePath": "views/JavaScript继承的多种方式.md",
-      "key": "v-718b1126",
-      "path": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html",
+      "relativePath": "views/2020/如何自定义切换node源.md",
+      "key": "v-04d26464",
+      "path": "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html",
       "headers": [
         {
           "level": 2,
-          "title": "原型链继承",
-          "slug": "原型链继承"
-        },
-        {
-          "level": 2,
-          "title": "借用构造函数(经典继承)",
-          "slug": "借用构造函数-经典继承"
-        },
-        {
-          "level": 2,
-          "title": "组合继承",
-          "slug": "组合继承"
-        },
-        {
-          "level": 2,
-          "title": "原型式继承",
-          "slug": "原型式继承"
-        },
-        {
-          "level": 2,
-          "title": "寄生式继承",
-          "slug": "寄生式继承"
-        },
-        {
-          "level": 2,
-          "title": "寄生组合式继承",
-          "slug": "寄生组合式继承"
-        },
-        {
-          "level": 2,
-          "title": "ES6 extends 继承",
-          "slug": "es6-extends-继承"
+          "title": "nrm",
+          "slug": "nrm"
         }
       ],
-      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
-      "title": "Flex布局",
-      "frontmatter": {
-        "title": "Flex布局",
-        "date": "2018-09-11T22:02:24.000Z",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "CSS"
-        ]
-      },
-      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "relativePath": "views/Flex布局.md",
-      "key": "v-593c16bc",
-      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、Flex布局是什么",
-          "slug": "一、flex布局是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、基本概念",
-          "slug": "二、基本概念"
-        },
-        {
-          "level": 2,
-          "title": "三、容器的属性",
-          "slug": "三、容器的属性"
-        },
-        {
-          "level": 3,
-          "title": "3.1 flex-direction属性",
-          "slug": "_3-1-flex-direction属性"
-        },
-        {
-          "level": 3,
-          "title": "3.2 flex-wrap属性",
-          "slug": "_3-2-flex-wrap属性"
-        },
-        {
-          "level": 3,
-          "title": "3.3 flex-flow",
-          "slug": "_3-3-flex-flow"
-        },
-        {
-          "level": 3,
-          "title": "3.4 justify-content属性",
-          "slug": "_3-4-justify-content属性"
-        },
-        {
-          "level": 3,
-          "title": "3.5 align-items属性",
-          "slug": "_3-5-align-items属性"
-        },
-        {
-          "level": 3,
-          "title": "3.6 align-content属性",
-          "slug": "_3-6-align-content属性"
-        },
-        {
-          "level": 2,
-          "title": "四、项目的属性",
-          "slug": "四、项目的属性"
-        },
-        {
-          "level": 3,
-          "title": "4.1 order属性",
-          "slug": "_4-1-order属性"
-        },
-        {
-          "level": 3,
-          "title": "4.2 flex-grow属性",
-          "slug": "_4-2-flex-grow属性"
-        },
-        {
-          "level": 3,
-          "title": "4.3 flex-shrink属性",
-          "slug": "_4-3-flex-shrink属性"
-        },
-        {
-          "level": 3,
-          "title": "4.4 flex-basis属性",
-          "slug": "_4-4-flex-basis属性"
-        },
-        {
-          "level": 3,
-          "title": "4.5 flex属性",
-          "slug": "_4-5-flex属性"
-        },
-        {
-          "level": 3,
-          "title": "4.6 align-self属性",
-          "slug": "_4-6-align-self属性"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "excerpt": "<div class=\"custom-block tip\">\n<p>自由切换npm源，我们使用node的nrm包进行切换<a href=\"https://github.com/Pana/nrm\" target=\"_blank\" rel=\"noopener noreferrer\">nrm<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "2020-3-25 17:00:01"
     },
     {
       "title": "Array",
@@ -433,29 +367,162 @@ export const siteData = {
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
-      "title": "如何自定义切换Node源",
+      "title": "Flex布局",
       "frontmatter": {
-        "title": "如何自定义切换Node源",
-        "date": "2020-03-25T16:56:23.000Z",
-        "tags": [
-          "nodejs"
-        ],
+        "title": "Flex布局",
+        "date": "2018-09-11T22:02:24.000Z",
         "categories": [
-          "后端"
+          "前端"
+        ],
+        "tags": [
+          "CSS"
         ]
       },
-      "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html",
-      "relativePath": "views/2020/如何自定义切换node源.md",
-      "key": "v-04d26464",
-      "path": "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html",
+      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "relativePath": "views/Flex布局.md",
+      "key": "v-593c16bc",
+      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
       "headers": [
         {
           "level": 2,
-          "title": "nrm",
-          "slug": "nrm"
+          "title": "一、Flex布局是什么",
+          "slug": "一、flex布局是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、基本概念",
+          "slug": "二、基本概念"
+        },
+        {
+          "level": 2,
+          "title": "三、容器的属性",
+          "slug": "三、容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3.1 flex-direction属性",
+          "slug": "_3-1-flex-direction属性"
+        },
+        {
+          "level": 3,
+          "title": "3.2 flex-wrap属性",
+          "slug": "_3-2-flex-wrap属性"
+        },
+        {
+          "level": 3,
+          "title": "3.3 flex-flow",
+          "slug": "_3-3-flex-flow"
+        },
+        {
+          "level": 3,
+          "title": "3.4 justify-content属性",
+          "slug": "_3-4-justify-content属性"
+        },
+        {
+          "level": 3,
+          "title": "3.5 align-items属性",
+          "slug": "_3-5-align-items属性"
+        },
+        {
+          "level": 3,
+          "title": "3.6 align-content属性",
+          "slug": "_3-6-align-content属性"
+        },
+        {
+          "level": 2,
+          "title": "四、项目的属性",
+          "slug": "四、项目的属性"
+        },
+        {
+          "level": 3,
+          "title": "4.1 order属性",
+          "slug": "_4-1-order属性"
+        },
+        {
+          "level": 3,
+          "title": "4.2 flex-grow属性",
+          "slug": "_4-2-flex-grow属性"
+        },
+        {
+          "level": 3,
+          "title": "4.3 flex-shrink属性",
+          "slug": "_4-3-flex-shrink属性"
+        },
+        {
+          "level": 3,
+          "title": "4.4 flex-basis属性",
+          "slug": "_4-4-flex-basis属性"
+        },
+        {
+          "level": 3,
+          "title": "4.5 flex属性",
+          "slug": "_4-5-flex属性"
+        },
+        {
+          "level": 3,
+          "title": "4.6 align-self属性",
+          "slug": "_4-6-align-self属性"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>自由切换npm源，我们使用node的nrm包进行切换<a href=\"https://github.com/Pana/nrm\" target=\"_blank\" rel=\"noopener noreferrer\">nrm<OutboundLink/></a></p>\n</div>\n"
+      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
+    },
+    {
+      "title": "JavaScript进阶之继承的多种方式",
+      "frontmatter": {
+        "title": "JavaScript进阶之继承的多种方式",
+        "date": "2019-07-15T18:16:23.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "relativePath": "views/JavaScript继承的多种方式.md",
+      "key": "v-718b1126",
+      "path": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原型链继承",
+          "slug": "原型链继承"
+        },
+        {
+          "level": 2,
+          "title": "借用构造函数(经典继承)",
+          "slug": "借用构造函数-经典继承"
+        },
+        {
+          "level": 2,
+          "title": "组合继承",
+          "slug": "组合继承"
+        },
+        {
+          "level": 2,
+          "title": "原型式继承",
+          "slug": "原型式继承"
+        },
+        {
+          "level": 2,
+          "title": "寄生式继承",
+          "slug": "寄生式继承"
+        },
+        {
+          "level": 2,
+          "title": "寄生组合式继承",
+          "slug": "寄生组合式继承"
+        },
+        {
+          "level": 2,
+          "title": "ES6 extends 继承",
+          "slug": "es6-extends-继承"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
     },
     {
       "title": "ShadowSocks配置",
@@ -497,6 +564,26 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
+    },
+    {
+      "title": "This",
+      "frontmatter": {
+        "title": "This",
+        "date": "2019-03-07T17:42:53.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/This.html",
+      "relativePath": "views/This.md",
+      "key": "v-14bfd013",
+      "path": "/views/This.html",
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
@@ -581,66 +668,6 @@ export const siteData = {
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
-      "title": "This",
-      "frontmatter": {
-        "title": "This",
-        "date": "2019-03-07T17:42:53.000Z",
-        "tags": [
-          "javaScript",
-          "JavaScript进阶"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/This.html",
-      "relativePath": "views/This.md",
-      "key": "v-14bfd013",
-      "path": "/views/This.html",
-      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
-      "title": "eventloop",
-      "frontmatter": {
-        "title": "eventloop",
-        "date": "2019-03-07T17:42:38.000Z",
-        "tags": [
-          "javaScript",
-          "nodejs",
-          "javaScript进阶"
-        ],
-        "categories": [
-          "后端"
-        ]
-      },
-      "regularPath": "/views/eventloop.html",
-      "relativePath": "views/eventloop.md",
-      "key": "v-e227d6f6",
-      "path": "/views/eventloop.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
-      "title": "gitalk搭建遇见的问题",
-      "frontmatter": {
-        "title": "gitalk搭建遇见的问题",
-        "date": "2018-10-17T21:58:17.000Z",
-        "tags": [
-          "杂谈"
-        ],
-        "categories": [
-          "hexo"
-        ]
-      },
-      "regularPath": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
-      "relativePath": "views/gitalk搭建遇见的问题.md",
-      "key": "v-c2269632",
-      "path": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
       "title": "JavaScript进阶之call/apply的模拟实现",
       "frontmatter": {
         "title": "JavaScript进阶之call/apply的模拟实现",
@@ -713,6 +740,27 @@ export const siteData = {
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
+      "title": "eventloop",
+      "frontmatter": {
+        "title": "eventloop",
+        "date": "2019-03-07T17:42:38.000Z",
+        "tags": [
+          "javaScript",
+          "nodejs",
+          "javaScript进阶"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/eventloop.html",
+      "relativePath": "views/eventloop.md",
+      "key": "v-e227d6f6",
+      "path": "/views/eventloop.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
+    },
+    {
       "title": "git Please move or remove them before you can merge",
       "frontmatter": {
         "title": "git Please move or remove them before you can merge",
@@ -730,6 +778,25 @@ export const siteData = {
       "key": "v-431480a4",
       "path": "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
+    },
+    {
+      "title": "gitalk搭建遇见的问题",
+      "frontmatter": {
+        "title": "gitalk搭建遇见的问题",
+        "date": "2018-10-17T21:58:17.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "hexo"
+        ]
+      },
+      "regularPath": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "relativePath": "views/gitalk搭建遇见的问题.md",
+      "key": "v-c2269632",
+      "path": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
@@ -786,6 +853,26 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
+    },
+    {
+      "title": "jQuery is not defind",
+      "frontmatter": {
+        "title": "jQuery is not defind",
+        "date": "2019-03-18T21:32:32.000Z",
+        "tags": [
+          "javaScript",
+          "日常错误问题收集"
+        ],
+        "categories": [
+          "Electron"
+        ]
+      },
+      "regularPath": "/views/jQuery%20is%20not%20defind.html",
+      "relativePath": "views/jQuery is not defind.md",
+      "key": "v-0daf3dd6",
+      "path": "/views/jQuery%20is%20not%20defind.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
@@ -925,26 +1012,6 @@ export const siteData = {
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
-      "title": "jQuery is not defind",
-      "frontmatter": {
-        "title": "jQuery is not defind",
-        "date": "2019-03-18T21:32:32.000Z",
-        "tags": [
-          "javaScript",
-          "日常错误问题收集"
-        ],
-        "categories": [
-          "Electron"
-        ]
-      },
-      "regularPath": "/views/jQuery%20is%20not%20defind.html",
-      "relativePath": "views/jQuery is not defind.md",
-      "key": "v-0daf3dd6",
-      "path": "/views/jQuery%20is%20not%20defind.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
       "title": "registerModule",
       "frontmatter": {
         "title": "registerModule",
@@ -999,33 +1066,6 @@ export const siteData = {
       "key": "v-4607b33e",
       "path": "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
-      "title": "原型和原型链",
-      "frontmatter": {
-        "title": "原型和原型链",
-        "date": "2019-02-25T18:45:31.000Z",
-        "tags": [
-          "javaScript",
-          "JavaScript进阶"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
-      "relativePath": "views/原型和原型链.md",
-      "key": "v-7386a882",
-      "path": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n",
       "lastUpdated": "2020-1-20 18:45:09"
     },
     {
@@ -1098,6 +1138,33 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue常用的几种通信传递</p>\n</div>\n",
       "lastUpdated": "2020-1-20 15:01:57"
+    },
+    {
+      "title": "原型和原型链",
+      "frontmatter": {
+        "title": "原型和原型链",
+        "date": "2019-02-25T18:45:31.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+      "relativePath": "views/原型和原型链.md",
+      "key": "v-7386a882",
+      "path": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n",
+      "lastUpdated": "2020-1-20 18:45:09"
     },
     {
       "title": "探索Vue生命周期",
@@ -1385,6 +1452,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "nodejs tags"
+      },
+      "regularPath": "/tags/nodejs/",
+      "key": "v-7c4d3eba",
+      "path": "/tags/nodejs/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "javaScript tags"
       },
       "regularPath": "/tags/javaScript/",
@@ -1403,20 +1479,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "nodejs tags"
+        "title": "编辑器 tags"
       },
-      "regularPath": "/tags/nodejs/",
-      "key": "v-7c4d3eba",
-      "path": "/tags/nodejs/"
+      "regularPath": "/tags/%E7%BC%96%E8%BE%91%E5%99%A8/",
+      "key": "v-0961137e",
+      "path": "/tags/编辑器/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "JavaScript进阶 tags"
+        "title": "ES6 tags"
       },
-      "regularPath": "/tags/JavaScript%E8%BF%9B%E9%98%B6/",
-      "key": "v-192cbbf0",
-      "path": "/tags/JavaScript进阶/"
+      "regularPath": "/tags/ES6/",
+      "key": "v-667bb668",
+      "path": "/tags/ES6/"
     },
     {
       "frontmatter": {
@@ -1430,11 +1506,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "ES6 tags"
+        "title": "JavaScript进阶 tags"
       },
-      "regularPath": "/tags/ES6/",
-      "key": "v-667bb668",
-      "path": "/tags/ES6/"
+      "regularPath": "/tags/JavaScript%E8%BF%9B%E9%98%B6/",
+      "key": "v-192cbbf0",
+      "path": "/tags/JavaScript进阶/"
     },
     {
       "frontmatter": {
@@ -1483,12 +1559,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Tag",
-        "title": "编辑器 tags"
+        "layout": "Category",
+        "title": "杂谈 categories"
       },
-      "regularPath": "/tags/%E7%BC%96%E8%BE%91%E5%99%A8/",
-      "key": "v-0961137e",
-      "path": "/tags/编辑器/"
+      "regularPath": "/categories/%E6%9D%82%E8%B0%88/",
+      "key": "v-644c5aac",
+      "path": "/categories/杂谈/"
     },
     {
       "frontmatter": {
@@ -1498,6 +1574,15 @@ export const siteData = {
       "regularPath": "/categories/Electron/",
       "key": "v-dbc4c9e2",
       "path": "/categories/Electron/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "其它 categories"
+      },
+      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
+      "key": "v-33c9dede",
+      "path": "/categories/其它/"
     },
     {
       "frontmatter": {
@@ -1520,11 +1605,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "其它 categories"
+        "title": "Git categories"
       },
-      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
-      "key": "v-33c9dede",
-      "path": "/categories/其它/"
+      "regularPath": "/categories/Git/",
+      "key": "v-7f008cdb",
+      "path": "/categories/Git/"
     },
     {
       "frontmatter": {
@@ -1534,15 +1619,6 @@ export const siteData = {
       "regularPath": "/categories/hexo/",
       "key": "v-62e05b9d",
       "path": "/categories/hexo/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "Git categories"
-      },
-      "regularPath": "/categories/Git/",
-      "key": "v-7f008cdb",
-      "path": "/categories/Git/"
     },
     {
       "frontmatter": {
