@@ -1,7 +1,8 @@
 export default [
-  "SWUpdatePopup",
+  "GoTop",
   "Ribbon",
-  "CursorEffects",
   "DynamicTitle",
-  "GoTop"
+  "CursorEffects",
+  "SWUpdatePopup",
+  "Live2D"
 ]

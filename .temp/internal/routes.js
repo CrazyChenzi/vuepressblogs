@@ -45,18 +45,6 @@ export const routes = [
     },
   },
   {
-    name: "v-784fb80c",
-    path: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-784fb80c").then(next)
-    },
-  },
-  {
-    path: "/views/2020/win下vscode运行bash终端.html",
-    redirect: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html"
-  },
-  {
     name: "v-56715e63",
     path: "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
     component: GlobalLayout,
@@ -67,6 +55,18 @@ export const routes = [
   {
     path: "/views/2020/如何安装多个版本的node.html",
     redirect: "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html"
+  },
+  {
+    name: "v-784fb80c",
+    path: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-784fb80c").then(next)
+    },
+  },
+  {
+    path: "/views/2020/win下vscode运行bash终端.html",
+    redirect: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html"
   },
   {
     name: "v-04d26464",
@@ -81,14 +81,6 @@ export const routes = [
     redirect: "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html"
   },
   {
-    name: "v-7497a936",
-    path: "/views/Array.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7497a936").then(next)
-    },
-  },
-  {
     name: "v-593c16bc",
     path: "/views/Flex%E5%B8%83%E5%B1%80.html",
     component: GlobalLayout,
@@ -99,6 +91,14 @@ export const routes = [
   {
     path: "/views/Flex布局.html",
     redirect: "/views/Flex%E5%B8%83%E5%B1%80.html"
+  },
+  {
+    name: "v-7497a936",
+    path: "/views/Array.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7497a936").then(next)
+    },
   },
   {
     name: "v-718b1126",
@@ -484,19 +484,6 @@ export const routes = [
     redirect: "/tags/编辑器/"
   },
   {
-    name: "v-667bb668",
-    path: "/tags/ES6/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-667bb668").then(next)
-    },
-    meta: {"pid":"tags","id":"ES6"}
-  },
-  {
-    path: "/tags/ES6/index.html",
-    redirect: "/tags/ES6/"
-  },
-  {
     name: "v-667ad12d",
     path: "/tags/CSS/",
     component: GlobalLayout,
@@ -508,6 +495,19 @@ export const routes = [
   {
     path: "/tags/CSS/index.html",
     redirect: "/tags/CSS/"
+  },
+  {
+    name: "v-667bb668",
+    path: "/tags/ES6/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-667bb668").then(next)
+    },
+    meta: {"pid":"tags","id":"ES6"}
+  },
+  {
+    path: "/tags/ES6/index.html",
+    redirect: "/tags/ES6/"
   },
   {
     name: "v-192cbbf0",
@@ -634,23 +634,6 @@ export const routes = [
     redirect: "/categories/Electron/"
   },
   {
-    name: "v-33c9dede",
-    path: "/categories/其它/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-33c9dede").then(next)
-    },
-    meta: {"pid":"categories","id":"其它"}
-  },
-  {
-    path: "/categories/其它/index.html",
-    redirect: "/categories/其它/"
-  },
-  {
-    path: "/categories/%E5%85%B6%E5%AE%83/",
-    redirect: "/categories/其它/"
-  },
-  {
     name: "v-12afc5a1",
     path: "/categories/后端/",
     component: GlobalLayout,
@@ -666,6 +649,23 @@ export const routes = [
   {
     path: "/categories/%E5%90%8E%E7%AB%AF/",
     redirect: "/categories/后端/"
+  },
+  {
+    name: "v-33c9dede",
+    path: "/categories/其它/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-33c9dede").then(next)
+    },
+    meta: {"pid":"categories","id":"其它"}
+  },
+  {
+    path: "/categories/其它/index.html",
+    redirect: "/categories/其它/"
+  },
+  {
+    path: "/categories/%E5%85%B6%E5%AE%83/",
+    redirect: "/categories/其它/"
   },
   {
     name: "v-14bbbf36",

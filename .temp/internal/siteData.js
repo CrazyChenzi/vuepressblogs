@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "Black_Chen'Blog",
   "description": "不能因理想遥远而放弃追求 不能因现实复杂而放弃梦想",
-  "base": "/",
+  "base": "/vuepressblogs/",
   "pages": [
     {
       "title": "About me",
@@ -17,13 +17,14 @@ export const siteData = {
       "relativePath": "About.md",
       "key": "v-12da3b52",
       "path": "/About.html",
-      "lastUpdated": "2020-1-20 15:01:57"
+      "lastUpdated": "1/20/2020, 3:01:57 PM",
+      "size": "0.84kb"
     },
     {
       "title": "Home",
       "frontmatter": {
         "home": true,
-        "bgImage": "https://s2.ax1x.com/2019/07/03/ZNFR3j.png",
+        "bgImage": "/323970.jpg",
         "bgImageStyle": {
           "height": "350px"
         },
@@ -33,7 +34,8 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-78d5e149",
       "path": "/",
-      "lastUpdated": "2020-1-20 15:01:57"
+      "lastUpdated": "1/20/2020, 3:01:57 PM",
+      "size": "0.11kb"
     },
     {
       "title": "Chrome Config by flags",
@@ -63,7 +65,9 @@ export const siteData = {
           "slug": "chrome-screenshot"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p><router-link to=\"chrome://flags/\">chrome://flags/</router-link></p>\n</div>\n"
+      "excerpt": "<div class=\"custom-block tip\">\n<p><RouterLink to=\"chrome://flags/\">chrome://flags/</RouterLink></p>\n</div>\n",
+      "lastUpdated": "3/30/2020, 4:04:48 PM",
+      "size": "0.48kb"
     },
     {
       "title": "Electron win7 black screen",
@@ -90,7 +94,40 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>Electron6.0.0版本部分window7设备上黑屏问题解决方案，官方问题<a href=\"https://github.com/electron/electron/issues/19569\" target=\"_blank\" rel=\"noopener noreferrer\">issues<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2020-2-12 16:42:35"
+      "lastUpdated": "2/12/2020, 4:42:35 PM",
+      "size": "0.69kb"
+    },
+    {
+      "title": "如何安装多个版本的Node",
+      "frontmatter": {
+        "title": "如何安装多个版本的Node",
+        "date": "2020-03-25T16:50:23.000Z",
+        "tags": [
+          "nodejs"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
+      "relativePath": "views/2020/如何安装多个版本的node.md",
+      "key": "v-56715e63",
+      "path": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "window下使用nvm",
+          "slug": "window下使用nvm"
+        },
+        {
+          "level": 2,
+          "title": "Mac下使用nvm",
+          "slug": "mac下使用nvm"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "3/25/2020, 5:00:01 PM",
+      "size": "0.98kb"
     },
     {
       "title": "win下vscode运行bash终端",
@@ -125,38 +162,9 @@ export const siteData = {
           "slug": "默认配置"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>window vscode如何运行bash终端？</p>\n<p><a href=\"https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal\" target=\"_blank\" rel=\"noopener noreferrer\">How do I use Bash on Windows from the Visual Studio Code integrated terminal?<OutboundLink/></a></p>\n</div>\n"
-    },
-    {
-      "title": "如何安装多个版本的Node",
-      "frontmatter": {
-        "title": "如何安装多个版本的Node",
-        "date": "2020-03-25T16:50:23.000Z",
-        "tags": [
-          "nodejs"
-        ],
-        "categories": [
-          "后端"
-        ]
-      },
-      "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
-      "relativePath": "views/2020/如何安装多个版本的node.md",
-      "key": "v-56715e63",
-      "path": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "window下使用nvm",
-          "slug": "window下使用nvm"
-        },
-        {
-          "level": 2,
-          "title": "Mac下使用nvm",
-          "slug": "mac下使用nvm"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2020-3-25 17:00:01"
+      "excerpt": "<div class=\"custom-block tip\">\n<p>window vscode如何运行bash终端？</p>\n<p><a href=\"https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal\" target=\"_blank\" rel=\"noopener noreferrer\">How do I use Bash on Windows from the Visual Studio Code integrated terminal?<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "3/30/2020, 4:04:48 PM",
+      "size": "0.64kb"
     },
     {
       "title": "如何自定义切换Node源",
@@ -182,7 +190,110 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>自由切换npm源，我们使用node的nrm包进行切换<a href=\"https://github.com/Pana/nrm\" target=\"_blank\" rel=\"noopener noreferrer\">nrm<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2020-3-25 17:00:01"
+      "lastUpdated": "3/25/2020, 5:00:01 PM",
+      "size": "1.05kb"
+    },
+    {
+      "title": "Flex布局",
+      "frontmatter": {
+        "title": "Flex布局",
+        "date": "2018-09-11T22:02:24.000Z",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "CSS"
+        ]
+      },
+      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "relativePath": "views/Flex布局.md",
+      "key": "v-593c16bc",
+      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、Flex布局是什么",
+          "slug": "一、flex布局是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、基本概念",
+          "slug": "二、基本概念"
+        },
+        {
+          "level": 2,
+          "title": "三、容器的属性",
+          "slug": "三、容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3.1 flex-direction属性",
+          "slug": "_3-1-flex-direction属性"
+        },
+        {
+          "level": 3,
+          "title": "3.2 flex-wrap属性",
+          "slug": "_3-2-flex-wrap属性"
+        },
+        {
+          "level": 3,
+          "title": "3.3 flex-flow",
+          "slug": "_3-3-flex-flow"
+        },
+        {
+          "level": 3,
+          "title": "3.4 justify-content属性",
+          "slug": "_3-4-justify-content属性"
+        },
+        {
+          "level": 3,
+          "title": "3.5 align-items属性",
+          "slug": "_3-5-align-items属性"
+        },
+        {
+          "level": 3,
+          "title": "3.6 align-content属性",
+          "slug": "_3-6-align-content属性"
+        },
+        {
+          "level": 2,
+          "title": "四、项目的属性",
+          "slug": "四、项目的属性"
+        },
+        {
+          "level": 3,
+          "title": "4.1 order属性",
+          "slug": "_4-1-order属性"
+        },
+        {
+          "level": 3,
+          "title": "4.2 flex-grow属性",
+          "slug": "_4-2-flex-grow属性"
+        },
+        {
+          "level": 3,
+          "title": "4.3 flex-shrink属性",
+          "slug": "_4-3-flex-shrink属性"
+        },
+        {
+          "level": 3,
+          "title": "4.4 flex-basis属性",
+          "slug": "_4-4-flex-basis属性"
+        },
+        {
+          "level": 3,
+          "title": "4.5 flex属性",
+          "slug": "_4-5-flex属性"
+        },
+        {
+          "level": 3,
+          "title": "4.6 align-self属性",
+          "slug": "_4-6-align-self属性"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "6.43kb"
     },
     {
       "title": "Array",
@@ -364,108 +475,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<!--beforebegin--><div class=\"language-js line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-js\"><code><span class=\"token comment\">// 使用Array构造器</span>\n<span class=\"token keyword\">var</span> a <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Array</span><span class=\"token punctuation\">(</span><span class=\"token number\">5</span><span class=\"token punctuation\">)</span>  <span class=\"token comment\">// [empty × 5]</span>\n<span class=\"token comment\">// 使用对象字面量</span>\n<span class=\"token keyword\">var</span> b <span class=\"token operator\">=</span> <span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span>\nb<span class=\"token punctuation\">.</span>length <span class=\"token operator\">=</span> <span class=\"token number\">5</span>  <span class=\"token comment\">// [empty × 5]</span>\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br><span class=\"line-number\">5</span><br></div><!--beforeend--></div><!--afterend--><p>Array构造器根据参数长度的不同，有如下两种不同的处理：</p>\n<ul>\n<li>new Array(arg1, arg2,…)，参数长度为0或长度大于等于2时，传入的参数将按照顺序依次成为新数组的第0至N项（参数长度为0时，返回空数组）。</li>\n<li>new Array(len)，当len不是数值时，处理同上，返回一个只包含len元素一项的数组；当len为数值时，则创建一个以该数值为长度的数组，数值大小不能超过2^32 否则会抛出错误</li>\n</ul>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
-    },
-    {
-      "title": "Flex布局",
-      "frontmatter": {
-        "title": "Flex布局",
-        "date": "2018-09-11T22:02:24.000Z",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "CSS"
-        ]
-      },
-      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "relativePath": "views/Flex布局.md",
-      "key": "v-593c16bc",
-      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、Flex布局是什么",
-          "slug": "一、flex布局是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、基本概念",
-          "slug": "二、基本概念"
-        },
-        {
-          "level": 2,
-          "title": "三、容器的属性",
-          "slug": "三、容器的属性"
-        },
-        {
-          "level": 3,
-          "title": "3.1 flex-direction属性",
-          "slug": "_3-1-flex-direction属性"
-        },
-        {
-          "level": 3,
-          "title": "3.2 flex-wrap属性",
-          "slug": "_3-2-flex-wrap属性"
-        },
-        {
-          "level": 3,
-          "title": "3.3 flex-flow",
-          "slug": "_3-3-flex-flow"
-        },
-        {
-          "level": 3,
-          "title": "3.4 justify-content属性",
-          "slug": "_3-4-justify-content属性"
-        },
-        {
-          "level": 3,
-          "title": "3.5 align-items属性",
-          "slug": "_3-5-align-items属性"
-        },
-        {
-          "level": 3,
-          "title": "3.6 align-content属性",
-          "slug": "_3-6-align-content属性"
-        },
-        {
-          "level": 2,
-          "title": "四、项目的属性",
-          "slug": "四、项目的属性"
-        },
-        {
-          "level": 3,
-          "title": "4.1 order属性",
-          "slug": "_4-1-order属性"
-        },
-        {
-          "level": 3,
-          "title": "4.2 flex-grow属性",
-          "slug": "_4-2-flex-grow属性"
-        },
-        {
-          "level": 3,
-          "title": "4.3 flex-shrink属性",
-          "slug": "_4-3-flex-shrink属性"
-        },
-        {
-          "level": 3,
-          "title": "4.4 flex-basis属性",
-          "slug": "_4-4-flex-basis属性"
-        },
-        {
-          "level": 3,
-          "title": "4.5 flex属性",
-          "slug": "_4-5-flex属性"
-        },
-        {
-          "level": 3,
-          "title": "4.6 align-self属性",
-          "slug": "_4-6-align-self属性"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "11.91kb"
     },
     {
       "title": "JavaScript进阶之继承的多种方式",
@@ -522,7 +533,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "5.09kb"
     },
     {
       "title": "ShadowSocks配置",
@@ -564,7 +576,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.84kb"
     },
     {
       "title": "This",
@@ -584,7 +597,8 @@ export const siteData = {
       "key": "v-14bfd013",
       "path": "/views/This.html",
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "0.34kb"
     },
     {
       "title": "addRoutes",
@@ -603,7 +617,8 @@ export const siteData = {
       "key": "v-262844b6",
       "path": "/views/addRoutes.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>用动态路由实现权限控制，是一个很nice的方案不是么？ 初始路由只有登录页，根据用户的id查询对应的权限，然后addRoutes，将获取到的菜单数据放入vuex和浏览器缓存中。</p>\n<blockquote>\n<p>动态添加更多的路由规则。参数必须是一个符合 routes 选项要求的<code>数组</code>。</p>\n</blockquote>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.84kb"
     },
     {
       "title": "JavaScript进阶之arguments对象（类数组对象）",
@@ -665,7 +680,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzALn.jpg\" alt=\"lCzALn.jpg\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "3.07kb"
     },
     {
       "title": "JavaScript进阶之call/apply的模拟实现",
@@ -737,7 +753,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCjjld.png\" alt=\"lCjjld.png\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "5.53kb"
     },
     {
       "title": "eventloop",
@@ -758,7 +775,8 @@ export const siteData = {
       "key": "v-e227d6f6",
       "path": "/views/eventloop.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.03kb"
     },
     {
       "title": "git Please move or remove them before you can merge",
@@ -778,7 +796,8 @@ export const siteData = {
       "key": "v-431480a4",
       "path": "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "0.54kb"
     },
     {
       "title": "gitalk搭建遇见的问题",
@@ -797,7 +816,8 @@ export const siteData = {
       "key": "v-c2269632",
       "path": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "7.15kb"
     },
     {
       "title": "hexo next主题集成gitalk评论插件",
@@ -853,7 +873,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "2.60kb"
     },
     {
       "title": "jQuery is not defind",
@@ -873,7 +894,8 @@ export const siteData = {
       "key": "v-0daf3dd6",
       "path": "/views/jQuery%20is%20not%20defind.html",
       "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "0.44kb"
     },
     {
       "title": "markdown语法简介",
@@ -970,7 +992,7 @@ export const siteData = {
         {
           "level": 2,
           "title": "$\\KaTeX$公式",
-          "slug": "公式"
+          "slug": "katex-公式"
         },
         {
           "level": 2,
@@ -989,7 +1011,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><a href=\"https://commonmark.org/help/\" target=\"_blank\" rel=\"noopener noreferrer\">语法详解<OutboundLink/></a></p>\n<p><img src=\"https://s2.ax1x.com/2019/05/08/E6ycZV.png\" alt=\"E6ycZV.png\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "2.38kb"
     },
     {
       "title": "nodejs写日志",
@@ -1009,7 +1032,8 @@ export const siteData = {
       "key": "v-551ba676",
       "path": "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>基于nodejs的书写简单日志，使用appendFile进行日志添加</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "2.46kb"
     },
     {
       "title": "registerModule",
@@ -1028,7 +1052,8 @@ export const siteData = {
       "key": "v-6761b4b1",
       "path": "/views/registerModule.html",
       "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>在 store 创建之后，你可以使用 store.registerModule 方法注册模块：<a href=\"https://vuex.vuejs.org/zh-cn/modules.html\" target=\"_blank\" rel=\"noopener noreferrer\">registerModule<OutboundLink/></a></p>\n</blockquote>\n<p><code>动态注册vuex模块，对于自定义生成组件很有用</code></p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "0.84kb"
     },
     {
       "title": "renderVModel",
@@ -1047,7 +1072,8 @@ export const siteData = {
       "key": "v-3af48d06",
       "path": "/views/renderVModel.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>使用render函数实现表格与form表单之间的双向绑定以及表格中使用slot分发（多个slot，分发不同的内容）。</code></p>\n<p>通过props给表单组件的value进行赋值，之后通过change、blur等元素监听事件，进行取值，然后通过表格当前行索引对表格相应元素进行赋值。这样就完成了一个数据的双向绑定了。</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "2.69kb"
     },
     {
       "title": "vscode插件篇",
@@ -1066,7 +1092,8 @@ export const siteData = {
       "key": "v-4607b33e",
       "path": "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "4.36kb"
     },
     {
       "title": "Vue的几种通信方式",
@@ -1137,7 +1164,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue常用的几种通信传递</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 15:01:57"
+      "lastUpdated": "1/20/2020, 3:01:57 PM",
+      "size": "1.52kb"
     },
     {
       "title": "原型和原型链",
@@ -1164,7 +1192,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.34kb"
     },
     {
       "title": "探索Vue生命周期",
@@ -1183,7 +1212,8 @@ export const siteData = {
       "key": "v-427cde8a",
       "path": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 15:01:57"
+      "lastUpdated": "1/20/2020, 3:01:57 PM",
+      "size": "2.57kb"
     },
     {
       "title": "模块规范",
@@ -1229,7 +1259,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>模块规范CommonJS、CMD、AMD、ESM、UMD</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "2.77kb"
     },
     {
       "title": "正则表达式",
@@ -1276,7 +1307,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/05/08/E6yJqP.png\" alt=\"E6yJqP.png\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "3.22kb"
     },
     {
       "title": "深究JavaScript值传递和引用传递",
@@ -1313,7 +1345,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.71kb"
     },
     {
       "title": "理解async&await",
@@ -1333,7 +1366,8 @@ export const siteData = {
       "key": "v-50824c3e",
       "path": "/views/%E7%90%86%E8%A7%A3async&await.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>async function 声明用于定义一个返回 AsyncFunction 对象的异步函数。异步函数是指通过事件循环异步执行的函数，它会通过一个隐式的 Promise 返回其结果。但是如果你的代码使用了\n异步函数，它的语法和结构会更像是标准的同步函数。</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "2.08kb"
     },
     {
       "title": "js节流和防抖",
@@ -1369,7 +1403,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>函数的节流和防抖实际上都是优化高频执行js代码的一种方式\n函数节流是指，在规定的时间内这个函数只会被执行一次\n函数防抖是指，在频繁触发的情况下，只有足够的空闲时间才会执行代码</p>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.48kb"
     },
     {
       "title": "JavaScript进阶之词法作用域、动态作用域、变量提升、函数提升",
@@ -1382,7 +1417,8 @@ export const siteData = {
         ],
         "categories": [
           "前端"
-        ]
+        ],
+        "sticky": 1
       },
       "regularPath": "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
       "relativePath": "views/词法作用域、动态作用域、变量提升.md",
@@ -1401,7 +1437,8 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>作用域是指程序源代码中定义变量的区域。</p>\n<p>作用域规定了如何查找变量，也就是确定当前执行代码对变量的访问权限。</p>\n</div>\n",
-      "lastUpdated": "2020-2-12 16:42:35"
+      "lastUpdated": "2/12/2020, 4:42:35 PM",
+      "size": "1.21kb"
     },
     {
       "title": "JavaScript 之引擎、运行时和堆栈调用",
@@ -1420,7 +1457,8 @@ export const siteData = {
       "key": "v-2f18f7d2",
       "path": "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>JavaScript是单线程的</p>\n<p>Google V8引擎是一个比较流行的JavaScript引擎示例，V8 引擎是在诸如 Chrome 和 Node.js 等内部使用的。</p>\n<p>该引擎包括两个主要组件：</p>\n<ul>\n<li>\n<p>Memory Heap 内存堆 ——  这是内存分配发生的地方</p>\n</li>\n<li>\n<p>Call Stack 调用堆栈 ——  这是在你代码执行时栈帧存放的位置</p>\n</li>\n</ul>\n</div>\n",
-      "lastUpdated": "2020-1-20 18:45:09"
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.23kb"
     },
     {
       "frontmatter": {
@@ -1488,20 +1526,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "ES6 tags"
-      },
-      "regularPath": "/tags/ES6/",
-      "key": "v-667bb668",
-      "path": "/tags/ES6/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "CSS tags"
       },
       "regularPath": "/tags/CSS/",
       "key": "v-667ad12d",
       "path": "/tags/CSS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "ES6 tags"
+      },
+      "regularPath": "/tags/ES6/",
+      "key": "v-667bb668",
+      "path": "/tags/ES6/"
     },
     {
       "frontmatter": {
@@ -1578,20 +1616,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "其它 categories"
-      },
-      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
-      "key": "v-33c9dede",
-      "path": "/categories/其它/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "后端 categories"
       },
       "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
       "key": "v-12afc5a1",
       "path": "/categories/后端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "其它 categories"
+      },
+      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
+      "key": "v-33c9dede",
+      "path": "/categories/其它/"
     },
     {
       "frontmatter": {
@@ -1640,21 +1678,6 @@ export const siteData = {
     }
   ],
   "themeConfig": {
-    "type": "blog",
-    "logo": "/avatar.jpg",
-    "autoHideNavbar": true,
-    "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "Category"
-      },
-      "tag": {
-        "location": 3,
-        "text": "Tag"
-      }
-    },
-    "author": "blacklisten",
-    "startYear": "2018",
     "nav": [
       {
         "text": "Home",
@@ -1683,9 +1706,25 @@ export const siteData = {
         ]
       }
     ],
-    "friendLink": [],
-    "sidebarDepth": 1,
+    "type": "blog",
+    "blogConfig": {
+      "category": {
+        "location": 2,
+        "text": "Category"
+      },
+      "tag": {
+        "location": 3,
+        "text": "Tag"
+      }
+    },
+    "logo": "/avatar.jpg",
+    "search": true,
+    "searchMaxSuggestions": 10,
     "sidebar": "auto",
+    "lastUpdated": "Last Updated",
+    "author": "blacklisten",
+    "authorAvatar": "/avatar.jpg",
+    "startYear": "2018",
     "vssueConfig": {
       "platform": "github",
       "owner": "blacklisten",
@@ -1693,20 +1732,6 @@ export const siteData = {
       "clientId": "62731e14a44db4625efe",
       "clientSecret": "8d9dd74aa3d13f0fa7d8a20eaa225d425878e0e8"
     },
-    "lastUpdated": "Last Updated",
-    "docsRepo": "SigureMo/notev",
-    "docsDir": "docs",
-    "docsBranch": "master",
-    "editLinks": true,
-    "editLinkText": "在GitHub上编辑此页！",
-    "serviceWorker": {
-      "updatePopup": true
-    }
-  },
-  "locales": {
-    "/": {
-      "lang": "zh-CN",
-      "path": "/"
-    }
+    "noFoundPageByTencent": true
   }
 }

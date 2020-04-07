@@ -5,10 +5,14 @@ import m0 from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\core\\l
 import m1 from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\plugin-active-header-links\\clientRootMixin.js"
 import m2 from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\plugin-medium-zoom\\clientRootMixin.js"
 import m3 from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\plugin-nprogress\\clientRootMixin.js"
+import m4 from "F:\\blacklisten\\vuepressblogs\\node_modules\\vuepress-plugin-helper-live2d\\lib\\clientRootMixin.js"
+import m5 from "F:\\blacklisten\\vuepressblogs\\node_modules\\vuepress-plugin-medium-zoom\\lib\\clientRootMixin.js"
 
 export default [
   m0,
   m1,
   m2,
-  m3
+  m3,
+  m4,
+  m5
 ]

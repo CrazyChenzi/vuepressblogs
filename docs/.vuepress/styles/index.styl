@@ -1,90 +1,107 @@
-// 鼠标指针
-body
-  cursor: url('/pointer/default.cur'), auto;
-a, button, #goTop, .jump
-  cursor: url('/pointer/link.cur'), auto;
-
-p
-  a
-    color: #2196f3 !important;
-
-// 首页标题
-.home-blog
-  .hero
-    h1, .description, .action, .huawei
-      color #deeffd !important
-      text-shadow 2px 2px 1px #048d07
-// 页面去背景
-.page
-  background var(--background-color)
-  background #fff
-
-// 评论
-.vssue
-  border-radius: $borderRadius
-  background rgba(0, 0, 0, 0.05)
-  .vssue-header
-  .vssue-body
-    .vssue-new-comment
-      .vssue-comment-avatar
-        img
-          border-radius: $borderRadius
-          box-shadow: $boxShadow
-      .vssue-new-comment-body
-        box-shadow: $boxShadow
-        background: #f6f8fa
-        .vssue-new-comment-input
-          border-radius: $borderRadius
-    .vssue-comments
-      .vssue-comment
-        .vssue-comment-avatar
-          img
-            border-radius: $borderRadius
-            box-shadow: $boxShadow
-        .vssue-comment-body
-          box-shadow: $boxShadow
-          .vssue-comment-header
-            background: #f0f2f4
-          .vssue-comment-main
-            background: #f6f8fa
-          .vssue-comment-footer
-            background: #f0f2f4
-
-// 时间轴
-.timeline-wrapper
-  .year
-    background var(--background-color)
-    background #fff
-  .year-wrapper
-    background var(--background-color)
-    background #fff
-
-// 隐藏无用调色板与全屏
-.reco-color
-  display none
-.screenfull
-  display none
-
-.navbar
-  background-image: linear-gradient(to right , #7A88FF, #7AFFAF) !important;
-.navbar .links
+.home-blog .hero .mask:after 
   background: transparent !important;
-.navbar .logo
-  border-radius: 50%;
-  width: auto !important;
-.home-blog .home-blog-wrapper .info-wrapper .personal-img
-  border-radius: 50%;
-.bgprimary
-  background: #3eaf7c !important;
-.pagation .pagation-list span.jump
-  color: #476582;
-.pagation .pagation-list span.jumpinp input
-  border: 1px solid #deeffd !important;
+.content__default p code{
+  color: #E91E63 !important;
+  background-color: #fff5f5 !important;
+}
+.home-blog .hero .description
+  font-family: apple chancery,fantasy,comic sans ms,sans-serif;
+  letter-spacing: 2px;
+  color: rgba(0,0,0,.1) !important;
+  animation: hue 1.5s linear infinite;
+  background-image: linear-gradient(to right bottom,red,#ff8000,#ff0,#0f0,#00ff80,#0ff,#0080ff,#00f,#8000ff,#f0f,#ff0080);
+  -webkit-background-clip: text;
+.home-blog .hero h1
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  font-family: Zapfino,comic sans ms,sans-serif;
+  letter-spacing: 5px;
+  background-image: linear-gradient(to right,#ff4500,orange,gold,#90ee90,#0ff,#1e90ff,#9370db,#ff69b4,#ff4500);
+  background-size: 110vw;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,.1) !important;
+  animation: sliding 30s linear infinite;
+  opacity: 1 !important;
+.abstract
+  p
+    img
+      width: 100%;
+.home-blog .hero .mask
+  background-position-y: -130px !important;
+@media (max-width: 419px)
+  .home-blog .hero 
+    margin: 0 -1.5rem;
+    height: 350px;
+    .mask
+      background-size: auto;
+      background-position-x: -240px !important;
+@media (max-width: 719px)
+  .home-blog .hero 
+    margin: 0 -1.5rem;
+    height: 450px;
+@media (max-width: 768px)
+  .home-blog .hero .mask
+    background-position-y: -50px !important;
+@-moz-keyframes hue {
+  from {
+      filter: hue-rotate(0)
+  }
 
-img
-  width: 100%;
+  to {
+      filter: hue-rotate(-360deg)
+  }
+}
 
-.blog-list
-  width: 100%
-.content__default:not(.custom) img
-  width: auto;
+@-webkit-keyframes hue {
+  from {
+      filter: hue-rotate(0)
+  }
+
+  to {
+      filter: hue-rotate(-360deg)
+  }
+}
+
+@-o-keyframes hue {
+  from {
+      filter: hue-rotate(0)
+  }
+
+  to {
+      filter: hue-rotate(-360deg)
+  }
+}
+
+@keyframes hue {
+  from {
+      filter: hue-rotate(0)
+  }
+
+  to {
+    filter: hue-rotate(-360deg)
+  }
+}
+
+@-moz-keyframes sliding {
+  to {
+    background-position: -2000vw
+  }
+}
+
+@-webkit-keyframes sliding {
+  to {
+    background-position: -2000vw
+  }
+}
+
+@-o-keyframes sliding {
+  to {
+    background-position: -2000vw
+  }
+}
+
+@keyframes sliding {
+  to {
+    background-position: -2000vw
+  }
+}

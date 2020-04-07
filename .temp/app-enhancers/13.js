@@ -1,1 +1,1 @@
-export { default } from "F:\\blacklisten\\vuepressblogs\\node_modules\\vuepress-plugin-flowchart\\lib\\client.js"
+export { default } from "F:\\blacklisten\\vuepressblogs\\node_modules\\vuepress-plugin-helper-live2d\\lib\\enhanceAppFile.js"

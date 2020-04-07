@@ -1,6 +1,6 @@
 ---
 home: true
-bgImage: 'https://s2.ax1x.com/2019/07/03/ZNFR3j.png'
+bgImage: '/323970.jpg'
 bgImageStyle: {
   height: '350px'
 }

@@ -57,6 +57,14 @@ export default {
         "v-4607b33e"
       ]
     },
+    "CSS": {
+      "key": "CSS",
+      "scope": "tags",
+      "path": "/tags/CSS/",
+      "pageKeys": [
+        "v-593c16bc"
+      ]
+    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -64,14 +72,6 @@ export default {
       "pageKeys": [
         "v-7497a936",
         "v-50824c3e"
-      ]
-    },
-    "CSS": {
-      "key": "CSS",
-      "scope": "tags",
-      "path": "/tags/CSS/",
-      "pageKeys": [
-        "v-593c16bc"
       ]
     },
     "JavaScript进阶": {
@@ -156,17 +156,6 @@ export default {
         "v-0daf3dd6"
       ]
     },
-    "其它": {
-      "key": "其它",
-      "scope": "categories",
-      "path": "/categories/其它/",
-      "pageKeys": [
-        "v-784fb80c",
-        "v-3ea9d6d5",
-        "v-7d1daac0",
-        "v-4607b33e"
-      ]
-    },
     "后端": {
       "key": "后端",
       "scope": "categories",
@@ -178,13 +167,24 @@ export default {
         "v-551ba676"
       ]
     },
+    "其它": {
+      "key": "其它",
+      "scope": "categories",
+      "path": "/categories/其它/",
+      "pageKeys": [
+        "v-784fb80c",
+        "v-3ea9d6d5",
+        "v-7d1daac0",
+        "v-4607b33e"
+      ]
+    },
     "前端": {
       "key": "前端",
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-7497a936",
         "v-593c16bc",
+        "v-7497a936",
         "v-718b1126",
         "v-14bfd013",
         "v-262844b6",

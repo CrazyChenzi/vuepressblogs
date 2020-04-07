@@ -35,17 +35,17 @@ export default [{
 },
 {
   pid: "tags",
-  id: "ES6",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tags/ES6/","interval":[0,2]}],
-},
-{
-  pid: "tags",
   id: "CSS",
   filter: filters.tags,
   sorter: sorters.tags,
   pages: [{"path":"/tags/CSS/","interval":[0,1]}],
+},
+{
+  pid: "tags",
+  id: "ES6",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tags/ES6/","interval":[0,2]}],
 },
 {
   pid: "tags",
@@ -105,17 +105,17 @@ export default [{
 },
 {
   pid: "categories",
-  id: "其它",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/其它/","interval":[0,4]}],
-},
-{
-  pid: "categories",
   id: "后端",
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/后端/","interval":[0,4]}],
+},
+{
+  pid: "categories",
+  id: "其它",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/其它/","interval":[0,4]}],
 },
 {
   pid: "categories",

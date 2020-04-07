@@ -1,121 +1,27 @@
 module.exports = {
   title: "Black_Chen'Blog",
   description: "不能因理想遥远而放弃追求 不能因现实复杂而放弃梦想",
-  evergreen: true,
-  locales: {
-    "/": {
-      lang: "zh-CN"
-    }
-  },
+  dest: "public",
+  base: "/vuepressblogs/", // 这是部署到github相关的配置 下面会讲
   head: [
-    [
-      "meta",
-      {
-        name: "viewport",
-        content: "width=device-width,initial-scale=1,user-scalable=no"
-      }
-    ],
     [
       "link",
       {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+        "rel": "icon",
+        "href": "/favicon.ico"
       }
     ],
-    ["meta", { name: "theme-color", content: "#222222" }],
-    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
-    ],
-    ["meta", { name: "msapplication-TileColor", content: "#000000" }]
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
+    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
-
-  markdown: {
-    // 代码显示行号
-    lineNumbers: true,
-    // markdown-it-anchor 的选项
-    anchor: { permalink: true },
-    // markdown-it-toc 的选项
-    toc: { includeLevel: [1, 2, 3] },
-    // markdown 插件
-    extendMarkdown: md => {
-      md.set({ html: true });
-      md.use(require("@iktakahiro/markdown-it-katex"));
-      md.use(require("markdown-it-mark"));
-      md.use(require("markdown-it-task-lists"));
-      md.use(require("markdown-it-vuepress-code-snippet-enhanced"));
-    }
-  },
-
-  // 插件
-  plugins: [
-    // 开启 PWA
-    [
-      "@vuepress/pwa",
-      {
-        serviceWorker: true,
-        updatePopup: true
-      }
-    ],
-    // 彩带背景
-    [
-      "ribbon",
-      {
-        size: 90,
-        opacity: 0.8,
-        zIndex: -1
-      }
-    ],
-    // 鼠标特效插件
-    [
-      "cursor-effects",
-      {
-        shape: "star"
-      }
-    ],
-    // 离开页面标题变化
-    [
-      "dynamic-title",
-      {
-        showIcon: "/favicon.ico",
-        showText: "(ฅ>ω<*ฅ)欢迎回来！",
-        hideIcon: "/failure.ico",
-        hideText: "( ๑ˊ•̥▵•)੭₎₎不要走呀！",
-        recoverTime: 2000
-      }
-    ],
-    // 悬挂小猫返回顶部
-    ["go-top"],
-    // 禁用无用插件
-    ["@vuepress-reco/back-to-top", false],
-    ["@vuepress-reco/extract-code", false],
-    // 流程图
-    ["flowchart"],
-  ],
-
-  // 主题配置
   theme: "reco",
   themeConfig: {
-    // 博客配置
-    type: "blog",
-    logo: "/avatar.jpg",
-    autoHideNavbar: true,
-    blogConfig: {
-      category: {
-        location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: "Category" // 默认文案 “分类”
-      },
-      tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: "Tag" // 默认文案 “标签”
-      }
-    },
-    author: "blacklisten",
-    // 备案号
-    // record: "辽ICP备19014250号-1",
-    // 项目开始时间，只填写年份
-    startYear: "2018",
     nav: [
       { text: "Home", link: "/", icon: "reco-home" },
       { text: "TimeLine", link: "/TimeLine/", icon: "reco-date" },
@@ -132,9 +38,26 @@ module.exports = {
         ]
       }
     ],
-    friendLink: [],
-    sidebarDepth: 1,
+    type: "blog",
+    blogConfig: {
+      category: {
+        location: 2,
+        text: "Category"
+      },
+      tag: {
+        location: 3,
+        text: "Tag"
+      }
+    },
+    logo: "/avatar.jpg",
+    search: true,
+    searchMaxSuggestions: 10,
     sidebar: "auto",
+    lastUpdated: "Last Updated",
+    author: "blacklisten",
+    authorAvatar: "/avatar.jpg",
+    // "record": "xxxx",
+    startYear: "2018",
     vssueConfig: {
       platform: "github",
       owner: "blacklisten",
@@ -142,30 +65,80 @@ module.exports = {
       clientId: "62731e14a44db4625efe",
       clientSecret: "8d9dd74aa3d13f0fa7d8a20eaa225d425878e0e8"
     },
-
-    lastUpdated: "Last Updated", // string | boolean
-
-    // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-    // repo: "SigureMo/notev",
-    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
-    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-    // repoLabel: "Repo",
-
-    // 以下为可选的编辑链接选项
-
-    // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: "SigureMo/notev",
-    // 假如文档不是放在仓库的根目录下：
-    docsDir: "docs",
-    // 假如文档放在一个特定的分支下：
-    docsBranch: "master",
-    // 默认是 false, 设置为 true 来启用
-    editLinks: true,
-    // 默认为 "Edit this page"
-    editLinkText: "在GitHub上编辑此页！",
-    // Service Worker 的配置
-    serviceWorker: {
+    noFoundPageByTencent: true
+  },
+  markdown: {
+    lineNumbers: true
+  },
+  plugins: [
+    // 悬挂小猫返回顶部
+    ["go-top"],
+    // 彩带背景
+    [
+      "ribbon",
+      {
+        size: 50,
+        opacity: 0.8,
+        zIndex: -1
+      }
+    ],
+    [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.ico",
+        showText: "(/≧▽≦/)咦！又好了！",
+        hideIcon: "/failure.ico",
+        hideText: "(●—●)喔哟，崩溃啦！",
+        recoverTime: 2000
+      }
+    ],
+    [
+      "cursor-effects",
+      {
+        shape: "star"  // shape of the particle, default: 'star'
+      }
+    ],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
       updatePopup: true
-    }
-  }
-};
+    }],
+    [
+      'vuepress-plugin-helper-live2d', {
+        live2d: {
+          // 是否启用(关闭请设置为false)(default: true)
+          enable: true,
+          // 模型名称(default: hibiki)>>>取值请参考：
+          // https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA
+          model: 'miku',
+          display: {
+            position: "right", // 显示位置：left/right(default: 'right')
+            width: 135, // 模型的长度(default: 135)
+            height: 300, // 模型的高度(default: 300)
+            hOffset: 65, //  水平偏移(default: 65)
+            vOffset: 0, //  垂直偏移(default: 0)
+          },
+          mobile: {
+            show: false // 是否在移动设备上显示(default: false)
+          },
+          react: {
+            opacity: 0.8 // 模型透明度(default: 0.8)
+          }
+        }
+      }
+    ],
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
+    ],
+    // 禁用无用插件
+    ["@vuepress-reco/back-to-top", false]
+  ]
+}

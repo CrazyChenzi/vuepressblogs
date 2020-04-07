@@ -1,1 +1,1 @@
-export { default } from "F:\\blacklisten\\vuepressblogs\\node_modules\\vuepress-plugin-go-top\\bin\\enhanceAppFile.js"
+export { default } from "F:\\blacklisten\\vuepressblogs\\node_modules\\@vuepress\\plugin-pwa\\lib\\enhanceAppFile.js"
