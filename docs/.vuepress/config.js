@@ -1,7 +1,6 @@
 module.exports = {
   title: "Black_Chen'Blog",
   description: "不能因理想遥远而放弃追求 不能因现实复杂而放弃梦想",
-  dest: "public",
   base: "/vuepressblogs/", // 这是部署到github相关的配置 下面会讲
   head: [
     [
