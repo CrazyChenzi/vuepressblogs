@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "Black_Chen'Blog",
   "description": "不能因理想遥远而放弃追求 不能因现实复杂而放弃梦想",
-  "base": "/vuepressblogs/",
+  "base": "/",
   "pages": [
     {
       "title": "About me",
@@ -19,23 +19,6 @@ export const siteData = {
       "path": "/About.html",
       "lastUpdated": "1/20/2020, 3:01:57 PM",
       "size": "0.84kb"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "bgImage": "/323970.jpg",
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "faceImage": "/avatar.jpg"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-78d5e149",
-      "path": "/",
-      "lastUpdated": "1/20/2020, 3:01:57 PM",
-      "size": "0.11kb"
     },
     {
       "title": "Chrome Config by flags",
@@ -70,6 +53,23 @@ export const siteData = {
       "size": "0.48kb"
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "bgImage": "/323970.jpg",
+        "bgImageStyle": {
+          "height": "350px"
+        },
+        "faceImage": "/avatar.jpg"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-78d5e149",
+      "path": "/",
+      "lastUpdated": "4/7/2020, 5:00:54 PM",
+      "size": "0.11kb"
+    },
+    {
       "title": "Electron win7 black screen",
       "frontmatter": {
         "title": "Electron win7 black screen",
@@ -96,38 +96,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>Electron6.0.0版本部分window7设备上黑屏问题解决方案，官方问题<a href=\"https://github.com/electron/electron/issues/19569\" target=\"_blank\" rel=\"noopener noreferrer\">issues<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "2/12/2020, 4:42:35 PM",
       "size": "0.69kb"
-    },
-    {
-      "title": "如何安装多个版本的Node",
-      "frontmatter": {
-        "title": "如何安装多个版本的Node",
-        "date": "2020-03-25T16:50:23.000Z",
-        "tags": [
-          "nodejs"
-        ],
-        "categories": [
-          "后端"
-        ]
-      },
-      "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
-      "relativePath": "views/2020/如何安装多个版本的node.md",
-      "key": "v-56715e63",
-      "path": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "window下使用nvm",
-          "slug": "window下使用nvm"
-        },
-        {
-          "level": 2,
-          "title": "Mac下使用nvm",
-          "slug": "mac下使用nvm"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "3/25/2020, 5:00:01 PM",
-      "size": "0.98kb"
     },
     {
       "title": "win下vscode运行bash终端",
@@ -167,6 +135,38 @@ export const siteData = {
       "size": "0.64kb"
     },
     {
+      "title": "如何安装多个版本的Node",
+      "frontmatter": {
+        "title": "如何安装多个版本的Node",
+        "date": "2020-03-25T16:50:23.000Z",
+        "tags": [
+          "nodejs"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
+      "relativePath": "views/2020/如何安装多个版本的node.md",
+      "key": "v-56715e63",
+      "path": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "window下使用nvm",
+          "slug": "window下使用nvm"
+        },
+        {
+          "level": 2,
+          "title": "Mac下使用nvm",
+          "slug": "mac下使用nvm"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "3/25/2020, 5:00:01 PM",
+      "size": "0.98kb"
+    },
+    {
       "title": "如何自定义切换Node源",
       "frontmatter": {
         "title": "如何自定义切换Node源",
@@ -192,108 +192,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>自由切换npm源，我们使用node的nrm包进行切换<a href=\"https://github.com/Pana/nrm\" target=\"_blank\" rel=\"noopener noreferrer\">nrm<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "3/25/2020, 5:00:01 PM",
       "size": "1.05kb"
-    },
-    {
-      "title": "Flex布局",
-      "frontmatter": {
-        "title": "Flex布局",
-        "date": "2018-09-11T22:02:24.000Z",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "CSS"
-        ]
-      },
-      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "relativePath": "views/Flex布局.md",
-      "key": "v-593c16bc",
-      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、Flex布局是什么",
-          "slug": "一、flex布局是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、基本概念",
-          "slug": "二、基本概念"
-        },
-        {
-          "level": 2,
-          "title": "三、容器的属性",
-          "slug": "三、容器的属性"
-        },
-        {
-          "level": 3,
-          "title": "3.1 flex-direction属性",
-          "slug": "_3-1-flex-direction属性"
-        },
-        {
-          "level": 3,
-          "title": "3.2 flex-wrap属性",
-          "slug": "_3-2-flex-wrap属性"
-        },
-        {
-          "level": 3,
-          "title": "3.3 flex-flow",
-          "slug": "_3-3-flex-flow"
-        },
-        {
-          "level": 3,
-          "title": "3.4 justify-content属性",
-          "slug": "_3-4-justify-content属性"
-        },
-        {
-          "level": 3,
-          "title": "3.5 align-items属性",
-          "slug": "_3-5-align-items属性"
-        },
-        {
-          "level": 3,
-          "title": "3.6 align-content属性",
-          "slug": "_3-6-align-content属性"
-        },
-        {
-          "level": 2,
-          "title": "四、项目的属性",
-          "slug": "四、项目的属性"
-        },
-        {
-          "level": 3,
-          "title": "4.1 order属性",
-          "slug": "_4-1-order属性"
-        },
-        {
-          "level": 3,
-          "title": "4.2 flex-grow属性",
-          "slug": "_4-2-flex-grow属性"
-        },
-        {
-          "level": 3,
-          "title": "4.3 flex-shrink属性",
-          "slug": "_4-3-flex-shrink属性"
-        },
-        {
-          "level": 3,
-          "title": "4.4 flex-basis属性",
-          "slug": "_4-4-flex-basis属性"
-        },
-        {
-          "level": 3,
-          "title": "4.5 flex属性",
-          "slug": "_4-5-flex属性"
-        },
-        {
-          "level": 3,
-          "title": "4.6 align-self属性",
-          "slug": "_4-6-align-self属性"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
-      "size": "6.43kb"
     },
     {
       "title": "Array",
@@ -477,6 +375,108 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<!--beforebegin--><div class=\"language-js line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-js\"><code><span class=\"token comment\">// 使用Array构造器</span>\n<span class=\"token keyword\">var</span> a <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Array</span><span class=\"token punctuation\">(</span><span class=\"token number\">5</span><span class=\"token punctuation\">)</span>  <span class=\"token comment\">// [empty × 5]</span>\n<span class=\"token comment\">// 使用对象字面量</span>\n<span class=\"token keyword\">var</span> b <span class=\"token operator\">=</span> <span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span>\nb<span class=\"token punctuation\">.</span>length <span class=\"token operator\">=</span> <span class=\"token number\">5</span>  <span class=\"token comment\">// [empty × 5]</span>\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br><span class=\"line-number\">5</span><br></div><!--beforeend--></div><!--afterend--><p>Array构造器根据参数长度的不同，有如下两种不同的处理：</p>\n<ul>\n<li>new Array(arg1, arg2,…)，参数长度为0或长度大于等于2时，传入的参数将按照顺序依次成为新数组的第0至N项（参数长度为0时，返回空数组）。</li>\n<li>new Array(len)，当len不是数值时，处理同上，返回一个只包含len元素一项的数组；当len为数值时，则创建一个以该数值为长度的数组，数值大小不能超过2^32 否则会抛出错误</li>\n</ul>\n</div>\n",
       "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "11.91kb"
+    },
+    {
+      "title": "Flex布局",
+      "frontmatter": {
+        "title": "Flex布局",
+        "date": "2018-09-11T22:02:24.000Z",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "CSS"
+        ]
+      },
+      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "relativePath": "views/Flex布局.md",
+      "key": "v-593c16bc",
+      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、Flex布局是什么",
+          "slug": "一、flex布局是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、基本概念",
+          "slug": "二、基本概念"
+        },
+        {
+          "level": 2,
+          "title": "三、容器的属性",
+          "slug": "三、容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3.1 flex-direction属性",
+          "slug": "_3-1-flex-direction属性"
+        },
+        {
+          "level": 3,
+          "title": "3.2 flex-wrap属性",
+          "slug": "_3-2-flex-wrap属性"
+        },
+        {
+          "level": 3,
+          "title": "3.3 flex-flow",
+          "slug": "_3-3-flex-flow"
+        },
+        {
+          "level": 3,
+          "title": "3.4 justify-content属性",
+          "slug": "_3-4-justify-content属性"
+        },
+        {
+          "level": 3,
+          "title": "3.5 align-items属性",
+          "slug": "_3-5-align-items属性"
+        },
+        {
+          "level": 3,
+          "title": "3.6 align-content属性",
+          "slug": "_3-6-align-content属性"
+        },
+        {
+          "level": 2,
+          "title": "四、项目的属性",
+          "slug": "四、项目的属性"
+        },
+        {
+          "level": 3,
+          "title": "4.1 order属性",
+          "slug": "_4-1-order属性"
+        },
+        {
+          "level": 3,
+          "title": "4.2 flex-grow属性",
+          "slug": "_4-2-flex-grow属性"
+        },
+        {
+          "level": 3,
+          "title": "4.3 flex-shrink属性",
+          "slug": "_4-3-flex-shrink属性"
+        },
+        {
+          "level": 3,
+          "title": "4.4 flex-basis属性",
+          "slug": "_4-4-flex-basis属性"
+        },
+        {
+          "level": 3,
+          "title": "4.5 flex属性",
+          "slug": "_4-5-flex属性"
+        },
+        {
+          "level": 3,
+          "title": "4.6 align-self属性",
+          "slug": "_4-6-align-self属性"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "6.43kb"
     },
     {
       "title": "JavaScript进阶之继承的多种方式",
@@ -1168,6 +1168,26 @@ export const siteData = {
       "size": "1.52kb"
     },
     {
+      "title": "探索Vue生命周期",
+      "frontmatter": {
+        "title": "探索Vue生命周期",
+        "date": "2019-02-22T18:55:47.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
+      "relativePath": "views/探索Vue生命周期.md",
+      "key": "v-427cde8a",
+      "path": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
+      "lastUpdated": "1/20/2020, 3:01:57 PM",
+      "size": "2.57kb"
+    },
+    {
       "title": "原型和原型链",
       "frontmatter": {
         "title": "原型和原型链",
@@ -1194,26 +1214,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n",
       "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.34kb"
-    },
-    {
-      "title": "探索Vue生命周期",
-      "frontmatter": {
-        "title": "探索Vue生命周期",
-        "date": "2019-02-22T18:55:47.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
-      "relativePath": "views/探索Vue生命周期.md",
-      "key": "v-427cde8a",
-      "path": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 3:01:57 PM",
-      "size": "2.57kb"
     },
     {
       "title": "模块规范",
@@ -1263,6 +1263,44 @@ export const siteData = {
       "size": "2.77kb"
     },
     {
+      "title": "深究JavaScript值传递和引用传递",
+      "frontmatter": {
+        "title": "深究JavaScript值传递和引用传递",
+        "date": "2019-02-27T20:21:47.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+      "relativePath": "views/深究JavaScript值传递和引用传递.md",
+      "key": "v-4a68f5fe",
+      "path": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "== 和 ===",
+          "slug": "和"
+        },
+        {
+          "level": 2,
+          "title": "函数方法",
+          "slug": "函数方法"
+        },
+        {
+          "level": 2,
+          "title": "参考题",
+          "slug": "参考题"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n",
+      "lastUpdated": "1/20/2020, 6:45:09 PM",
+      "size": "1.71kb"
+    },
+    {
       "title": "正则表达式",
       "frontmatter": {
         "title": "正则表达式",
@@ -1309,44 +1347,6 @@ export const siteData = {
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/05/08/E6yJqP.png\" alt=\"E6yJqP.png\"></p>\n",
       "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "3.22kb"
-    },
-    {
-      "title": "深究JavaScript值传递和引用传递",
-      "frontmatter": {
-        "title": "深究JavaScript值传递和引用传递",
-        "date": "2019-02-27T20:21:47.000Z",
-        "tags": [
-          "javaScript",
-          "JavaScript进阶"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
-      "relativePath": "views/深究JavaScript值传递和引用传递.md",
-      "key": "v-4a68f5fe",
-      "path": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "== 和 ===",
-          "slug": "和"
-        },
-        {
-          "level": 2,
-          "title": "函数方法",
-          "slug": "函数方法"
-        },
-        {
-          "level": 2,
-          "title": "参考题",
-          "slug": "参考题"
-        }
-      ],
-      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
-      "size": "1.71kb"
     },
     {
       "title": "理解async&await",
@@ -1417,8 +1417,7 @@ export const siteData = {
         ],
         "categories": [
           "前端"
-        ],
-        "sticky": 1
+        ]
       },
       "regularPath": "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
       "relativePath": "views/词法作用域、动态作用域、变量提升.md",
@@ -1438,7 +1437,7 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>作用域是指程序源代码中定义变量的区域。</p>\n<p>作用域规定了如何查找变量，也就是确定当前执行代码对变量的访问权限。</p>\n</div>\n",
       "lastUpdated": "2/12/2020, 4:42:35 PM",
-      "size": "1.21kb"
+      "size": "1.20kb"
     },
     {
       "title": "JavaScript 之引擎、运行时和堆栈调用",
@@ -1526,20 +1525,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "CSS tags"
-      },
-      "regularPath": "/tags/CSS/",
-      "key": "v-667ad12d",
-      "path": "/tags/CSS/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "ES6 tags"
       },
       "regularPath": "/tags/ES6/",
       "key": "v-667bb668",
       "path": "/tags/ES6/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "CSS tags"
+      },
+      "regularPath": "/tags/CSS/",
+      "key": "v-667ad12d",
+      "path": "/tags/CSS/"
     },
     {
       "frontmatter": {
@@ -1616,20 +1615,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "后端 categories"
-      },
-      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
-      "key": "v-12afc5a1",
-      "path": "/categories/后端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "其它 categories"
       },
       "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
       "key": "v-33c9dede",
       "path": "/categories/其它/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "后端 categories"
+      },
+      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
+      "key": "v-12afc5a1",
+      "path": "/categories/后端/"
     },
     {
       "frontmatter": {

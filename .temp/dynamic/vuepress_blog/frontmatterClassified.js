@@ -30,8 +30,8 @@ export default {
         "v-0daf3dd6",
         "v-551ba676",
         "v-7386a882",
-        "v-80476ae2",
         "v-4a68f5fe",
+        "v-80476ae2",
         "v-50824c3e",
         "v-07af64f9",
         "v-2f5a4617",
@@ -57,14 +57,6 @@ export default {
         "v-4607b33e"
       ]
     },
-    "CSS": {
-      "key": "CSS",
-      "scope": "tags",
-      "path": "/tags/CSS/",
-      "pageKeys": [
-        "v-593c16bc"
-      ]
-    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -72,6 +64,14 @@ export default {
       "pageKeys": [
         "v-7497a936",
         "v-50824c3e"
+      ]
+    },
+    "CSS": {
+      "key": "CSS",
+      "scope": "tags",
+      "path": "/tags/CSS/",
+      "pageKeys": [
+        "v-593c16bc"
       ]
     },
     "JavaScript进阶": {
@@ -84,8 +84,8 @@ export default {
         "v-14eabb85",
         "v-40c79614",
         "v-7386a882",
-        "v-80476ae2",
         "v-4a68f5fe",
+        "v-80476ae2",
         "v-2f5a4617"
       ]
     },
@@ -156,17 +156,6 @@ export default {
         "v-0daf3dd6"
       ]
     },
-    "后端": {
-      "key": "后端",
-      "scope": "categories",
-      "path": "/categories/后端/",
-      "pageKeys": [
-        "v-56715e63",
-        "v-04d26464",
-        "v-e227d6f6",
-        "v-551ba676"
-      ]
-    },
     "其它": {
       "key": "其它",
       "scope": "categories",
@@ -178,13 +167,24 @@ export default {
         "v-4607b33e"
       ]
     },
+    "后端": {
+      "key": "后端",
+      "scope": "categories",
+      "path": "/categories/后端/",
+      "pageKeys": [
+        "v-56715e63",
+        "v-04d26464",
+        "v-e227d6f6",
+        "v-551ba676"
+      ]
+    },
     "前端": {
       "key": "前端",
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-593c16bc",
         "v-7497a936",
+        "v-593c16bc",
         "v-718b1126",
         "v-14bfd013",
         "v-262844b6",
@@ -193,11 +193,11 @@ export default {
         "v-6761b4b1",
         "v-3af48d06",
         "v-6e0fafb6",
-        "v-7386a882",
         "v-427cde8a",
+        "v-7386a882",
         "v-002ca637",
-        "v-80476ae2",
         "v-4a68f5fe",
+        "v-80476ae2",
         "v-50824c3e",
         "v-07af64f9",
         "v-2f5a4617",
