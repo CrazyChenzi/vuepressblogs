@@ -17,7 +17,7 @@ export default [{
   id: "javaScript",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/javaScript/","interval":[0,9]},{"path":"/tags/javaScript/page/2/","interval":[10,17]}],
+  pages: [{"path":"/tags/javaScript/","interval":[0,9]},{"path":"/tags/javaScript/page/2/","interval":[10,18]}],
 },
 {
   pid: "tags",
@@ -94,7 +94,7 @@ export default [{
   id: "杂谈",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/杂谈/","interval":[0,2]}],
+  pages: [{"path":"/categories/杂谈/","interval":[0,3]}],
 },
 {
   pid: "categories",
@@ -126,15 +126,15 @@ export default [{
 },
 {
   pid: "categories",
-  id: "Git",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/Git/","interval":[0,1]}],
-},
-{
-  pid: "categories",
   id: "hexo",
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/hexo/","interval":[0,2]}],
+},
+{
+  pid: "categories",
+  id: "Git",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/Git/","interval":[0,1]}],
 }]

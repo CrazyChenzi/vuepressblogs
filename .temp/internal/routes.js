@@ -17,6 +17,14 @@ export const routes = [
     },
   },
   {
+    name: "v-7bd064d2",
+    path: "/views/2020/ChromeConfig.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7bd064d2").then(next)
+    },
+  },
+  {
     name: "v-78d5e149",
     path: "/",
     component: GlobalLayout,
@@ -27,14 +35,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-7bd064d2",
-    path: "/views/2020/ChromeConfig.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7bd064d2").then(next)
-    },
   },
   {
     name: "v-2d87369c",
@@ -50,6 +50,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-561cc7e6").then(next)
+    },
+  },
+  {
+    name: "v-798073da",
+    path: "/views/2020/gitignore.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-798073da").then(next)
     },
   },
   {
@@ -177,18 +185,6 @@ export const routes = [
     },
   },
   {
-    name: "v-12f54de6",
-    path: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-12f54de6").then(next)
-    },
-  },
-  {
-    path: "/views/previous/git Please move or remove them before you can merge.html",
-    redirect: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
-  },
-  {
     name: "v-8c46bd88",
     path: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
     component: GlobalLayout,
@@ -201,16 +197,16 @@ export const routes = [
     redirect: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html"
   },
   {
-    name: "v-1a64f484",
-    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+    name: "v-12f54de6",
+    path: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-12f54de6").then(next)
     },
   },
   {
-    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
-    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
+    path: "/views/previous/git Please move or remove them before you can merge.html",
+    redirect: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
   },
   {
     name: "v-4f10c5cf",
@@ -223,6 +219,18 @@ export const routes = [
   {
     path: "/views/previous/jQuery is not defind.html",
     redirect: "/views/previous/jQuery%20is%20not%20defind.html"
+  },
+  {
+    name: "v-1a64f484",
+    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
+    },
+  },
+  {
+    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
+    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
   },
   {
     name: "v-59f43e67",
@@ -265,6 +273,14 @@ export const routes = [
     },
   },
   {
+    name: "v-5370e5e4",
+    path: "/views/previous/vue-communication.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5370e5e4").then(next)
+    },
+  },
+  {
     name: "v-636d1913",
     path: "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
     component: GlobalLayout,
@@ -275,14 +291,6 @@ export const routes = [
   {
     path: "/views/previous/vscode插件篇.html",
     redirect: "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html"
-  },
-  {
-    name: "v-5370e5e4",
-    path: "/views/previous/vue-communication.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5370e5e4").then(next)
-    },
   },
   {
     name: "v-07995389",
@@ -693,19 +701,6 @@ export const routes = [
     redirect: "/categories/前端/"
   },
   {
-    name: "v-7f008cdb",
-    path: "/categories/Git/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f008cdb").then(next)
-    },
-    meta: {"pid":"categories","id":"Git"}
-  },
-  {
-    path: "/categories/Git/index.html",
-    redirect: "/categories/Git/"
-  },
-  {
     name: "v-62e05b9d",
     path: "/categories/hexo/",
     component: GlobalLayout,
@@ -717,6 +712,19 @@ export const routes = [
   {
     path: "/categories/hexo/index.html",
     redirect: "/categories/hexo/"
+  },
+  {
+    name: "v-7f008cdb",
+    path: "/categories/Git/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f008cdb").then(next)
+    },
+    meta: {"pid":"categories","id":"Git"}
+  },
+  {
+    path: "/categories/Git/index.html",
+    redirect: "/categories/Git/"
   },
   {
     name: "v-1dac5ffc",

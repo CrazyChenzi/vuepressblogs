@@ -22,6 +22,7 @@ export default {
       "pageKeys": [
         "v-2d87369c",
         "v-561cc7e6",
+        "v-798073da",
         "v-598e59ba",
         "v-43b64ffd",
         "v-1b25e39c",
@@ -146,7 +147,8 @@ export default {
       "path": "/categories/杂谈/",
       "pageKeys": [
         "v-7bd064d2",
-        "v-561cc7e6"
+        "v-561cc7e6",
+        "v-798073da"
       ]
     },
     "Electron": {
@@ -206,14 +208,6 @@ export default {
         "v-d2cd4c30"
       ]
     },
-    "Git": {
-      "key": "Git",
-      "scope": "categories",
-      "path": "/categories/Git/",
-      "pageKeys": [
-        "v-12f54de6"
-      ]
-    },
     "hexo": {
       "key": "hexo",
       "scope": "categories",
@@ -221,6 +215,14 @@ export default {
       "pageKeys": [
         "v-8c46bd88",
         "v-1a64f484"
+      ]
+    },
+    "Git": {
+      "key": "Git",
+      "scope": "categories",
+      "path": "/categories/Git/",
+      "pageKeys": [
+        "v-12f54de6"
       ]
     }
   },
