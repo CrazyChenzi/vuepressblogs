@@ -67,7 +67,8 @@ module.exports = {
     noFoundPageByTencent: true
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    extractHeaders: [ 'h2', 'h3', 'h4' ]
   },
   plugins: [
     // 悬挂小猫返回顶部

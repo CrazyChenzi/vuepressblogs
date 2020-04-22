@@ -21,6 +21,23 @@ export const siteData = {
       "size": "0.84kb"
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "bgImage": "/323970.jpg",
+        "bgImageStyle": {
+          "height": "350px"
+        },
+        "faceImage": "/avatar.jpg"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-78d5e149",
+      "path": "/",
+      "lastUpdated": "4/7/2020, 5:00:54 PM",
+      "size": "0.11kb"
+    },
+    {
       "title": "Chrome Config by flags",
       "frontmatter": {
         "title": "Chrome Config by flags",
@@ -53,23 +70,6 @@ export const siteData = {
       "size": "0.48kb"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "bgImage": "/323970.jpg",
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "faceImage": "/avatar.jpg"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-78d5e149",
-      "path": "/",
-      "lastUpdated": "4/7/2020, 5:00:54 PM",
-      "size": "0.11kb"
-    },
-    {
       "title": "Electron win7 black screen",
       "frontmatter": {
         "title": "Electron win7 black screen",
@@ -96,6 +96,202 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>Electron6.0.0版本部分window7设备上黑屏问题解决方案，官方问题<a href=\"https://github.com/electron/electron/issues/19569\" target=\"_blank\" rel=\"noopener noreferrer\">issues<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "2/12/2020, 4:42:35 PM",
       "size": "0.69kb"
+    },
+    {
+      "title": "Front-end specification👀",
+      "frontmatter": {
+        "title": "Front-end specification👀",
+        "date": "2020-04-22T15:10:31.000Z",
+        "tags": [
+          "javaScript"
+        ],
+        "categories": [
+          "杂谈"
+        ]
+      },
+      "regularPath": "/views/2020/Front.specification.html",
+      "relativePath": "views/2020/Front.specification.md",
+      "key": "v-561cc7e6",
+      "path": "/views/2020/Front.specification.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "命名",
+          "slug": "命名"
+        },
+        {
+          "level": 3,
+          "title": "驼峰式命名法",
+          "slug": "驼峰式命名法"
+        },
+        {
+          "level": 3,
+          "title": "文件资源命名",
+          "slug": "文件资源命名"
+        },
+        {
+          "level": 3,
+          "title": "变量命名",
+          "slug": "变量命名"
+        },
+        {
+          "level": 3,
+          "title": "函数",
+          "slug": "函数"
+        },
+        {
+          "level": 3,
+          "title": "常量",
+          "slug": "常量"
+        },
+        {
+          "level": 3,
+          "title": "注释规范",
+          "slug": "注释规范"
+        },
+        {
+          "level": 2,
+          "title": "JavaScript规范",
+          "slug": "javascript规范"
+        },
+        {
+          "level": 3,
+          "title": "语言规范",
+          "slug": "语言规范"
+        },
+        {
+          "level": 4,
+          "title": "类型",
+          "slug": "类型"
+        },
+        {
+          "level": 4,
+          "title": "引用",
+          "slug": "引用"
+        },
+        {
+          "level": 4,
+          "title": "对象",
+          "slug": "对象"
+        },
+        {
+          "level": 4,
+          "title": "数组",
+          "slug": "数组"
+        },
+        {
+          "level": 4,
+          "title": "解构赋值",
+          "slug": "解构赋值"
+        },
+        {
+          "level": 4,
+          "title": "字符串",
+          "slug": "字符串"
+        },
+        {
+          "level": 4,
+          "title": "函数",
+          "slug": "函数-2"
+        },
+        {
+          "level": 4,
+          "title": "原型",
+          "slug": "原型"
+        },
+        {
+          "level": 4,
+          "title": "模块",
+          "slug": "模块"
+        },
+        {
+          "level": 4,
+          "title": "迭代器",
+          "slug": "迭代器"
+        },
+        {
+          "level": 4,
+          "title": "对象属性",
+          "slug": "对象属性"
+        },
+        {
+          "level": 4,
+          "title": "变量声明",
+          "slug": "变量声明"
+        },
+        {
+          "level": 4,
+          "title": "分号",
+          "slug": "分号"
+        },
+        {
+          "level": 2,
+          "title": "CSS规范",
+          "slug": "css规范"
+        },
+        {
+          "level": 3,
+          "title": "id和class的命名",
+          "slug": "id和class的命名"
+        },
+        {
+          "level": 3,
+          "title": "合理的使用id",
+          "slug": "合理的使用id"
+        },
+        {
+          "level": 3,
+          "title": "css选择器中避免使用标签名",
+          "slug": "css选择器中避免使用标签名"
+        },
+        {
+          "level": 3,
+          "title": "尽量使用缩写属性",
+          "slug": "尽量使用缩写属性"
+        },
+        {
+          "level": 3,
+          "title": "声明顺序",
+          "slug": "声明顺序"
+        },
+        {
+          "level": 3,
+          "title": "0后面不带单位",
+          "slug": "_0后面不带单位"
+        },
+        {
+          "level": 3,
+          "title": "属性名结束",
+          "slug": "属性名结束"
+        },
+        {
+          "level": 3,
+          "title": "CSS引号",
+          "slug": "css引号"
+        },
+        {
+          "level": 2,
+          "title": "Vue规范",
+          "slug": "vue规范"
+        },
+        {
+          "level": 2,
+          "title": "Git操作规范",
+          "slug": "git操作规范"
+        },
+        {
+          "level": 2,
+          "title": "TypeScript编码规范",
+          "slug": "typescript编码规范"
+        },
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>整理一些前端规范性的东西😧</p>\n</div>\n",
+      "size": "9.25kb"
     },
     {
       "title": "win下vscode运行bash终端",
@@ -206,10 +402,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/Array.html",
-      "relativePath": "views/Array.md",
-      "key": "v-7497a936",
-      "path": "/views/Array.html",
+      "regularPath": "/views/previous/Array.html",
+      "relativePath": "views/previous/Array.md",
+      "key": "v-598e59ba",
+      "path": "/views/previous/Array.html",
       "headers": [
         {
           "level": 2,
@@ -373,7 +569,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<!--beforebegin--><div class=\"language-js line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-js\"><code><span class=\"token comment\">// 使用Array构造器</span>\n<span class=\"token keyword\">var</span> a <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Array</span><span class=\"token punctuation\">(</span><span class=\"token number\">5</span><span class=\"token punctuation\">)</span>  <span class=\"token comment\">// [empty × 5]</span>\n<span class=\"token comment\">// 使用对象字面量</span>\n<span class=\"token keyword\">var</span> b <span class=\"token operator\">=</span> <span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span>\nb<span class=\"token punctuation\">.</span>length <span class=\"token operator\">=</span> <span class=\"token number\">5</span>  <span class=\"token comment\">// [empty × 5]</span>\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br><span class=\"line-number\">5</span><br></div><!--beforeend--></div><!--afterend--><p>Array构造器根据参数长度的不同，有如下两种不同的处理：</p>\n<ul>\n<li>new Array(arg1, arg2,…)，参数长度为0或长度大于等于2时，传入的参数将按照顺序依次成为新数组的第0至N项（参数长度为0时，返回空数组）。</li>\n<li>new Array(len)，当len不是数值时，处理同上，返回一个只包含len元素一项的数组；当len为数值时，则创建一个以该数值为长度的数组，数值大小不能超过2^32 否则会抛出错误</li>\n</ul>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "11.91kb"
     },
     {
@@ -388,10 +583,10 @@ export const siteData = {
           "CSS"
         ]
       },
-      "regularPath": "/views/Flex%E5%B8%83%E5%B1%80.html",
-      "relativePath": "views/Flex布局.md",
-      "key": "v-593c16bc",
-      "path": "/views/Flex%E5%B8%83%E5%B1%80.html",
+      "regularPath": "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
+      "relativePath": "views/previous/Flex布局.md",
+      "key": "v-59ebb44b",
+      "path": "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
       "headers": [
         {
           "level": 2,
@@ -475,7 +670,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "6.43kb"
     },
     {
@@ -491,10 +685,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
-      "relativePath": "views/JavaScript继承的多种方式.md",
-      "key": "v-718b1126",
-      "path": "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "regularPath": "/views/previous/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+      "relativePath": "views/previous/JavaScript继承的多种方式.md",
+      "key": "v-43b64ffd",
+      "path": "/views/previous/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
       "headers": [
         {
           "level": 2,
@@ -533,7 +727,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "5.09kb"
     },
     {
@@ -549,10 +742,10 @@ export const siteData = {
           "其它"
         ]
       },
-      "regularPath": "/views/ShadowSocks%E9%85%8D%E7%BD%AE.html",
-      "relativePath": "views/ShadowSocks配置.md",
-      "key": "v-3ea9d6d5",
-      "path": "/views/ShadowSocks%E9%85%8D%E7%BD%AE.html",
+      "regularPath": "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
+      "relativePath": "views/previous/ShadowSocks配置.md",
+      "key": "v-3244ecdc",
+      "path": "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
       "headers": [
         {
           "level": 2,
@@ -576,7 +769,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.84kb"
     },
     {
@@ -592,12 +784,11 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/This.html",
-      "relativePath": "views/This.md",
-      "key": "v-14bfd013",
-      "path": "/views/This.html",
+      "regularPath": "/views/previous/This.html",
+      "relativePath": "views/previous/This.md",
+      "key": "v-1b25e39c",
+      "path": "/views/previous/This.html",
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "0.34kb"
     },
     {
@@ -612,12 +803,11 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/addRoutes.html",
-      "relativePath": "views/addRoutes.md",
-      "key": "v-262844b6",
-      "path": "/views/addRoutes.html",
+      "regularPath": "/views/previous/addRoutes.html",
+      "relativePath": "views/previous/addRoutes.md",
+      "key": "v-5ce495d4",
+      "path": "/views/previous/addRoutes.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>用动态路由实现权限控制，是一个很nice的方案不是么？ 初始路由只有登录页，根据用户的id查询对应的权限，然后addRoutes，将获取到的菜单数据放入vuex和浏览器缓存中。</p>\n<blockquote>\n<p>动态添加更多的路由规则。参数必须是一个符合 routes 选项要求的<code>数组</code>。</p>\n</blockquote>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.84kb"
     },
     {
@@ -633,10 +823,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/arguments.html",
-      "relativePath": "views/arguments.md",
-      "key": "v-14eabb85",
-      "path": "/views/arguments.html",
+      "regularPath": "/views/previous/arguments.html",
+      "relativePath": "views/previous/arguments.md",
+      "key": "v-4dc17d40",
+      "path": "/views/previous/arguments.html",
       "headers": [
         {
           "level": 2,
@@ -680,7 +870,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzALn.jpg\" alt=\"lCzALn.jpg\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "3.07kb"
     },
     {
@@ -696,10 +885,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
-      "relativePath": "views/call、apply的模拟实现.md",
-      "key": "v-40c79614",
-      "path": "/views/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
+      "regularPath": "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
+      "relativePath": "views/previous/call、apply的模拟实现.md",
+      "key": "v-4216b42a",
+      "path": "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
       "headers": [
         {
           "level": 2,
@@ -753,7 +942,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCjjld.png\" alt=\"lCjjld.png\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "5.53kb"
     },
     {
@@ -770,12 +958,11 @@ export const siteData = {
           "后端"
         ]
       },
-      "regularPath": "/views/eventloop.html",
-      "relativePath": "views/eventloop.md",
-      "key": "v-e227d6f6",
-      "path": "/views/eventloop.html",
+      "regularPath": "/views/previous/eventloop.html",
+      "relativePath": "views/previous/eventloop.md",
+      "key": "v-d7d57520",
+      "path": "/views/previous/eventloop.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.03kb"
     },
     {
@@ -791,12 +978,11 @@ export const siteData = {
           "Git"
         ]
       },
-      "regularPath": "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-      "relativePath": "views/git Please move or remove them before you can merge.md",
-      "key": "v-431480a4",
-      "path": "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "regularPath": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "relativePath": "views/previous/git Please move or remove them before you can merge.md",
+      "key": "v-12f54de6",
+      "path": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "0.54kb"
     },
     {
@@ -811,12 +997,11 @@ export const siteData = {
           "hexo"
         ]
       },
-      "regularPath": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
-      "relativePath": "views/gitalk搭建遇见的问题.md",
-      "key": "v-c2269632",
-      "path": "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "regularPath": "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "relativePath": "views/previous/gitalk搭建遇见的问题.md",
+      "key": "v-8c46bd88",
+      "path": "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "7.15kb"
     },
     {
@@ -831,10 +1016,10 @@ export const siteData = {
           "hexo"
         ]
       },
-      "regularPath": "/views/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
-      "relativePath": "views/hexo-next主题集成gitalk评论插件.md",
-      "key": "v-24076933",
-      "path": "/views/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "regularPath": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "relativePath": "views/previous/hexo-next主题集成gitalk评论插件.md",
+      "key": "v-1a64f484",
+      "path": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
       "headers": [
         {
           "level": 2,
@@ -873,7 +1058,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "2.60kb"
     },
     {
@@ -889,12 +1073,11 @@ export const siteData = {
           "Electron"
         ]
       },
-      "regularPath": "/views/jQuery%20is%20not%20defind.html",
-      "relativePath": "views/jQuery is not defind.md",
-      "key": "v-0daf3dd6",
-      "path": "/views/jQuery%20is%20not%20defind.html",
+      "regularPath": "/views/previous/jQuery%20is%20not%20defind.html",
+      "relativePath": "views/previous/jQuery is not defind.md",
+      "key": "v-4f10c5cf",
+      "path": "/views/previous/jQuery%20is%20not%20defind.html",
       "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "0.44kb"
     },
     {
@@ -909,10 +1092,10 @@ export const siteData = {
           "其它"
         ]
       },
-      "regularPath": "/views/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
-      "relativePath": "views/markdown语法简介.md",
-      "key": "v-7d1daac0",
-      "path": "/views/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
+      "regularPath": "/views/previous/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
+      "relativePath": "views/previous/markdown语法简介.md",
+      "key": "v-59f43e67",
+      "path": "/views/previous/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
       "headers": [
         {
           "level": 2,
@@ -1011,7 +1194,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><a href=\"https://commonmark.org/help/\" target=\"_blank\" rel=\"noopener noreferrer\">语法详解<OutboundLink/></a></p>\n<p><img src=\"https://s2.ax1x.com/2019/05/08/E6ycZV.png\" alt=\"E6ycZV.png\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "2.38kb"
     },
     {
@@ -1027,12 +1209,11 @@ export const siteData = {
           "后端"
         ]
       },
-      "regularPath": "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
-      "relativePath": "views/nodejs写日志.md",
-      "key": "v-551ba676",
-      "path": "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
+      "regularPath": "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
+      "relativePath": "views/previous/nodejs写日志.md",
+      "key": "v-005efac6",
+      "path": "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>基于nodejs的书写简单日志，使用appendFile进行日志添加</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "2.46kb"
     },
     {
@@ -1047,12 +1228,11 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/registerModule.html",
-      "relativePath": "views/registerModule.md",
-      "key": "v-6761b4b1",
-      "path": "/views/registerModule.html",
+      "regularPath": "/views/previous/registerModule.html",
+      "relativePath": "views/previous/registerModule.md",
+      "key": "v-70e1cfd2",
+      "path": "/views/previous/registerModule.html",
       "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>在 store 创建之后，你可以使用 store.registerModule 方法注册模块：<a href=\"https://vuex.vuejs.org/zh-cn/modules.html\" target=\"_blank\" rel=\"noopener noreferrer\">registerModule<OutboundLink/></a></p>\n</blockquote>\n<p><code>动态注册vuex模块，对于自定义生成组件很有用</code></p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "0.84kb"
     },
     {
@@ -1067,12 +1247,11 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/renderVModel.html",
-      "relativePath": "views/renderVModel.md",
-      "key": "v-3af48d06",
-      "path": "/views/renderVModel.html",
+      "regularPath": "/views/previous/renderVModel.html",
+      "relativePath": "views/previous/renderVModel.md",
+      "key": "v-10da82dc",
+      "path": "/views/previous/renderVModel.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>使用render函数实现表格与form表单之间的双向绑定以及表格中使用slot分发（多个slot，分发不同的内容）。</code></p>\n<p>通过props给表单组件的value进行赋值，之后通过change、blur等元素监听事件，进行取值，然后通过表格当前行索引对表格相应元素进行赋值。这样就完成了一个数据的双向绑定了。</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "2.69kb"
     },
     {
@@ -1087,12 +1266,11 @@ export const siteData = {
           "其它"
         ]
       },
-      "regularPath": "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
-      "relativePath": "views/vscode插件篇.md",
-      "key": "v-4607b33e",
-      "path": "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "regularPath": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "relativePath": "views/previous/vscode插件篇.md",
+      "key": "v-636d1913",
+      "path": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "4.36kb"
     },
     {
@@ -1107,10 +1285,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/vue-communication.html",
-      "relativePath": "views/vue-communication.md",
-      "key": "v-6e0fafb6",
-      "path": "/views/vue-communication.html",
+      "regularPath": "/views/previous/vue-communication.html",
+      "relativePath": "views/previous/vue-communication.md",
+      "key": "v-5370e5e4",
+      "path": "/views/previous/vue-communication.html",
       "headers": [
         {
           "level": 2,
@@ -1164,28 +1342,7 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue常用的几种通信传递</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 3:01:57 PM",
       "size": "1.52kb"
-    },
-    {
-      "title": "探索Vue生命周期",
-      "frontmatter": {
-        "title": "探索Vue生命周期",
-        "date": "2019-02-22T18:55:47.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
-      "relativePath": "views/探索Vue生命周期.md",
-      "key": "v-427cde8a",
-      "path": "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 3:01:57 PM",
-      "size": "2.57kb"
     },
     {
       "title": "原型和原型链",
@@ -1200,10 +1357,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
-      "relativePath": "views/原型和原型链.md",
-      "key": "v-7386a882",
-      "path": "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+      "regularPath": "/views/previous/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+      "relativePath": "views/previous/原型和原型链.md",
+      "key": "v-07995389",
+      "path": "/views/previous/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
       "headers": [
         {
           "level": 2,
@@ -1212,8 +1369,26 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.34kb"
+    },
+    {
+      "title": "探索Vue生命周期",
+      "frontmatter": {
+        "title": "探索Vue生命周期",
+        "date": "2019-02-22T18:55:47.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
+      "relativePath": "views/previous/探索Vue生命周期.md",
+      "key": "v-e4ebfae8",
+      "path": "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>Vue生命周期探秘</p>\n</div>\n",
+      "size": "2.57kb"
     },
     {
       "title": "模块规范",
@@ -1227,10 +1402,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
-      "relativePath": "views/模块规范.md",
-      "key": "v-002ca637",
-      "path": "/views/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
+      "regularPath": "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
+      "relativePath": "views/previous/模块规范.md",
+      "key": "v-070152e4",
+      "path": "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
       "headers": [
         {
           "level": 2,
@@ -1259,46 +1434,7 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>模块规范CommonJS、CMD、AMD、ESM、UMD</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "2.77kb"
-    },
-    {
-      "title": "深究JavaScript值传递和引用传递",
-      "frontmatter": {
-        "title": "深究JavaScript值传递和引用传递",
-        "date": "2019-02-27T20:21:47.000Z",
-        "tags": [
-          "javaScript",
-          "JavaScript进阶"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
-      "relativePath": "views/深究JavaScript值传递和引用传递.md",
-      "key": "v-4a68f5fe",
-      "path": "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "== 和 ===",
-          "slug": "和"
-        },
-        {
-          "level": 2,
-          "title": "函数方法",
-          "slug": "函数方法"
-        },
-        {
-          "level": 2,
-          "title": "参考题",
-          "slug": "参考题"
-        }
-      ],
-      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
-      "size": "1.71kb"
     },
     {
       "title": "正则表达式",
@@ -1313,10 +1449,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
-      "relativePath": "views/正则表达式.md",
-      "key": "v-80476ae2",
-      "path": "/views/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+      "regularPath": "/views/previous/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+      "relativePath": "views/previous/正则表达式.md",
+      "key": "v-c5d3e760",
+      "path": "/views/previous/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
       "headers": [
         {
           "level": 2,
@@ -1345,8 +1481,44 @@ export const siteData = {
         }
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/05/08/E6yJqP.png\" alt=\"E6yJqP.png\"></p>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "3.22kb"
+    },
+    {
+      "title": "深究JavaScript值传递和引用传递",
+      "frontmatter": {
+        "title": "深究JavaScript值传递和引用传递",
+        "date": "2019-02-27T20:21:47.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/previous/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+      "relativePath": "views/previous/深究JavaScript值传递和引用传递.md",
+      "key": "v-3a7d39ab",
+      "path": "/views/previous/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "== 和 ===",
+          "slug": "和"
+        },
+        {
+          "level": 2,
+          "title": "函数方法",
+          "slug": "函数方法"
+        },
+        {
+          "level": 2,
+          "title": "参考题",
+          "slug": "参考题"
+        }
+      ],
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n",
+      "size": "1.71kb"
     },
     {
       "title": "理解async&await",
@@ -1361,12 +1533,11 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E7%90%86%E8%A7%A3async&await.html",
-      "relativePath": "views/理解async&await.md",
-      "key": "v-50824c3e",
-      "path": "/views/%E7%90%86%E8%A7%A3async&await.html",
+      "regularPath": "/views/previous/%E7%90%86%E8%A7%A3async&await.html",
+      "relativePath": "views/previous/理解async&await.md",
+      "key": "v-09457a67",
+      "path": "/views/previous/%E7%90%86%E8%A7%A3async&await.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>async function 声明用于定义一个返回 AsyncFunction 对象的异步函数。异步函数是指通过事件循环异步执行的函数，它会通过一个隐式的 Promise 返回其结果。但是如果你的代码使用了\n异步函数，它的语法和结构会更像是标准的同步函数。</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "2.08kb"
     },
     {
@@ -1381,10 +1552,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
-      "relativePath": "views/节流防抖.md",
-      "key": "v-07af64f9",
-      "path": "/views/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
+      "regularPath": "/views/previous/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
+      "relativePath": "views/previous/节流防抖.md",
+      "key": "v-7219b802",
+      "path": "/views/previous/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
       "headers": [
         {
           "level": 2,
@@ -1403,7 +1574,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>函数的节流和防抖实际上都是优化高频执行js代码的一种方式\n函数节流是指，在规定的时间内这个函数只会被执行一次\n函数防抖是指，在频繁触发的情况下，只有足够的空闲时间才会执行代码</p>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.48kb"
     },
     {
@@ -1419,10 +1589,10 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
-      "relativePath": "views/词法作用域、动态作用域、变量提升.md",
-      "key": "v-2f5a4617",
-      "path": "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
+      "regularPath": "/views/previous/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
+      "relativePath": "views/previous/词法作用域、动态作用域、变量提升.md",
+      "key": "v-a22f2220",
+      "path": "/views/previous/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
       "headers": [
         {
           "level": 2,
@@ -1436,7 +1606,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>作用域是指程序源代码中定义变量的区域。</p>\n<p>作用域规定了如何查找变量，也就是确定当前执行代码对变量的访问权限。</p>\n</div>\n",
-      "lastUpdated": "2/12/2020, 4:42:35 PM",
       "size": "1.20kb"
     },
     {
@@ -1451,12 +1620,11 @@ export const siteData = {
           "前端"
         ]
       },
-      "regularPath": "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
-      "relativePath": "views/调用堆栈.md",
-      "key": "v-2f18f7d2",
-      "path": "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
+      "regularPath": "/views/previous/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
+      "relativePath": "views/previous/调用堆栈.md",
+      "key": "v-d2cd4c30",
+      "path": "/views/previous/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>JavaScript是单线程的</p>\n<p>Google V8引擎是一个比较流行的JavaScript引擎示例，V8 引擎是在诸如 Chrome 和 Node.js 等内部使用的。</p>\n<p>该引擎包括两个主要组件：</p>\n<ul>\n<li>\n<p>Memory Heap 内存堆 ——  这是内存分配发生的地方</p>\n</li>\n<li>\n<p>Call Stack 调用堆栈 ——  这是在你代码执行时栈帧存放的位置</p>\n</li>\n</ul>\n</div>\n",
-      "lastUpdated": "1/20/2020, 6:45:09 PM",
       "size": "1.23kb"
     },
     {

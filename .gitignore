@@ -15,6 +15,6 @@ TODOs.md
 .idea
 
 # VuePress temp directory
-.temp
+.temp/*
 
-dist
+dist/*

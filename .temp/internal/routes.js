@@ -17,14 +17,6 @@ export const routes = [
     },
   },
   {
-    name: "v-7bd064d2",
-    path: "/views/2020/ChromeConfig.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7bd064d2").then(next)
-    },
-  },
-  {
     name: "v-78d5e149",
     path: "/",
     component: GlobalLayout,
@@ -37,11 +29,27 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-7bd064d2",
+    path: "/views/2020/ChromeConfig.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7bd064d2").then(next)
+    },
+  },
+  {
     name: "v-2d87369c",
     path: "/views/2020/Electron-win7-black-screen.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2d87369c").then(next)
+    },
+  },
+  {
+    name: "v-561cc7e6",
+    path: "/views/2020/Front.specification.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-561cc7e6").then(next)
     },
   },
   {
@@ -81,308 +89,308 @@ export const routes = [
     redirect: "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html"
   },
   {
-    name: "v-7497a936",
-    path: "/views/Array.html",
+    name: "v-598e59ba",
+    path: "/views/previous/Array.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7497a936").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-598e59ba").then(next)
     },
   },
   {
-    name: "v-593c16bc",
-    path: "/views/Flex%E5%B8%83%E5%B1%80.html",
+    name: "v-59ebb44b",
+    path: "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-593c16bc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-59ebb44b").then(next)
     },
   },
   {
-    path: "/views/Flex布局.html",
-    redirect: "/views/Flex%E5%B8%83%E5%B1%80.html"
+    path: "/views/previous/Flex布局.html",
+    redirect: "/views/previous/Flex%E5%B8%83%E5%B1%80.html"
   },
   {
-    name: "v-718b1126",
-    path: "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
+    name: "v-43b64ffd",
+    path: "/views/previous/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-718b1126").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-43b64ffd").then(next)
     },
   },
   {
-    path: "/views/JavaScript继承的多种方式.html",
-    redirect: "/views/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html"
+    path: "/views/previous/JavaScript继承的多种方式.html",
+    redirect: "/views/previous/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html"
   },
   {
-    name: "v-3ea9d6d5",
-    path: "/views/ShadowSocks%E9%85%8D%E7%BD%AE.html",
+    name: "v-3244ecdc",
+    path: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ea9d6d5").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3244ecdc").then(next)
     },
   },
   {
-    path: "/views/ShadowSocks配置.html",
-    redirect: "/views/ShadowSocks%E9%85%8D%E7%BD%AE.html"
+    path: "/views/previous/ShadowSocks配置.html",
+    redirect: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html"
   },
   {
-    name: "v-14bfd013",
-    path: "/views/This.html",
+    name: "v-1b25e39c",
+    path: "/views/previous/This.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14bfd013").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1b25e39c").then(next)
     },
   },
   {
-    name: "v-262844b6",
-    path: "/views/addRoutes.html",
+    name: "v-5ce495d4",
+    path: "/views/previous/addRoutes.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-262844b6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5ce495d4").then(next)
     },
   },
   {
-    name: "v-14eabb85",
-    path: "/views/arguments.html",
+    name: "v-4dc17d40",
+    path: "/views/previous/arguments.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14eabb85").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4dc17d40").then(next)
     },
   },
   {
-    name: "v-40c79614",
-    path: "/views/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
+    name: "v-4216b42a",
+    path: "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-40c79614").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4216b42a").then(next)
     },
   },
   {
-    path: "/views/call、apply的模拟实现.html",
-    redirect: "/views/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html"
+    path: "/views/previous/call、apply的模拟实现.html",
+    redirect: "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html"
   },
   {
-    name: "v-e227d6f6",
-    path: "/views/eventloop.html",
+    name: "v-d7d57520",
+    path: "/views/previous/eventloop.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e227d6f6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d7d57520").then(next)
     },
   },
   {
-    name: "v-431480a4",
-    path: "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+    name: "v-12f54de6",
+    path: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-431480a4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-12f54de6").then(next)
     },
   },
   {
-    path: "/views/git Please move or remove them before you can merge.html",
-    redirect: "/views/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
+    path: "/views/previous/git Please move or remove them before you can merge.html",
+    redirect: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
   },
   {
-    name: "v-c2269632",
-    path: "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+    name: "v-8c46bd88",
+    path: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c2269632").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-8c46bd88").then(next)
     },
   },
   {
-    path: "/views/gitalk搭建遇见的问题.html",
-    redirect: "/views/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html"
+    path: "/views/previous/gitalk搭建遇见的问题.html",
+    redirect: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html"
   },
   {
-    name: "v-24076933",
-    path: "/views/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+    name: "v-1a64f484",
+    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-24076933").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
     },
   },
   {
-    path: "/views/hexo-next主题集成gitalk评论插件.html",
-    redirect: "/views/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
+    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
+    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
   },
   {
-    name: "v-0daf3dd6",
-    path: "/views/jQuery%20is%20not%20defind.html",
+    name: "v-4f10c5cf",
+    path: "/views/previous/jQuery%20is%20not%20defind.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0daf3dd6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4f10c5cf").then(next)
     },
   },
   {
-    path: "/views/jQuery is not defind.html",
-    redirect: "/views/jQuery%20is%20not%20defind.html"
+    path: "/views/previous/jQuery is not defind.html",
+    redirect: "/views/previous/jQuery%20is%20not%20defind.html"
   },
   {
-    name: "v-7d1daac0",
-    path: "/views/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
+    name: "v-59f43e67",
+    path: "/views/previous/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7d1daac0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-59f43e67").then(next)
     },
   },
   {
-    path: "/views/markdown语法简介.html",
-    redirect: "/views/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html"
+    path: "/views/previous/markdown语法简介.html",
+    redirect: "/views/previous/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html"
   },
   {
-    name: "v-551ba676",
-    path: "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
+    name: "v-005efac6",
+    path: "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-551ba676").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-005efac6").then(next)
     },
   },
   {
-    path: "/views/nodejs写日志.html",
-    redirect: "/views/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html"
+    path: "/views/previous/nodejs写日志.html",
+    redirect: "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html"
   },
   {
-    name: "v-6761b4b1",
-    path: "/views/registerModule.html",
+    name: "v-70e1cfd2",
+    path: "/views/previous/registerModule.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6761b4b1").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-70e1cfd2").then(next)
     },
   },
   {
-    name: "v-3af48d06",
-    path: "/views/renderVModel.html",
+    name: "v-10da82dc",
+    path: "/views/previous/renderVModel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3af48d06").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-10da82dc").then(next)
     },
   },
   {
-    name: "v-4607b33e",
-    path: "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+    name: "v-636d1913",
+    path: "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4607b33e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-636d1913").then(next)
     },
   },
   {
-    path: "/views/vscode插件篇.html",
-    redirect: "/views/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html"
+    path: "/views/previous/vscode插件篇.html",
+    redirect: "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html"
   },
   {
-    name: "v-6e0fafb6",
-    path: "/views/vue-communication.html",
+    name: "v-5370e5e4",
+    path: "/views/previous/vue-communication.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e0fafb6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5370e5e4").then(next)
     },
   },
   {
-    name: "v-427cde8a",
-    path: "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
+    name: "v-07995389",
+    path: "/views/previous/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-427cde8a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-07995389").then(next)
     },
   },
   {
-    path: "/views/探索Vue生命周期.html",
-    redirect: "/views/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html"
+    path: "/views/previous/原型和原型链.html",
+    redirect: "/views/previous/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html"
   },
   {
-    name: "v-7386a882",
-    path: "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html",
+    name: "v-e4ebfae8",
+    path: "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7386a882").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e4ebfae8").then(next)
     },
   },
   {
-    path: "/views/原型和原型链.html",
-    redirect: "/views/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html"
+    path: "/views/previous/探索Vue生命周期.html",
+    redirect: "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html"
   },
   {
-    name: "v-002ca637",
-    path: "/views/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
+    name: "v-070152e4",
+    path: "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-002ca637").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-070152e4").then(next)
     },
   },
   {
-    path: "/views/模块规范.html",
-    redirect: "/views/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html"
+    path: "/views/previous/模块规范.html",
+    redirect: "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html"
   },
   {
-    name: "v-4a68f5fe",
-    path: "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
+    name: "v-c5d3e760",
+    path: "/views/previous/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4a68f5fe").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c5d3e760").then(next)
     },
   },
   {
-    path: "/views/深究JavaScript值传递和引用传递.html",
-    redirect: "/views/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html"
+    path: "/views/previous/正则表达式.html",
+    redirect: "/views/previous/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html"
   },
   {
-    name: "v-80476ae2",
-    path: "/views/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+    name: "v-3a7d39ab",
+    path: "/views/previous/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-80476ae2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3a7d39ab").then(next)
     },
   },
   {
-    path: "/views/正则表达式.html",
-    redirect: "/views/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html"
+    path: "/views/previous/深究JavaScript值传递和引用传递.html",
+    redirect: "/views/previous/%E6%B7%B1%E7%A9%B6JavaScript%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.html"
   },
   {
-    name: "v-50824c3e",
-    path: "/views/%E7%90%86%E8%A7%A3async&await.html",
+    name: "v-09457a67",
+    path: "/views/previous/%E7%90%86%E8%A7%A3async&await.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-50824c3e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-09457a67").then(next)
     },
   },
   {
-    path: "/views/理解async&await.html",
-    redirect: "/views/%E7%90%86%E8%A7%A3async&await.html"
+    path: "/views/previous/理解async&await.html",
+    redirect: "/views/previous/%E7%90%86%E8%A7%A3async&await.html"
   },
   {
-    name: "v-07af64f9",
-    path: "/views/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
+    name: "v-7219b802",
+    path: "/views/previous/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-07af64f9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7219b802").then(next)
     },
   },
   {
-    path: "/views/节流防抖.html",
-    redirect: "/views/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html"
+    path: "/views/previous/节流防抖.html",
+    redirect: "/views/previous/%E8%8A%82%E6%B5%81%E9%98%B2%E6%8A%96.html"
   },
   {
-    name: "v-2f5a4617",
-    path: "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
+    name: "v-a22f2220",
+    path: "/views/previous/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f5a4617").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a22f2220").then(next)
     },
   },
   {
-    path: "/views/词法作用域、动态作用域、变量提升.html",
-    redirect: "/views/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html"
+    path: "/views/previous/词法作用域、动态作用域、变量提升.html",
+    redirect: "/views/previous/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8A%A8%E6%80%81%E4%BD%9C%E7%94%A8%E5%9F%9F%E3%80%81%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html"
   },
   {
-    name: "v-2f18f7d2",
-    path: "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
+    name: "v-d2cd4c30",
+    path: "/views/previous/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f18f7d2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d2cd4c30").then(next)
     },
   },
   {
-    path: "/views/调用堆栈.html",
-    redirect: "/views/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html"
+    path: "/views/previous/调用堆栈.html",
+    redirect: "/views/previous/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html"
   },
   {
     name: "v-b1564aac",

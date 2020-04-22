@@ -11,8 +11,8 @@ export default {
         "v-7bd064d2",
         "v-56715e63",
         "v-04d26464",
-        "v-e227d6f6",
-        "v-551ba676"
+        "v-d7d57520",
+        "v-005efac6"
       ]
     },
     "javaScript": {
@@ -21,21 +21,22 @@ export default {
       "path": "/tags/javaScript/",
       "pageKeys": [
         "v-2d87369c",
-        "v-7497a936",
-        "v-718b1126",
-        "v-14bfd013",
-        "v-14eabb85",
-        "v-40c79614",
-        "v-e227d6f6",
-        "v-0daf3dd6",
-        "v-551ba676",
-        "v-7386a882",
-        "v-4a68f5fe",
-        "v-80476ae2",
-        "v-50824c3e",
-        "v-07af64f9",
-        "v-2f5a4617",
-        "v-2f18f7d2"
+        "v-561cc7e6",
+        "v-598e59ba",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-4dc17d40",
+        "v-4216b42a",
+        "v-d7d57520",
+        "v-4f10c5cf",
+        "v-005efac6",
+        "v-07995389",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30"
       ]
     },
     "日常错误问题收集": {
@@ -44,8 +45,8 @@ export default {
       "path": "/tags/日常错误问题收集/",
       "pageKeys": [
         "v-2d87369c",
-        "v-431480a4",
-        "v-0daf3dd6"
+        "v-12f54de6",
+        "v-4f10c5cf"
       ]
     },
     "编辑器": {
@@ -54,7 +55,7 @@ export default {
       "path": "/tags/编辑器/",
       "pageKeys": [
         "v-784fb80c",
-        "v-4607b33e"
+        "v-636d1913"
       ]
     },
     "ES6": {
@@ -62,8 +63,8 @@ export default {
       "scope": "tags",
       "path": "/tags/ES6/",
       "pageKeys": [
-        "v-7497a936",
-        "v-50824c3e"
+        "v-598e59ba",
+        "v-09457a67"
       ]
     },
     "CSS": {
@@ -71,7 +72,7 @@ export default {
       "scope": "tags",
       "path": "/tags/CSS/",
       "pageKeys": [
-        "v-593c16bc"
+        "v-59ebb44b"
       ]
     },
     "JavaScript进阶": {
@@ -79,14 +80,14 @@ export default {
       "scope": "tags",
       "path": "/tags/JavaScript进阶/",
       "pageKeys": [
-        "v-718b1126",
-        "v-14bfd013",
-        "v-14eabb85",
-        "v-40c79614",
-        "v-7386a882",
-        "v-4a68f5fe",
-        "v-80476ae2",
-        "v-2f5a4617"
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-4dc17d40",
+        "v-4216b42a",
+        "v-07995389",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-a22f2220"
       ]
     },
     "杂谈": {
@@ -94,11 +95,11 @@ export default {
       "scope": "tags",
       "path": "/tags/杂谈/",
       "pageKeys": [
-        "v-3ea9d6d5",
-        "v-c2269632",
-        "v-24076933",
-        "v-7d1daac0",
-        "v-002ca637"
+        "v-3244ecdc",
+        "v-8c46bd88",
+        "v-1a64f484",
+        "v-59f43e67",
+        "v-070152e4"
       ]
     },
     "Linux": {
@@ -106,7 +107,7 @@ export default {
       "scope": "tags",
       "path": "/tags/Linux/",
       "pageKeys": [
-        "v-3ea9d6d5"
+        "v-3244ecdc"
       ]
     },
     "Vue": {
@@ -114,11 +115,11 @@ export default {
       "scope": "tags",
       "path": "/tags/Vue/",
       "pageKeys": [
-        "v-262844b6",
-        "v-6761b4b1",
-        "v-3af48d06",
-        "v-6e0fafb6",
-        "v-427cde8a"
+        "v-5ce495d4",
+        "v-70e1cfd2",
+        "v-10da82dc",
+        "v-5370e5e4",
+        "v-e4ebfae8"
       ]
     },
     "javaScript进阶": {
@@ -126,7 +127,7 @@ export default {
       "scope": "tags",
       "path": "/tags/javaScript进阶/",
       "pageKeys": [
-        "v-e227d6f6"
+        "v-d7d57520"
       ]
     },
     "版本控制": {
@@ -134,7 +135,7 @@ export default {
       "scope": "tags",
       "path": "/tags/版本控制/",
       "pageKeys": [
-        "v-431480a4"
+        "v-12f54de6"
       ]
     }
   },
@@ -144,7 +145,8 @@ export default {
       "scope": "categories",
       "path": "/categories/杂谈/",
       "pageKeys": [
-        "v-7bd064d2"
+        "v-7bd064d2",
+        "v-561cc7e6"
       ]
     },
     "Electron": {
@@ -153,7 +155,7 @@ export default {
       "path": "/categories/Electron/",
       "pageKeys": [
         "v-2d87369c",
-        "v-0daf3dd6"
+        "v-4f10c5cf"
       ]
     },
     "其它": {
@@ -162,9 +164,9 @@ export default {
       "path": "/categories/其它/",
       "pageKeys": [
         "v-784fb80c",
-        "v-3ea9d6d5",
-        "v-7d1daac0",
-        "v-4607b33e"
+        "v-3244ecdc",
+        "v-59f43e67",
+        "v-636d1913"
       ]
     },
     "后端": {
@@ -174,8 +176,8 @@ export default {
       "pageKeys": [
         "v-56715e63",
         "v-04d26464",
-        "v-e227d6f6",
-        "v-551ba676"
+        "v-d7d57520",
+        "v-005efac6"
       ]
     },
     "前端": {
@@ -183,25 +185,25 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-7497a936",
-        "v-593c16bc",
-        "v-718b1126",
-        "v-14bfd013",
-        "v-262844b6",
-        "v-14eabb85",
-        "v-40c79614",
-        "v-6761b4b1",
-        "v-3af48d06",
-        "v-6e0fafb6",
-        "v-427cde8a",
-        "v-7386a882",
-        "v-002ca637",
-        "v-4a68f5fe",
-        "v-80476ae2",
-        "v-50824c3e",
-        "v-07af64f9",
-        "v-2f5a4617",
-        "v-2f18f7d2"
+        "v-598e59ba",
+        "v-59ebb44b",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-5ce495d4",
+        "v-4dc17d40",
+        "v-4216b42a",
+        "v-70e1cfd2",
+        "v-10da82dc",
+        "v-5370e5e4",
+        "v-07995389",
+        "v-e4ebfae8",
+        "v-070152e4",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30"
       ]
     },
     "Git": {
@@ -209,7 +211,7 @@ export default {
       "scope": "categories",
       "path": "/categories/Git/",
       "pageKeys": [
-        "v-431480a4"
+        "v-12f54de6"
       ]
     },
     "hexo": {
@@ -217,8 +219,8 @@ export default {
       "scope": "categories",
       "path": "/categories/hexo/",
       "pageKeys": [
-        "v-c2269632",
-        "v-24076933"
+        "v-8c46bd88",
+        "v-1a64f484"
       ]
     }
   },

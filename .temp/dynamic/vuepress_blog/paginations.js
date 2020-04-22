@@ -17,7 +17,7 @@ export default [{
   id: "javaScript",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tags/javaScript/","interval":[0,9]},{"path":"/tags/javaScript/page/2/","interval":[10,16]}],
+  pages: [{"path":"/tags/javaScript/","interval":[0,9]},{"path":"/tags/javaScript/page/2/","interval":[10,17]}],
 },
 {
   pid: "tags",
@@ -94,7 +94,7 @@ export default [{
   id: "杂谈",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/杂谈/","interval":[0,1]}],
+  pages: [{"path":"/categories/杂谈/","interval":[0,2]}],
 },
 {
   pid: "categories",
