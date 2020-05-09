@@ -6,7 +6,7 @@ export default {
     "nodejs": {
       "key": "nodejs",
       "scope": "tags",
-      "path": "/tags/nodejs/",
+      "path": "/tag/nodejs/",
       "pageKeys": [
         "v-7bd064d2",
         "v-56715e63",
@@ -18,17 +18,16 @@ export default {
     "javaScript": {
       "key": "javaScript",
       "scope": "tags",
-      "path": "/tags/javaScript/",
+      "path": "/tag/javaScript/",
       "pageKeys": [
         "v-2d87369c",
         "v-561cc7e6",
-        "v-798073da",
         "v-598e59ba",
         "v-43b64ffd",
         "v-1b25e39c",
         "v-4dc17d40",
-        "v-4216b42a",
         "v-d7d57520",
+        "v-4216b42a",
         "v-4f10c5cf",
         "v-005efac6",
         "v-07995389",
@@ -43,17 +42,46 @@ export default {
     "日常错误问题收集": {
       "key": "日常错误问题收集",
       "scope": "tags",
-      "path": "/tags/日常错误问题收集/",
+      "path": "/tag/日常错误问题收集/",
       "pageKeys": [
         "v-2d87369c",
         "v-12f54de6",
         "v-4f10c5cf"
       ]
     },
+    "杂谈": {
+      "key": "杂谈",
+      "scope": "tags",
+      "path": "/tag/杂谈/",
+      "pageKeys": [
+        "v-798073da",
+        "v-3244ecdc",
+        "v-8c46bd88",
+        "v-59f43e67",
+        "v-1a64f484",
+        "v-070152e4"
+      ]
+    },
+    "Dart": {
+      "key": "Dart",
+      "scope": "tags",
+      "path": "/tag/Dart/",
+      "pageKeys": [
+        "v-2734862c"
+      ]
+    },
+    "Flutter": {
+      "key": "Flutter",
+      "scope": "tags",
+      "path": "/tag/Flutter/",
+      "pageKeys": [
+        "v-2734862c"
+      ]
+    },
     "编辑器": {
       "key": "编辑器",
       "scope": "tags",
-      "path": "/tags/编辑器/",
+      "path": "/tag/编辑器/",
       "pageKeys": [
         "v-784fb80c",
         "v-636d1913"
@@ -62,7 +90,7 @@ export default {
     "ES6": {
       "key": "ES6",
       "scope": "tags",
-      "path": "/tags/ES6/",
+      "path": "/tag/ES6/",
       "pageKeys": [
         "v-598e59ba",
         "v-09457a67"
@@ -71,7 +99,7 @@ export default {
     "CSS": {
       "key": "CSS",
       "scope": "tags",
-      "path": "/tags/CSS/",
+      "path": "/tag/CSS/",
       "pageKeys": [
         "v-59ebb44b"
       ]
@@ -79,7 +107,7 @@ export default {
     "JavaScript进阶": {
       "key": "JavaScript进阶",
       "scope": "tags",
-      "path": "/tags/JavaScript进阶/",
+      "path": "/tag/JavaScript进阶/",
       "pageKeys": [
         "v-43b64ffd",
         "v-1b25e39c",
@@ -91,22 +119,10 @@ export default {
         "v-a22f2220"
       ]
     },
-    "杂谈": {
-      "key": "杂谈",
-      "scope": "tags",
-      "path": "/tags/杂谈/",
-      "pageKeys": [
-        "v-3244ecdc",
-        "v-8c46bd88",
-        "v-1a64f484",
-        "v-59f43e67",
-        "v-070152e4"
-      ]
-    },
     "Linux": {
       "key": "Linux",
       "scope": "tags",
-      "path": "/tags/Linux/",
+      "path": "/tag/Linux/",
       "pageKeys": [
         "v-3244ecdc"
       ]
@@ -114,7 +130,7 @@ export default {
     "Vue": {
       "key": "Vue",
       "scope": "tags",
-      "path": "/tags/Vue/",
+      "path": "/tag/Vue/",
       "pageKeys": [
         "v-5ce495d4",
         "v-70e1cfd2",
@@ -126,7 +142,7 @@ export default {
     "javaScript进阶": {
       "key": "javaScript进阶",
       "scope": "tags",
-      "path": "/tags/javaScript进阶/",
+      "path": "/tag/javaScript进阶/",
       "pageKeys": [
         "v-d7d57520"
       ]
@@ -134,7 +150,7 @@ export default {
     "版本控制": {
       "key": "版本控制",
       "scope": "tags",
-      "path": "/tags/版本控制/",
+      "path": "/tag/版本控制/",
       "pageKeys": [
         "v-12f54de6"
       ]
@@ -147,8 +163,7 @@ export default {
       "path": "/categories/杂谈/",
       "pageKeys": [
         "v-7bd064d2",
-        "v-561cc7e6",
-        "v-798073da"
+        "v-561cc7e6"
       ]
     },
     "Electron": {
@@ -158,6 +173,50 @@ export default {
       "pageKeys": [
         "v-2d87369c",
         "v-4f10c5cf"
+      ]
+    },
+    "Git": {
+      "key": "Git",
+      "scope": "categories",
+      "path": "/categories/Git/",
+      "pageKeys": [
+        "v-798073da",
+        "v-12f54de6"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-2734862c",
+        "v-598e59ba",
+        "v-59ebb44b",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-5ce495d4",
+        "v-4dc17d40",
+        "v-4216b42a",
+        "v-70e1cfd2",
+        "v-10da82dc",
+        "v-5370e5e4",
+        "v-07995389",
+        "v-e4ebfae8",
+        "v-070152e4",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30"
+      ]
+    },
+    "移动端": {
+      "key": "移动端",
+      "scope": "categories",
+      "path": "/categories/移动端/",
+      "pageKeys": [
+        "v-2734862c"
       ]
     },
     "其它": {
@@ -182,32 +241,6 @@ export default {
         "v-005efac6"
       ]
     },
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
-      "pageKeys": [
-        "v-598e59ba",
-        "v-59ebb44b",
-        "v-43b64ffd",
-        "v-1b25e39c",
-        "v-5ce495d4",
-        "v-4dc17d40",
-        "v-4216b42a",
-        "v-70e1cfd2",
-        "v-10da82dc",
-        "v-5370e5e4",
-        "v-07995389",
-        "v-e4ebfae8",
-        "v-070152e4",
-        "v-c5d3e760",
-        "v-3a7d39ab",
-        "v-09457a67",
-        "v-7219b802",
-        "v-a22f2220",
-        "v-d2cd4c30"
-      ]
-    },
     "hexo": {
       "key": "hexo",
       "scope": "categories",
@@ -215,14 +248,6 @@ export default {
       "pageKeys": [
         "v-8c46bd88",
         "v-1a64f484"
-      ]
-    },
-    "Git": {
-      "key": "Git",
-      "scope": "categories",
-      "path": "/categories/Git/",
-      "pageKeys": [
-        "v-12f54de6"
       ]
     }
   },

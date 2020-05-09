@@ -3,13 +3,15 @@
  */
 export default {
   tags: (prev, next) => {
-            const prevTime = new Date(prev.frontmatter.date).getTime();
-            const nextTime = new Date(next.frontmatter.date).getTime();
+            const dayjs = require('dayjs');
+            const prevTime = dayjs(prev.frontmatter.date);
+            const nextTime = dayjs(next.frontmatter.date);
             return prevTime - nextTime > 0 ? -1 : 1;
         },
   categories: (prev, next) => {
-            const prevTime = new Date(prev.frontmatter.date).getTime();
-            const nextTime = new Date(next.frontmatter.date).getTime();
+            const dayjs = require('dayjs');
+            const prevTime = dayjs(prev.frontmatter.date);
+            const nextTime = dayjs(next.frontmatter.date);
             return prevTime - nextTime > 0 ? -1 : 1;
         },
 }

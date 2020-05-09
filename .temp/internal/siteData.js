@@ -5,6 +5,72 @@ export const siteData = {
   "title": "Black_Chen'Blog",
   "description": "不能因理想遥远而放弃追求 不能因现实复杂而放弃梦想",
   "base": "/",
+  "headTags": [
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "/favicon.ico"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/manifest.json"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "black"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/icons/apple-touch-icon-152x152.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/icons/safari-pinned-tab.svg",
+        "color": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileImage",
+        "content": "/icons/msapplication-icon-144x144.png"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#000000"
+      }
+    ]
+  ],
   "pages": [
     {
       "title": "About me",
@@ -19,6 +85,23 @@ export const siteData = {
       "path": "/About.html",
       "lastUpdated": "1/20/2020, 3:01:57 PM",
       "size": "0.84kb"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "bgImage": "/323970.jpg",
+        "bgImageStyle": {
+          "height": "350px"
+        },
+        "faceImage": "/avatar.jpg"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-78d5e149",
+      "path": "/",
+      "lastUpdated": "4/7/2020, 5:00:54 PM",
+      "size": "0.11kb"
     },
     {
       "title": "Chrome Config by flags",
@@ -51,23 +134,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><RouterLink to=\"chrome://flags/\">chrome://flags/</RouterLink></p>\n</div>\n",
       "lastUpdated": "3/30/2020, 4:04:48 PM",
       "size": "0.48kb"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "bgImage": "/323970.jpg",
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "faceImage": "/avatar.jpg"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-78d5e149",
-      "path": "/",
-      "lastUpdated": "4/7/2020, 5:00:54 PM",
-      "size": "0.11kb"
     },
     {
       "title": "Electron win7 black screen",
@@ -300,10 +366,10 @@ export const siteData = {
         "title": "gitignore简述",
         "date": "2020-04-22T16:10:31.000Z",
         "tags": [
-          "javaScript"
+          "杂谈"
         ],
         "categories": [
-          "杂谈"
+          "Git"
         ]
       },
       "regularPath": "/views/2020/gitignore.html",
@@ -311,7 +377,37 @@ export const siteData = {
       "key": "v-798073da",
       "path": "/views/2020/gitignore.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>.gitignore简述，不忽略某些文件</p>\n</div>\n",
-      "size": "0.15kb"
+      "lastUpdated": "4/22/2020, 3:55:38 PM",
+      "size": "0.19kb"
+    },
+    {
+      "title": "Dart语法学习",
+      "frontmatter": {
+        "title": "Dart语法学习",
+        "date": "2020-04-26T10:59:06.000Z",
+        "tags": [
+          "Dart",
+          "Flutter"
+        ],
+        "categories": [
+          "前端",
+          "移动端"
+        ]
+      },
+      "regularPath": "/views/2020/learnDartLanguage.html",
+      "relativePath": "views/2020/learnDartLanguage.md",
+      "key": "v-2734862c",
+      "path": "/views/2020/learnDartLanguage.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "@override是做什么的🙄",
+          "slug": "override是做什么的🙄"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<ol>\n<li>能够放在变量中的所有内容都是对象</li>\n<li>Dart是强类型语言，如果明确说明不需要任何类型，可以使用特殊类型<code>dynamic</code>标识</li>\n<li>与Java不同，Dart没有关键字<code>public</code>、<code>protected</code>、<code>private</code>。如果设置私有变量或函数，则变量、函数名以 <code>_</code> 开头</li>\n</ol>\n</div>\n",
+      "lastUpdated": "4/26/2020, 9:01:18 PM",
+      "size": "1.11kb"
     },
     {
       "title": "win下vscode运行bash终端",
@@ -753,6 +849,27 @@ export const siteData = {
       "size": "5.09kb"
     },
     {
+      "title": "This",
+      "frontmatter": {
+        "title": "This",
+        "date": "2019-03-07T17:42:53.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/previous/This.html",
+      "relativePath": "views/previous/This.md",
+      "key": "v-1b25e39c",
+      "path": "/views/previous/This.html",
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "0.34kb"
+    },
+    {
       "title": "ShadowSocks配置",
       "frontmatter": {
         "title": "ShadowSocks配置",
@@ -794,27 +911,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "1.84kb"
-    },
-    {
-      "title": "This",
-      "frontmatter": {
-        "title": "This",
-        "date": "2019-03-07T17:42:53.000Z",
-        "tags": [
-          "javaScript",
-          "JavaScript进阶"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/previous/This.html",
-      "relativePath": "views/previous/This.md",
-      "key": "v-1b25e39c",
-      "path": "/views/previous/This.html",
-      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "0.34kb"
     },
     {
       "title": "addRoutes",
@@ -900,6 +996,28 @@ export const siteData = {
       "size": "3.07kb"
     },
     {
+      "title": "eventloop",
+      "frontmatter": {
+        "title": "eventloop",
+        "date": "2019-03-07T17:42:38.000Z",
+        "tags": [
+          "javaScript",
+          "nodejs",
+          "javaScript进阶"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/previous/eventloop.html",
+      "relativePath": "views/previous/eventloop.md",
+      "key": "v-d7d57520",
+      "path": "/views/previous/eventloop.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "1.03kb"
+    },
+    {
       "title": "JavaScript进阶之call/apply的模拟实现",
       "frontmatter": {
         "title": "JavaScript进阶之call/apply的模拟实现",
@@ -973,26 +1091,25 @@ export const siteData = {
       "size": "5.53kb"
     },
     {
-      "title": "eventloop",
+      "title": "git Please move or remove them before you can merge",
       "frontmatter": {
-        "title": "eventloop",
-        "date": "2019-03-07T17:42:38.000Z",
+        "title": "git Please move or remove them before you can merge",
+        "date": "2019-02-28T13:33:59.000Z",
         "tags": [
-          "javaScript",
-          "nodejs",
-          "javaScript进阶"
+          "版本控制",
+          "日常错误问题收集"
         ],
         "categories": [
-          "后端"
+          "Git"
         ]
       },
-      "regularPath": "/views/previous/eventloop.html",
-      "relativePath": "views/previous/eventloop.md",
-      "key": "v-d7d57520",
-      "path": "/views/previous/eventloop.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
+      "regularPath": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "relativePath": "views/previous/git Please move or remove them before you can merge.md",
+      "key": "v-12f54de6",
+      "path": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.03kb"
+      "size": "0.54kb"
     },
     {
       "title": "gitalk搭建遇见的问题",
@@ -1015,27 +1132,6 @@ export const siteData = {
       "size": "7.15kb"
     },
     {
-      "title": "git Please move or remove them before you can merge",
-      "frontmatter": {
-        "title": "git Please move or remove them before you can merge",
-        "date": "2019-02-28T13:33:59.000Z",
-        "tags": [
-          "版本控制",
-          "日常错误问题收集"
-        ],
-        "categories": [
-          "Git"
-        ]
-      },
-      "regularPath": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-      "relativePath": "views/previous/git Please move or remove them before you can merge.md",
-      "key": "v-12f54de6",
-      "path": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "0.54kb"
-    },
-    {
       "title": "jQuery is not defind",
       "frontmatter": {
         "title": "jQuery is not defind",
@@ -1055,63 +1151,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "0.44kb"
-    },
-    {
-      "title": "hexo next主题集成gitalk评论插件",
-      "frontmatter": {
-        "title": "hexo next主题集成gitalk评论插件",
-        "date": "2018-10-16T21:55:41.000Z",
-        "tags": [
-          "杂谈"
-        ],
-        "categories": [
-          "hexo"
-        ]
-      },
-      "regularPath": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
-      "relativePath": "views/previous/hexo-next主题集成gitalk评论插件.md",
-      "key": "v-1a64f484",
-      "path": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Register a new OAuth application",
-          "slug": "register-a-new-oauth-application"
-        },
-        {
-          "level": 2,
-          "title": "gitalk.swig",
-          "slug": "gitalk-swig"
-        },
-        {
-          "level": 2,
-          "title": "comments.swig",
-          "slug": "comments-swig"
-        },
-        {
-          "level": 2,
-          "title": "index.swig",
-          "slug": "index-swig"
-        },
-        {
-          "level": 2,
-          "title": "gitalk.styl",
-          "slug": "gitalk-styl"
-        },
-        {
-          "level": 2,
-          "title": "third-party.styl",
-          "slug": "third-party-styl"
-        },
-        {
-          "level": 2,
-          "title": "_config.yml",
-          "slug": "config-yml"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "2.60kb"
     },
     {
       "title": "markdown语法简介",
@@ -1231,6 +1270,63 @@ export const siteData = {
       "size": "2.38kb"
     },
     {
+      "title": "hexo next主题集成gitalk评论插件",
+      "frontmatter": {
+        "title": "hexo next主题集成gitalk评论插件",
+        "date": "2018-10-16T21:55:41.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "hexo"
+        ]
+      },
+      "regularPath": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "relativePath": "views/previous/hexo-next主题集成gitalk评论插件.md",
+      "key": "v-1a64f484",
+      "path": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Register a new OAuth application",
+          "slug": "register-a-new-oauth-application"
+        },
+        {
+          "level": 2,
+          "title": "gitalk.swig",
+          "slug": "gitalk-swig"
+        },
+        {
+          "level": 2,
+          "title": "comments.swig",
+          "slug": "comments-swig"
+        },
+        {
+          "level": 2,
+          "title": "index.swig",
+          "slug": "index-swig"
+        },
+        {
+          "level": 2,
+          "title": "gitalk.styl",
+          "slug": "gitalk-styl"
+        },
+        {
+          "level": 2,
+          "title": "third-party.styl",
+          "slug": "third-party-styl"
+        },
+        {
+          "level": 2,
+          "title": "_config.yml",
+          "slug": "config-yml"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "2.60kb"
+    },
+    {
       "title": "nodejs写日志",
       "frontmatter": {
         "title": "nodejs写日志",
@@ -1290,6 +1386,26 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>使用render函数实现表格与form表单之间的双向绑定以及表格中使用slot分发（多个slot，分发不同的内容）。</code></p>\n<p>通过props给表单组件的value进行赋值，之后通过change、blur等元素监听事件，进行取值，然后通过表格当前行索引对表格相应元素进行赋值。这样就完成了一个数据的双向绑定了。</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "2.69kb"
+    },
+    {
+      "title": "vscode插件篇",
+      "frontmatter": {
+        "title": "vscode插件篇",
+        "date": "2018-10-16T21:49:04.000Z",
+        "tags": [
+          "编辑器"
+        ],
+        "categories": [
+          "其它"
+        ]
+      },
+      "regularPath": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "relativePath": "views/previous/vscode插件篇.md",
+      "key": "v-636d1913",
+      "path": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "4.36kb"
     },
     {
       "title": "Vue的几种通信方式",
@@ -1362,26 +1478,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>Vue常用的几种通信传递</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "1.52kb"
-    },
-    {
-      "title": "vscode插件篇",
-      "frontmatter": {
-        "title": "vscode插件篇",
-        "date": "2018-10-16T21:49:04.000Z",
-        "tags": [
-          "编辑器"
-        ],
-        "categories": [
-          "其它"
-        ]
-      },
-      "regularPath": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
-      "relativePath": "views/previous/vscode插件篇.md",
-      "key": "v-636d1913",
-      "path": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "4.36kb"
     },
     {
       "title": "原型和原型链",
@@ -1705,115 +1801,133 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "nodejs tags"
+        "title": "nodejs Tags"
       },
-      "regularPath": "/tags/nodejs/",
-      "key": "v-7c4d3eba",
-      "path": "/tags/nodejs/"
+      "regularPath": "/tag/nodejs/",
+      "key": "v-6bf1c8da",
+      "path": "/tag/nodejs/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "javaScript tags"
+        "title": "javaScript Tags"
       },
-      "regularPath": "/tags/javaScript/",
-      "key": "v-7689a2be",
-      "path": "/tags/javaScript/"
+      "regularPath": "/tag/javaScript/",
+      "key": "v-5f66a358",
+      "path": "/tag/javaScript/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "日常错误问题收集 tags"
+        "title": "日常错误问题收集 Tags"
       },
-      "regularPath": "/tags/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
-      "key": "v-cfb027b8",
-      "path": "/tags/日常错误问题收集/"
+      "regularPath": "/tag/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
+      "key": "v-2d17ea9b",
+      "path": "/tag/日常错误问题收集/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "编辑器 tags"
+        "title": "杂谈 Tags"
       },
-      "regularPath": "/tags/%E7%BC%96%E8%BE%91%E5%99%A8/",
-      "key": "v-0961137e",
-      "path": "/tags/编辑器/"
+      "regularPath": "/tag/%E6%9D%82%E8%B0%88/",
+      "key": "v-cd93ecc0",
+      "path": "/tag/杂谈/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "ES6 tags"
+        "title": "Dart Tags"
       },
-      "regularPath": "/tags/ES6/",
-      "key": "v-667bb668",
-      "path": "/tags/ES6/"
+      "regularPath": "/tag/Dart/",
+      "key": "v-18b15ff4",
+      "path": "/tag/Dart/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "CSS tags"
+        "title": "Flutter Tags"
       },
-      "regularPath": "/tags/CSS/",
-      "key": "v-667ad12d",
-      "path": "/tags/CSS/"
+      "regularPath": "/tag/Flutter/",
+      "key": "v-563fc05d",
+      "path": "/tag/Flutter/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "JavaScript进阶 tags"
+        "title": "编辑器 Tags"
       },
-      "regularPath": "/tags/JavaScript%E8%BF%9B%E9%98%B6/",
-      "key": "v-192cbbf0",
-      "path": "/tags/JavaScript进阶/"
+      "regularPath": "/tag/%E7%BC%96%E8%BE%91%E5%99%A8/",
+      "key": "v-58d4c3a7",
+      "path": "/tag/编辑器/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "杂谈 tags"
+        "title": "ES6 Tags"
       },
-      "regularPath": "/tags/%E6%9D%82%E8%B0%88/",
-      "key": "v-4b59882e",
-      "path": "/tags/杂谈/"
+      "regularPath": "/tag/ES6/",
+      "key": "v-3257dcde",
+      "path": "/tag/ES6/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "Linux tags"
+        "title": "CSS Tags"
       },
-      "regularPath": "/tags/Linux/",
-      "key": "v-78ab8fc8",
-      "path": "/tags/Linux/"
+      "regularPath": "/tag/CSS/",
+      "key": "v-3259a754",
+      "path": "/tag/CSS/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "Vue tags"
+        "title": "JavaScript进阶 Tags"
       },
-      "regularPath": "/tags/Vue/",
-      "key": "v-6683f60a",
-      "path": "/tags/Vue/"
+      "regularPath": "/tag/JavaScript%E8%BF%9B%E9%98%B6/",
+      "key": "v-8fa1de32",
+      "path": "/tag/JavaScript进阶/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "javaScript进阶 tags"
+        "title": "Linux Tags"
       },
-      "regularPath": "/tags/javaScript%E8%BF%9B%E9%98%B6/",
-      "key": "v-43294c10",
-      "path": "/tags/javaScript进阶/"
+      "regularPath": "/tag/Linux/",
+      "key": "v-e14f25f6",
+      "path": "/tag/Linux/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "版本控制 tags"
+        "title": "Vue Tags"
       },
-      "regularPath": "/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/",
-      "key": "v-3f1ff168",
-      "path": "/tags/版本控制/"
+      "regularPath": "/tag/Vue/",
+      "key": "v-32475d9a",
+      "path": "/tag/Vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "javaScript进阶 Tags"
+      },
+      "regularPath": "/tag/javaScript%E8%BF%9B%E9%98%B6/",
+      "key": "v-3ba8bdf2",
+      "path": "/tag/javaScript进阶/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "版本控制 Tags"
+      },
+      "regularPath": "/tag/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/",
+      "key": "v-4035157a",
+      "path": "/tag/版本控制/"
     },
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "杂谈 categories"
+        "title": "杂谈 Categories"
       },
       "regularPath": "/categories/%E6%9D%82%E8%B0%88/",
       "key": "v-644c5aac",
@@ -1822,7 +1936,7 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "Electron categories"
+        "title": "Electron Categories"
       },
       "regularPath": "/categories/Electron/",
       "key": "v-dbc4c9e2",
@@ -1831,25 +1945,16 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "其它 categories"
+        "title": "Git Categories"
       },
-      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
-      "key": "v-33c9dede",
-      "path": "/categories/其它/"
+      "regularPath": "/categories/Git/",
+      "key": "v-7f008cdb",
+      "path": "/categories/Git/"
     },
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "后端 categories"
-      },
-      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
-      "key": "v-12afc5a1",
-      "path": "/categories/后端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "前端 categories"
+        "title": "前端 Categories"
       },
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
       "key": "v-14bbbf36",
@@ -1858,7 +1963,34 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "hexo categories"
+        "title": "移动端 Categories"
+      },
+      "regularPath": "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
+      "key": "v-5f0beb54",
+      "path": "/categories/移动端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "其它 Categories"
+      },
+      "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
+      "key": "v-33c9dede",
+      "path": "/categories/其它/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "后端 Categories"
+      },
+      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
+      "key": "v-12afc5a1",
+      "path": "/categories/后端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "hexo Categories"
       },
       "regularPath": "/categories/hexo/",
       "key": "v-62e05b9d",
@@ -1866,26 +1998,17 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "Git categories"
+        "layout": "Layout",
+        "title": "Page 2 - javaScript | Tags"
       },
-      "regularPath": "/categories/Git/",
-      "key": "v-7f008cdb",
-      "path": "/categories/Git/"
+      "regularPath": "/tag/javaScript/page/2/",
+      "key": "v-f2250136",
+      "path": "/tag/javaScript/page/2/"
     },
     {
       "frontmatter": {
         "layout": "Layout",
-        "title": "Page 1 - javaScript | tags"
-      },
-      "regularPath": "/tags/javaScript/page/2/",
-      "key": "v-1dac5ffc",
-      "path": "/tags/javaScript/page/2/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Layout",
-        "title": "Page 1 - 前端 | categories"
+        "title": "Page 2 - 前端 | Categories"
       },
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/page/2/",
       "key": "v-260e2472",
