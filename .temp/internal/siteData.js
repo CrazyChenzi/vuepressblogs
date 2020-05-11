@@ -104,6 +104,37 @@ export const siteData = {
       "size": "0.11kb"
     },
     {
+      "title": "Windows包管理器Chocolatey",
+      "frontmatter": {
+        "title": "Windows包管理器Chocolatey",
+        "date": "2020-05-11T14:15:06.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "杂谈"
+        ]
+      },
+      "regularPath": "/views/2020/Chocolatey.html",
+      "relativePath": "views/2020/Chocolatey.md",
+      "key": "v-699c6f32",
+      "path": "/views/2020/Chocolatey.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "一些命令",
+          "slug": "一些命令"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>Chocolatey</code> Windows设计的包管理器，有了它，你也可以</p>\n<!--beforebegin--><div class=\"language-shell line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-shell\"><code>choco <span class=\"token function\">install</span> docker\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br></div><!--beforeend--></div><!--afterend--><p><a href=\"https://chocolatey.org/why-chocolatey\" target=\"_blank\" rel=\"noopener noreferrer\">Why Chocolatey<OutboundLink/></a></p>\n</div>\n",
+      "size": "1.11kb"
+    },
+    {
       "title": "Chrome Config by flags",
       "frontmatter": {
         "title": "Chrome Config by flags",
@@ -406,7 +437,7 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<ol>\n<li>能够放在变量中的所有内容都是对象</li>\n<li>Dart是强类型语言，如果明确说明不需要任何类型，可以使用特殊类型<code>dynamic</code>标识</li>\n<li>与Java不同，Dart没有关键字<code>public</code>、<code>protected</code>、<code>private</code>。如果设置私有变量或函数，则变量、函数名以 <code>_</code> 开头</li>\n</ol>\n</div>\n",
-      "lastUpdated": "4/26/2020, 9:01:18 PM",
+      "lastUpdated": "5/9/2020, 2:09:17 PM",
       "size": "1.11kb"
     },
     {
@@ -849,27 +880,6 @@ export const siteData = {
       "size": "5.09kb"
     },
     {
-      "title": "This",
-      "frontmatter": {
-        "title": "This",
-        "date": "2019-03-07T17:42:53.000Z",
-        "tags": [
-          "javaScript",
-          "JavaScript进阶"
-        ],
-        "categories": [
-          "前端"
-        ]
-      },
-      "regularPath": "/views/previous/This.html",
-      "relativePath": "views/previous/This.md",
-      "key": "v-1b25e39c",
-      "path": "/views/previous/This.html",
-      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "0.34kb"
-    },
-    {
       "title": "ShadowSocks配置",
       "frontmatter": {
         "title": "ShadowSocks配置",
@@ -911,6 +921,27 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "1.84kb"
+    },
+    {
+      "title": "This",
+      "frontmatter": {
+        "title": "This",
+        "date": "2019-03-07T17:42:53.000Z",
+        "tags": [
+          "javaScript",
+          "JavaScript进阶"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/previous/This.html",
+      "relativePath": "views/previous/This.md",
+      "key": "v-1b25e39c",
+      "path": "/views/previous/This.html",
+      "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "0.34kb"
     },
     {
       "title": "addRoutes",
@@ -996,28 +1027,6 @@ export const siteData = {
       "size": "3.07kb"
     },
     {
-      "title": "eventloop",
-      "frontmatter": {
-        "title": "eventloop",
-        "date": "2019-03-07T17:42:38.000Z",
-        "tags": [
-          "javaScript",
-          "nodejs",
-          "javaScript进阶"
-        ],
-        "categories": [
-          "后端"
-        ]
-      },
-      "regularPath": "/views/previous/eventloop.html",
-      "relativePath": "views/previous/eventloop.md",
-      "key": "v-d7d57520",
-      "path": "/views/previous/eventloop.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.03kb"
-    },
-    {
       "title": "JavaScript进阶之call/apply的模拟实现",
       "frontmatter": {
         "title": "JavaScript进阶之call/apply的模拟实现",
@@ -1091,6 +1100,28 @@ export const siteData = {
       "size": "5.53kb"
     },
     {
+      "title": "eventloop",
+      "frontmatter": {
+        "title": "eventloop",
+        "date": "2019-03-07T17:42:38.000Z",
+        "tags": [
+          "javaScript",
+          "nodejs",
+          "javaScript进阶"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/previous/eventloop.html",
+      "relativePath": "views/previous/eventloop.md",
+      "key": "v-d7d57520",
+      "path": "/views/previous/eventloop.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "1.03kb"
+    },
+    {
       "title": "git Please move or remove them before you can merge",
       "frontmatter": {
         "title": "git Please move or remove them before you can merge",
@@ -1130,6 +1161,63 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "7.15kb"
+    },
+    {
+      "title": "hexo next主题集成gitalk评论插件",
+      "frontmatter": {
+        "title": "hexo next主题集成gitalk评论插件",
+        "date": "2018-10-16T21:55:41.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "hexo"
+        ]
+      },
+      "regularPath": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "relativePath": "views/previous/hexo-next主题集成gitalk评论插件.md",
+      "key": "v-1a64f484",
+      "path": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Register a new OAuth application",
+          "slug": "register-a-new-oauth-application"
+        },
+        {
+          "level": 2,
+          "title": "gitalk.swig",
+          "slug": "gitalk-swig"
+        },
+        {
+          "level": 2,
+          "title": "comments.swig",
+          "slug": "comments-swig"
+        },
+        {
+          "level": 2,
+          "title": "index.swig",
+          "slug": "index-swig"
+        },
+        {
+          "level": 2,
+          "title": "gitalk.styl",
+          "slug": "gitalk-styl"
+        },
+        {
+          "level": 2,
+          "title": "third-party.styl",
+          "slug": "third-party-styl"
+        },
+        {
+          "level": 2,
+          "title": "_config.yml",
+          "slug": "config-yml"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "2.60kb"
     },
     {
       "title": "jQuery is not defind",
@@ -1268,63 +1356,6 @@ export const siteData = {
       "excerpt": "<p><a href=\"https://commonmark.org/help/\" target=\"_blank\" rel=\"noopener noreferrer\">语法详解<OutboundLink/></a></p>\n<p><img src=\"https://s2.ax1x.com/2019/05/08/E6ycZV.png\" alt=\"E6ycZV.png\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "2.38kb"
-    },
-    {
-      "title": "hexo next主题集成gitalk评论插件",
-      "frontmatter": {
-        "title": "hexo next主题集成gitalk评论插件",
-        "date": "2018-10-16T21:55:41.000Z",
-        "tags": [
-          "杂谈"
-        ],
-        "categories": [
-          "hexo"
-        ]
-      },
-      "regularPath": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
-      "relativePath": "views/previous/hexo-next主题集成gitalk评论插件.md",
-      "key": "v-1a64f484",
-      "path": "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Register a new OAuth application",
-          "slug": "register-a-new-oauth-application"
-        },
-        {
-          "level": 2,
-          "title": "gitalk.swig",
-          "slug": "gitalk-swig"
-        },
-        {
-          "level": 2,
-          "title": "comments.swig",
-          "slug": "comments-swig"
-        },
-        {
-          "level": 2,
-          "title": "index.swig",
-          "slug": "index-swig"
-        },
-        {
-          "level": 2,
-          "title": "gitalk.styl",
-          "slug": "gitalk-styl"
-        },
-        {
-          "level": 2,
-          "title": "third-party.styl",
-          "slug": "third-party-styl"
-        },
-        {
-          "level": 2,
-          "title": "_config.yml",
-          "slug": "config-yml"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "2.60kb"
     },
     {
       "title": "nodejs写日志",
@@ -1801,6 +1832,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "杂谈 Tags"
+      },
+      "regularPath": "/tag/%E6%9D%82%E8%B0%88/",
+      "key": "v-cd93ecc0",
+      "path": "/tag/杂谈/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "nodejs Tags"
       },
       "regularPath": "/tag/nodejs/",
@@ -1824,15 +1864,6 @@ export const siteData = {
       "regularPath": "/tag/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
       "key": "v-2d17ea9b",
       "path": "/tag/日常错误问题收集/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "杂谈 Tags"
-      },
-      "regularPath": "/tag/%E6%9D%82%E8%B0%88/",
-      "key": "v-cd93ecc0",
-      "path": "/tag/杂谈/"
     },
     {
       "frontmatter": {

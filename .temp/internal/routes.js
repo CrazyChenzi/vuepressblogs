@@ -29,6 +29,14 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-699c6f32",
+    path: "/views/2020/Chocolatey.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-699c6f32").then(next)
+    },
+  },
+  {
     name: "v-7bd064d2",
     path: "/views/2020/ChromeConfig.html",
     component: GlobalLayout,
@@ -137,14 +145,6 @@ export const routes = [
     redirect: "/views/previous/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html"
   },
   {
-    name: "v-1b25e39c",
-    path: "/views/previous/This.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1b25e39c").then(next)
-    },
-  },
-  {
     name: "v-3244ecdc",
     path: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
     component: GlobalLayout,
@@ -155,6 +155,14 @@ export const routes = [
   {
     path: "/views/previous/ShadowSocks配置.html",
     redirect: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html"
+  },
+  {
+    name: "v-1b25e39c",
+    path: "/views/previous/This.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1b25e39c").then(next)
+    },
   },
   {
     name: "v-5ce495d4",
@@ -173,14 +181,6 @@ export const routes = [
     },
   },
   {
-    name: "v-d7d57520",
-    path: "/views/previous/eventloop.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d7d57520").then(next)
-    },
-  },
-  {
     name: "v-4216b42a",
     path: "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
     component: GlobalLayout,
@@ -191,6 +191,14 @@ export const routes = [
   {
     path: "/views/previous/call、apply的模拟实现.html",
     redirect: "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html"
+  },
+  {
+    name: "v-d7d57520",
+    path: "/views/previous/eventloop.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d7d57520").then(next)
+    },
   },
   {
     name: "v-12f54de6",
@@ -217,6 +225,18 @@ export const routes = [
     redirect: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html"
   },
   {
+    name: "v-1a64f484",
+    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
+    },
+  },
+  {
+    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
+    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
+  },
+  {
     name: "v-4f10c5cf",
     path: "/views/previous/jQuery%20is%20not%20defind.html",
     component: GlobalLayout,
@@ -239,18 +259,6 @@ export const routes = [
   {
     path: "/views/previous/markdown语法简介.html",
     redirect: "/views/previous/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html"
-  },
-  {
-    name: "v-1a64f484",
-    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
-    },
-  },
-  {
-    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
-    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
   },
   {
     name: "v-005efac6",
@@ -448,6 +456,23 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
+    name: "v-cd93ecc0",
+    path: "/tag/杂谈/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-cd93ecc0").then(next)
+    },
+    meta: {"pid":"tags","id":"杂谈"}
+  },
+  {
+    path: "/tag/杂谈/index.html",
+    redirect: "/tag/杂谈/"
+  },
+  {
+    path: "/tag/%E6%9D%82%E8%B0%88/",
+    redirect: "/tag/杂谈/"
+  },
+  {
     name: "v-6bf1c8da",
     path: "/tag/nodejs/",
     component: GlobalLayout,
@@ -489,23 +514,6 @@ export const routes = [
   {
     path: "/tag/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
     redirect: "/tag/日常错误问题收集/"
-  },
-  {
-    name: "v-cd93ecc0",
-    path: "/tag/杂谈/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-cd93ecc0").then(next)
-    },
-    meta: {"pid":"tags","id":"杂谈"}
-  },
-  {
-    path: "/tag/杂谈/index.html",
-    redirect: "/tag/杂谈/"
-  },
-  {
-    path: "/tag/%E6%9D%82%E8%B0%88/",
-    redirect: "/tag/杂谈/"
   },
   {
     name: "v-18b15ff4",

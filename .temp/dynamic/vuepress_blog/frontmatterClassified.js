@@ -3,6 +3,20 @@
  */
 export default {
   "tags": {
+    "杂谈": {
+      "key": "杂谈",
+      "scope": "tags",
+      "path": "/tag/杂谈/",
+      "pageKeys": [
+        "v-699c6f32",
+        "v-798073da",
+        "v-3244ecdc",
+        "v-8c46bd88",
+        "v-1a64f484",
+        "v-59f43e67",
+        "v-070152e4"
+      ]
+    },
     "nodejs": {
       "key": "nodejs",
       "scope": "tags",
@@ -26,8 +40,8 @@ export default {
         "v-43b64ffd",
         "v-1b25e39c",
         "v-4dc17d40",
-        "v-d7d57520",
         "v-4216b42a",
+        "v-d7d57520",
         "v-4f10c5cf",
         "v-005efac6",
         "v-07995389",
@@ -47,19 +61,6 @@ export default {
         "v-2d87369c",
         "v-12f54de6",
         "v-4f10c5cf"
-      ]
-    },
-    "杂谈": {
-      "key": "杂谈",
-      "scope": "tags",
-      "path": "/tag/杂谈/",
-      "pageKeys": [
-        "v-798073da",
-        "v-3244ecdc",
-        "v-8c46bd88",
-        "v-59f43e67",
-        "v-1a64f484",
-        "v-070152e4"
       ]
     },
     "Dart": {
@@ -162,6 +163,7 @@ export default {
       "scope": "categories",
       "path": "/categories/杂谈/",
       "pageKeys": [
+        "v-699c6f32",
         "v-7bd064d2",
         "v-561cc7e6"
       ]
