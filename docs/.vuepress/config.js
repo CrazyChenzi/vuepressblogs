@@ -41,11 +41,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2,
-        text: "Category"
+        text: "Categorys"
       },
       tag: {
         location: 3,
-        text: "Tag"
+        text: "Tags"
       }
     },
     logo: "/avatar.jpg",

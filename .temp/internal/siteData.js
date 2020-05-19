@@ -131,8 +131,9 @@ export const siteData = {
           "slug": "一些命令"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p><code>Chocolatey</code> Windows设计的包管理器，有了它，你也可以</p>\n<!--beforebegin--><div class=\"language-shell line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-shell\"><code>choco <span class=\"token function\">install</span> docker\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br></div><!--beforeend--></div><!--afterend--><p><a href=\"https://chocolatey.org/why-chocolatey\" target=\"_blank\" rel=\"noopener noreferrer\">Why Chocolatey<OutboundLink/></a></p>\n</div>\n",
-      "size": "1.11kb"
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>Chocolatey</code> Windows设计的包管理器，有了它，你也可以</p>\n<!--beforebegin--><div class=\"language-shell line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-text\"><code>choco install docker\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br></div><!--beforeend--></div><!--afterend--><p><a href=\"https://chocolatey.org/why-chocolatey\" target=\"_blank\" rel=\"noopener noreferrer\">Why Chocolatey<OutboundLink/></a></p>\n</div>\n",
+      "lastUpdated": "5/11/2020, 2:36:50 PM",
+      "size": "1.29kb"
     },
     {
       "title": "Chrome Config by flags",
@@ -2079,11 +2080,11 @@ export const siteData = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "Categorys"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "Tags"
       }
     },
     "logo": "/avatar.jpg",
