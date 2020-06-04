@@ -15,72 +15,77 @@ categories:
 
 <!-- more -->
 
+## Basic
+
 [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)  自动闭合HTML标签
 
-[Auto Import-ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import) 自动查找、解析并为每一次的导入提供代码操作和代码补全。
+[Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) 自动导入
 
-[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) 修改HTML标签时，自动修改匹配的标签
-
-[Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) 一款色彩明亮的主题
-
-
-[Babel ES6/ES7](https://marketplace.visualstudio.com/items?itemName=dzannotti.vscode-babel-coloring) 添加JS Babel es6 / es7语法加亮检查插件
-
-[background](https://marketplace.visualstudio.com/items?itemName=shalldie.background) 为vscode增加一个可爱的背景
+[Beautify css/sass/scss/less](https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier) 美化样式
 
 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) 一个可定制的扩展，用于为匹配的括号上色
 
+[Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 中文语言包
+
 [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) 颜色值在代码中高亮显示
+
+[Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info) CSS拾色器
 
 [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color) 拾色器
 
 [cssrem](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem) 一个CSS值转REM的VSCode插件
 
-[Debugger fro Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)在Chrome浏览器或任何其他支持Chrome调试器协议的目标中调试JavaScript代码。
+[CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) 查找CSS
 
-[Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) 一款非常棒的主题  目前在用
+[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+
+[Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
+
+[Debugger fro Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)在Chrome浏览器或任何其他支持Chrome调试器协议的目标中调试JavaScript代码。
 
 [Easy LESS](https://marketplace.visualstudio.com/items?itemName=mrcrowl.easy-less) 保存时自动编译到CSS
 
 [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) 查看git log
 
+[Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+[Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
+
 [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) 忽略文件 用于git提交时
 
 [GitLens-Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 显示文件最近的commit和作者，显示当前行commit信息
 
-[HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) css提示（支持vue）
+[Google Translate](https://marketplace.visualstudio.com/items?itemName=hancel.google-translate)
+
+[Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 
 [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) html代码提示
 
 [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) 查看导入插件的大小
 
+[Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+
+[Inno Setup](https://marketplace.visualstudio.com/items?itemName=idleberg.innosetup) 启动Inno程序
+
 [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) ES6语法代码段
+
+[jsdoc](https://marketplace.visualstudio.com/items?itemName=lllllllqw.jsdoc)
+
+[JSON to Ts](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
 
 [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus) Stylus语法高亮和提示
 
-[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) Markdown格式提示
-
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) Material Design 风格的图标
-
-[Meterial Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) 一款好看的主题
-
 [npm](https://marketplace.visualstudio.com/items?itemName=fknop.vscode-npm) 运行npm命令
 
-[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) Atom编辑器风格的主题
+[Path Installisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-[Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete) 路径完成提示
-
-[Path Installisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) 另一个路径完成提示
-
-[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) 好看的代码截图工具
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 [Preview on Web Server](https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server) 在web服务器上预览网页
 
-[REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) 发送REST风格的HTTP请求
+[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 [Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented) sass语法高亮显示
-
-[Swig](https://marketplace.visualstudio.com/items?itemName=zhutian.swig) Swig语法支持
 
 [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal) 一个终端工具
 
@@ -93,3 +98,45 @@ categories:
 [vue](https://marketplace.visualstudio.com/items?itemName=jcbuisson.vue) 语法高亮显示
 
 [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets) 这个插件基于最新的 Vue 2 的 API 添加了Code Snippets（一些快捷方式）。
+
+[Deno](https://marketplace.visualstudio.com/items?itemName=justjavac.vscode-deno) vscode对deno的支持
+
+[Swig](https://marketplace.visualstudio.com/items?itemName=zhutian.swig) Swig语法支持
+
+## Theme🎨
+
+[background](https://marketplace.visualstudio.com/items?itemName=shalldie.background) 为vscode增加一个可爱的背景
+
+[Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+
+[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+
+[Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode)
+
+[Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+
+[Community Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme)
+
+[Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+
+[Flat UI](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI)
+
+[Github Plus Theme](https://marketplace.visualstudio.com/items?itemName=thenikso.github-plus-theme)
+
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+[Meterial Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+
+[Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons)
+
+[Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
+
+[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+
+[Panda Theme](https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda)
+
+[SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
+
+## 🚣
+
+[掘金](https://marketplace.visualstudio.com/items?itemName=luzhenqian.juejin) 可在vscode中使用掘金

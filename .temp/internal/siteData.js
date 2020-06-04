@@ -131,7 +131,7 @@ export const siteData = {
           "slug": "一些命令"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p><code>Chocolatey</code> Windows设计的包管理器，有了它，你也可以</p>\n<!--beforebegin--><div class=\"language-shell line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-text\"><code>choco install docker\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br></div><!--beforeend--></div><!--afterend--><p><a href=\"https://chocolatey.org/why-chocolatey\" target=\"_blank\" rel=\"noopener noreferrer\">Why Chocolatey<OutboundLink/></a></p>\n</div>\n",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>Chocolatey</code> Windows设计的包管理器，有了它，你也可以</p>\n<!--beforebegin--><div class=\"language-shell line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-shell\"><code>choco <span class=\"token function\">install</span> docker\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br></div><!--beforeend--></div><!--afterend--><p><a href=\"https://chocolatey.org/why-chocolatey\" target=\"_blank\" rel=\"noopener noreferrer\">Why Chocolatey<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "5/11/2020, 2:36:50 PM",
       "size": "1.29kb"
     },
@@ -1435,9 +1435,26 @@ export const siteData = {
       "relativePath": "views/previous/vscode插件篇.md",
       "key": "v-636d1913",
       "path": "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Basic",
+          "slug": "basic"
+        },
+        {
+          "level": 2,
+          "title": "Theme🎨",
+          "slug": "theme🎨"
+        },
+        {
+          "level": 2,
+          "title": "🚣",
+          "slug": "🚣"
+        }
+      ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "4.36kb"
+      "size": "6.22kb"
     },
     {
       "title": "Vue的几种通信方式",
