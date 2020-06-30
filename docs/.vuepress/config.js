@@ -37,6 +37,8 @@ module.exports = {
         ]
       }
     ],
+    nextLinks: true,
+    prevLinks: true,
     type: "blog",
     blogConfig: {
       category: {

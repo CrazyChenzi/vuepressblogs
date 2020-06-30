@@ -23,6 +23,7 @@ export default {
       "path": "/tag/nodejs/",
       "pageKeys": [
         "v-7bd064d2",
+        "v-6519c5a6",
         "v-56715e63",
         "v-04d26464",
         "v-d7d57520",
@@ -140,20 +141,20 @@ export default {
         "v-e4ebfae8"
       ]
     },
-    "javaScript进阶": {
-      "key": "javaScript进阶",
-      "scope": "tags",
-      "path": "/tag/javaScript进阶/",
-      "pageKeys": [
-        "v-d7d57520"
-      ]
-    },
     "版本控制": {
       "key": "版本控制",
       "scope": "tags",
       "path": "/tag/版本控制/",
       "pageKeys": [
         "v-12f54de6"
+      ]
+    },
+    "javaScript进阶": {
+      "key": "javaScript进阶",
+      "scope": "tags",
+      "path": "/tag/javaScript进阶/",
+      "pageKeys": [
+        "v-d7d57520"
       ]
     }
   },
@@ -184,6 +185,18 @@ export default {
       "pageKeys": [
         "v-798073da",
         "v-12f54de6"
+      ]
+    },
+    "后端": {
+      "key": "后端",
+      "scope": "categories",
+      "path": "/categories/后端/",
+      "pageKeys": [
+        "v-6519c5a6",
+        "v-56715e63",
+        "v-04d26464",
+        "v-d7d57520",
+        "v-005efac6"
       ]
     },
     "前端": {
@@ -230,17 +243,6 @@ export default {
         "v-3244ecdc",
         "v-59f43e67",
         "v-636d1913"
-      ]
-    },
-    "后端": {
-      "key": "后端",
-      "scope": "categories",
-      "path": "/categories/后端/",
-      "pageKeys": [
-        "v-56715e63",
-        "v-04d26464",
-        "v-d7d57520",
-        "v-005efac6"
       ]
     },
     "hexo": {

@@ -413,6 +413,25 @@ export const siteData = {
       "size": "0.19kb"
     },
     {
+      "title": "koa-bodyparser",
+      "frontmatter": {
+        "title": "koa-bodyparser",
+        "date": "2020-06-30T13:40:31.000Z",
+        "tags": [
+          "nodejs"
+        ],
+        "categories": [
+          "后端"
+        ]
+      },
+      "regularPath": "/views/2020/koabodyparser.html",
+      "relativePath": "views/2020/koabodyparser.md",
+      "key": "v-6519c5a6",
+      "path": "/views/2020/koabodyparser.html",
+      "excerpt": "<div class=\"custom-block danger\">\n<p>request entity too large 字段过大，导致 401😒</p>\n</div>\n",
+      "size": "1.55kb"
+    },
+    {
       "title": "Dart语法学习",
       "frontmatter": {
         "title": "Dart语法学习",
@@ -1101,6 +1120,27 @@ export const siteData = {
       "size": "5.53kb"
     },
     {
+      "title": "git Please move or remove them before you can merge",
+      "frontmatter": {
+        "title": "git Please move or remove them before you can merge",
+        "date": "2019-02-28T13:33:59.000Z",
+        "tags": [
+          "版本控制",
+          "日常错误问题收集"
+        ],
+        "categories": [
+          "Git"
+        ]
+      },
+      "regularPath": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "relativePath": "views/previous/git Please move or remove them before you can merge.md",
+      "key": "v-12f54de6",
+      "path": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "0.54kb"
+    },
+    {
       "title": "eventloop",
       "frontmatter": {
         "title": "eventloop",
@@ -1121,27 +1161,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "1.03kb"
-    },
-    {
-      "title": "git Please move or remove them before you can merge",
-      "frontmatter": {
-        "title": "git Please move or remove them before you can merge",
-        "date": "2019-02-28T13:33:59.000Z",
-        "tags": [
-          "版本控制",
-          "日常错误问题收集"
-        ],
-        "categories": [
-          "Git"
-        ]
-      },
-      "regularPath": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-      "relativePath": "views/previous/git Please move or remove them before you can merge.md",
-      "key": "v-12f54de6",
-      "path": "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "0.54kb"
     },
     {
       "title": "gitalk搭建遇见的问题",
@@ -1453,7 +1472,7 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>整理了自己所用的vscode插件</p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "lastUpdated": "6/4/2020, 3:40:26 PM",
       "size": "6.22kb"
     },
     {
@@ -1958,20 +1977,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "javaScript进阶 Tags"
-      },
-      "regularPath": "/tag/javaScript%E8%BF%9B%E9%98%B6/",
-      "key": "v-3ba8bdf2",
-      "path": "/tag/javaScript进阶/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "版本控制 Tags"
       },
       "regularPath": "/tag/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/",
       "key": "v-4035157a",
       "path": "/tag/版本控制/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "javaScript进阶 Tags"
+      },
+      "regularPath": "/tag/javaScript%E8%BF%9B%E9%98%B6/",
+      "key": "v-3ba8bdf2",
+      "path": "/tag/javaScript进阶/"
     },
     {
       "frontmatter": {
@@ -2003,6 +2022,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
+        "title": "后端 Categories"
+      },
+      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
+      "key": "v-12afc5a1",
+      "path": "/categories/后端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
         "title": "前端 Categories"
       },
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
@@ -2026,15 +2054,6 @@ export const siteData = {
       "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
       "key": "v-33c9dede",
       "path": "/categories/其它/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "后端 Categories"
-      },
-      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
-      "key": "v-12afc5a1",
-      "path": "/categories/后端/"
     },
     {
       "frontmatter": {
@@ -2093,6 +2112,8 @@ export const siteData = {
         ]
       }
     ],
+    "nextLinks": true,
+    "prevLinks": true,
     "type": "blog",
     "blogConfig": {
       "category": {
