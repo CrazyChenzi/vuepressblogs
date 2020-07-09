@@ -173,7 +173,7 @@ export const siteData = {
         "title": "Electron win7 black screen",
         "date": "2020-02-12T15:10:31.000Z",
         "tags": [
-          "javaScript",
+          "Electron",
           "日常错误问题收集"
         ],
         "categories": [
@@ -194,6 +194,42 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>Electron6.0.0版本部分window7设备上黑屏问题解决方案，官方问题<a href=\"https://github.com/electron/electron/issues/19569\" target=\"_blank\" rel=\"noopener noreferrer\">issues<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "2/12/2020, 4:42:35 PM",
       "size": "0.69kb"
+    },
+    {
+      "title": "Electron学习笔记",
+      "frontmatter": {
+        "title": "Electron学习笔记",
+        "date": "2020-07-09T17:10:31.000Z",
+        "tags": [
+          "Electron"
+        ],
+        "categories": [
+          "Electron"
+        ]
+      },
+      "regularPath": "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
+      "relativePath": "views/2020/Electron学习笔记.md",
+      "key": "v-482ff771",
+      "path": "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webview",
+          "slug": "webview"
+        },
+        {
+          "level": 2,
+          "title": "BrowserWIndow",
+          "slug": "browserwindow"
+        },
+        {
+          "level": 2,
+          "title": "Dialog",
+          "slug": "dialog"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block warning\">\n<p>持续更新中...</p>\n</div>\n<h2 id=\"webview\"><a class=\"header-anchor\" href=\"#webview\">#</a> webview</h2>\n<blockquote>\n<p>By default the webview tag is disabled in Electron &gt;= 5. 在构造 BrowserWindow 时，需要通过设置 webviewTag webPreferences选项来启用标签</p>\n</blockquote>\n<p>当Electron版本大于等于5，需要在BrowserWindow的实例中手动开启webviewTag标签</p>\n<p><img src=\"https://cdn.nlark.com/yuque/0/2020/png/200275/1594188861828-88065b59-183e-49b8-824b-8e5583e60580.png#align=left&amp;display=inline&amp;height=367&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=367&amp;originWidth=994&amp;size=48600&amp;status=done&amp;style=none&amp;width=994\" alt=\"image.png\">\n<a href=\"https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions\" target=\"_blank\" rel=\"noopener noreferrer\"> <OutboundLink/></a><a href=\"https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions\" target=\"_blank\" rel=\"noopener noreferrer\">webview<OutboundLink/></a></p>\n",
+      "size": "1.47kb"
     },
     {
       "title": "Front-end specification👀",
@@ -413,25 +449,6 @@ export const siteData = {
       "size": "0.19kb"
     },
     {
-      "title": "koa-bodyparser",
-      "frontmatter": {
-        "title": "koa-bodyparser",
-        "date": "2020-06-30T13:40:31.000Z",
-        "tags": [
-          "nodejs"
-        ],
-        "categories": [
-          "后端"
-        ]
-      },
-      "regularPath": "/views/2020/koabodyparser.html",
-      "relativePath": "views/2020/koabodyparser.md",
-      "key": "v-6519c5a6",
-      "path": "/views/2020/koabodyparser.html",
-      "excerpt": "<div class=\"custom-block danger\">\n<p>request entity too large 字段过大，导致 401😒</p>\n</div>\n",
-      "size": "1.55kb"
-    },
-    {
       "title": "Dart语法学习",
       "frontmatter": {
         "title": "Dart语法学习",
@@ -459,6 +476,26 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<ol>\n<li>能够放在变量中的所有内容都是对象</li>\n<li>Dart是强类型语言，如果明确说明不需要任何类型，可以使用特殊类型<code>dynamic</code>标识</li>\n<li>与Java不同，Dart没有关键字<code>public</code>、<code>protected</code>、<code>private</code>。如果设置私有变量或函数，则变量、函数名以 <code>_</code> 开头</li>\n</ol>\n</div>\n",
       "lastUpdated": "5/9/2020, 2:09:17 PM",
       "size": "1.11kb"
+    },
+    {
+      "title": "koa-bodyparser",
+      "frontmatter": {
+        "title": "koa-bodyparser",
+        "date": "2020-06-30T13:40:31.000Z",
+        "tags": [
+          "Nodejs"
+        ],
+        "categories": [
+          "Nodejs"
+        ]
+      },
+      "regularPath": "/views/2020/koabodyparser.html",
+      "relativePath": "views/2020/koabodyparser.md",
+      "key": "v-6519c5a6",
+      "path": "/views/2020/koabodyparser.html",
+      "excerpt": "<div class=\"custom-block danger\">\n<p>request entity too large 字段过大，导致 401😒</p>\n</div>\n",
+      "lastUpdated": "6/30/2020, 2:25:42 PM",
+      "size": "1.55kb"
     },
     {
       "title": "win下vscode运行bash终端",
@@ -503,10 +540,10 @@ export const siteData = {
         "title": "如何安装多个版本的Node",
         "date": "2020-03-25T16:50:23.000Z",
         "tags": [
-          "nodejs"
+          "Nodejs"
         ],
         "categories": [
-          "后端"
+          "Nodejs"
         ]
       },
       "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84node.html",
@@ -527,7 +564,7 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>使用nvm进行node的多版本控制<a href=\"https://github.com/nvm-sh/nvm\" target=\"_blank\" rel=\"noopener noreferrer\">nvm<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "3/25/2020, 5:00:01 PM",
-      "size": "0.98kb"
+      "size": "0.99kb"
     },
     {
       "title": "如何自定义切换Node源",
@@ -535,10 +572,10 @@ export const siteData = {
         "title": "如何自定义切换Node源",
         "date": "2020-03-25T16:56:23.000Z",
         "tags": [
-          "nodejs"
+          "Nodejs"
         ],
         "categories": [
-          "后端"
+          "Nodejs"
         ]
       },
       "regularPath": "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html",
@@ -554,7 +591,7 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>自由切换npm源，我们使用node的nrm包进行切换<a href=\"https://github.com/Pana/nrm\" target=\"_blank\" rel=\"noopener noreferrer\">nrm<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "3/25/2020, 5:00:01 PM",
-      "size": "1.05kb"
+      "size": "1.06kb"
     },
     {
       "title": "Array",
@@ -847,8 +884,7 @@ export const siteData = {
         "title": "JavaScript进阶之继承的多种方式",
         "date": "2019-07-15T18:16:23.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -897,7 +933,7 @@ export const siteData = {
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "5.09kb"
+      "size": "5.08kb"
     },
     {
       "title": "ShadowSocks配置",
@@ -948,8 +984,7 @@ export const siteData = {
         "title": "This",
         "date": "2019-03-07T17:42:53.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -961,7 +996,7 @@ export const siteData = {
       "path": "/views/previous/This.html",
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lPSZXd.jpg\" alt=\"lPSZXd.jpg\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "0.34kb"
+      "size": "0.32kb"
     },
     {
       "title": "addRoutes",
@@ -989,8 +1024,7 @@ export const siteData = {
         "title": "JavaScript进阶之arguments对象（类数组对象）",
         "date": "2019-07-12T16:52:52.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -1044,7 +1078,27 @@ export const siteData = {
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzALn.jpg\" alt=\"lCzALn.jpg\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "3.07kb"
+      "size": "3.06kb"
+    },
+    {
+      "title": "eventloop",
+      "frontmatter": {
+        "title": "eventloop",
+        "date": "2019-03-07T17:42:38.000Z",
+        "tags": [
+          "javaScript"
+        ],
+        "categories": [
+          "前端"
+        ]
+      },
+      "regularPath": "/views/previous/eventloop.html",
+      "relativePath": "views/previous/eventloop.md",
+      "key": "v-d7d57520",
+      "path": "/views/previous/eventloop.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "1.00kb"
     },
     {
       "title": "JavaScript进阶之call/apply的模拟实现",
@@ -1052,8 +1106,7 @@ export const siteData = {
         "title": "JavaScript进阶之call/apply的模拟实现",
         "date": "2019-07-22T23:12:31.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -1117,7 +1170,7 @@ export const siteData = {
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCjjld.png\" alt=\"lCjjld.png\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "5.53kb"
+      "size": "5.51kb"
     },
     {
       "title": "git Please move or remove them before you can merge",
@@ -1125,7 +1178,7 @@ export const siteData = {
         "title": "git Please move or remove them before you can merge",
         "date": "2019-02-28T13:33:59.000Z",
         "tags": [
-          "版本控制",
+          "Git",
           "日常错误问题收集"
         ],
         "categories": [
@@ -1139,28 +1192,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>在git pull的时候，报如下错误：\nPlease move or remove them before you can merge</p>\n<p>很奇怪... 本地master这个分支我一般只用于本地合并代码，按道理不会出现本地修改与远端冲突这样的问题（当时查看确实有修改的东西，而且是一大堆，还原了还是pull不了</p>\n<p>这个错误的意思是指，因为本地有更改且与远端代码冲突，又没有merge</p>\n<p>如果确定使用远端代码的话，最方便的解决办法就是删除本地的修改。<code>用命令，图形化界面有时候删除不干净</code></p>\n<!--beforebegin--><div class=\"language-git line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-git\"><code>git clean\n  -n 显示 将要删除的文件和目录\n  -f 删除文件\n  -df 删除文件和目录\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br><span class=\"line-number\">2</span><br><span class=\"line-number\">3</span><br><span class=\"line-number\">4</span><br></div><!--beforeend--></div><!--afterend--><p>最后我用了<code>git clean -df</code>删除了本地所有修改过的文件和目录...</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "0.54kb"
-    },
-    {
-      "title": "eventloop",
-      "frontmatter": {
-        "title": "eventloop",
-        "date": "2019-03-07T17:42:38.000Z",
-        "tags": [
-          "javaScript",
-          "nodejs",
-          "javaScript进阶"
-        ],
-        "categories": [
-          "后端"
-        ]
-      },
-      "regularPath": "/views/previous/eventloop.html",
-      "relativePath": "views/previous/eventloop.md",
-      "key": "v-d7d57520",
-      "path": "/views/previous/eventloop.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p><strong>宏任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>I/O</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setTimeout</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setInterval</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>setImmediate</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>requestAnimationFrame</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n</tbody>\n</table>\n<p><strong>微任务</strong></p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th style=\"text-align:center\">浏览器</th>\n<th style=\"text-align:center\">Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>process.nextTick</td>\n<td style=\"text-align:center\">❌</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n<tr>\n<td>MutationObserver Object.observe</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">❌</td>\n</tr>\n<tr>\n<td>Promise.then catch finally</td>\n<td style=\"text-align:center\">✅</td>\n<td style=\"text-align:center\">✅</td>\n</tr>\n</tbody>\n</table>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.03kb"
     },
     {
       "title": "gitalk搭建遇见的问题",
@@ -1383,11 +1414,10 @@ export const siteData = {
         "title": "nodejs写日志",
         "date": "2019-01-24T15:09:34.000Z",
         "tags": [
-          "javaScript",
-          "nodejs"
+          "Nodejs"
         ],
         "categories": [
-          "后端"
+          "Nodejs"
         ]
       },
       "regularPath": "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
@@ -1396,7 +1426,7 @@ export const siteData = {
       "path": "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
       "excerpt": "<div class=\"custom-block tip\">\n<p>基于nodejs的书写简单日志，使用appendFile进行日志添加</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "2.46kb"
+      "size": "2.45kb"
     },
     {
       "title": "registerModule",
@@ -1553,8 +1583,7 @@ export const siteData = {
         "title": "原型和原型链",
         "date": "2019-02-25T18:45:31.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -1573,7 +1602,7 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>原型</code>是一个对象，其他对象可以通过它实现属性继承, 只有null除外，它没有自己的原型对象。</p>\n<p><code>原型链</code>是利用原型让一个引用类型继承另一个引用类型的属性和方法</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.34kb"
+      "size": "1.33kb"
     },
     {
       "title": "探索Vue生命周期",
@@ -1648,8 +1677,7 @@ export const siteData = {
         "title": "正则表达式",
         "date": "2019-05-08T11:51:35.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -1688,7 +1716,7 @@ export const siteData = {
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/05/08/E6yJqP.png\" alt=\"E6yJqP.png\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "3.22kb"
+      "size": "3.21kb"
     },
     {
       "title": "深究JavaScript值传递和引用传递",
@@ -1696,8 +1724,7 @@ export const siteData = {
         "title": "深究JavaScript值传递和引用传递",
         "date": "2019-02-27T20:21:47.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -1726,7 +1753,7 @@ export const siteData = {
       ],
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCzVZq.jpg\" alt=\"lCzVZq.jpg\"></p>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.71kb"
+      "size": "1.69kb"
     },
     {
       "title": "理解async&await",
@@ -1792,8 +1819,7 @@ export const siteData = {
         "title": "JavaScript进阶之词法作用域、动态作用域、变量提升、函数提升",
         "date": "2019-06-18T17:45:31.000Z",
         "tags": [
-          "javaScript",
-          "JavaScript进阶"
+          "javaScript"
         ],
         "categories": [
           "前端"
@@ -1817,7 +1843,7 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<p>作用域是指程序源代码中定义变量的区域。</p>\n<p>作用域规定了如何查找变量，也就是确定当前执行代码对变量的访问权限。</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.20kb"
+      "size": "1.18kb"
     },
     {
       "title": "JavaScript 之引擎、运行时和堆栈调用",
@@ -1887,11 +1913,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "javaScript Tags"
+        "title": "Electron Tags"
       },
-      "regularPath": "/tag/javaScript/",
-      "key": "v-5f66a358",
-      "path": "/tag/javaScript/"
+      "regularPath": "/tag/Electron/",
+      "key": "v-7213ab03",
+      "path": "/tag/Electron/"
     },
     {
       "frontmatter": {
@@ -1901,6 +1927,15 @@ export const siteData = {
       "regularPath": "/tag/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
       "key": "v-2d17ea9b",
       "path": "/tag/日常错误问题收集/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "javaScript Tags"
+      },
+      "regularPath": "/tag/javaScript/",
+      "key": "v-5f66a358",
+      "path": "/tag/javaScript/"
     },
     {
       "frontmatter": {
@@ -1919,6 +1954,15 @@ export const siteData = {
       "regularPath": "/tag/Flutter/",
       "key": "v-563fc05d",
       "path": "/tag/Flutter/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "Nodejs Tags"
+      },
+      "regularPath": "/tag/Nodejs/",
+      "key": "v-61ab3e8c",
+      "path": "/tag/Nodejs/"
     },
     {
       "frontmatter": {
@@ -1950,15 +1994,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "JavaScript进阶 Tags"
-      },
-      "regularPath": "/tag/JavaScript%E8%BF%9B%E9%98%B6/",
-      "key": "v-8fa1de32",
-      "path": "/tag/JavaScript进阶/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "Linux Tags"
       },
       "regularPath": "/tag/Linux/",
@@ -1977,20 +2012,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "版本控制 Tags"
+        "title": "Git Tags"
       },
-      "regularPath": "/tag/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/",
-      "key": "v-4035157a",
-      "path": "/tag/版本控制/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "javaScript进阶 Tags"
-      },
-      "regularPath": "/tag/javaScript%E8%BF%9B%E9%98%B6/",
-      "key": "v-3ba8bdf2",
-      "path": "/tag/javaScript进阶/"
+      "regularPath": "/tag/Git/",
+      "key": "v-32555732",
+      "path": "/tag/Git/"
     },
     {
       "frontmatter": {
@@ -2022,15 +2048,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "后端 Categories"
-      },
-      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
-      "key": "v-12afc5a1",
-      "path": "/categories/后端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "前端 Categories"
       },
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
@@ -2045,6 +2062,15 @@ export const siteData = {
       "regularPath": "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
       "key": "v-5f0beb54",
       "path": "/categories/移动端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Nodejs Categories"
+      },
+      "regularPath": "/categories/Nodejs/",
+      "key": "v-466e3874",
+      "path": "/categories/Nodejs/"
     },
     {
       "frontmatter": {
@@ -2081,6 +2107,15 @@ export const siteData = {
       "regularPath": "/categories/%E5%89%8D%E7%AB%AF/page/2/",
       "key": "v-260e2472",
       "path": "/categories/前端/page/2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Layout",
+        "title": "Page 3 - 前端 | Categories"
+      },
+      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/page/3/",
+      "key": "v-260e2434",
+      "path": "/categories/前端/page/3/"
     }
   ],
   "themeConfig": {

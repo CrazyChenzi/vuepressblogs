@@ -22,36 +22,16 @@ export default {
       "scope": "tags",
       "path": "/tag/nodejs/",
       "pageKeys": [
-        "v-7bd064d2",
-        "v-6519c5a6",
-        "v-56715e63",
-        "v-04d26464",
-        "v-d7d57520",
-        "v-005efac6"
+        "v-7bd064d2"
       ]
     },
-    "javaScript": {
-      "key": "javaScript",
+    "Electron": {
+      "key": "Electron",
       "scope": "tags",
-      "path": "/tag/javaScript/",
+      "path": "/tag/Electron/",
       "pageKeys": [
         "v-2d87369c",
-        "v-561cc7e6",
-        "v-598e59ba",
-        "v-43b64ffd",
-        "v-1b25e39c",
-        "v-4dc17d40",
-        "v-4216b42a",
-        "v-d7d57520",
-        "v-4f10c5cf",
-        "v-005efac6",
-        "v-07995389",
-        "v-c5d3e760",
-        "v-3a7d39ab",
-        "v-09457a67",
-        "v-7219b802",
-        "v-a22f2220",
-        "v-d2cd4c30"
+        "v-482ff771"
       ]
     },
     "日常错误问题收集": {
@@ -62,6 +42,28 @@ export default {
         "v-2d87369c",
         "v-12f54de6",
         "v-4f10c5cf"
+      ]
+    },
+    "javaScript": {
+      "key": "javaScript",
+      "scope": "tags",
+      "path": "/tag/javaScript/",
+      "pageKeys": [
+        "v-561cc7e6",
+        "v-598e59ba",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-4dc17d40",
+        "v-d7d57520",
+        "v-4216b42a",
+        "v-4f10c5cf",
+        "v-07995389",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30"
       ]
     },
     "Dart": {
@@ -78,6 +80,17 @@ export default {
       "path": "/tag/Flutter/",
       "pageKeys": [
         "v-2734862c"
+      ]
+    },
+    "Nodejs": {
+      "key": "Nodejs",
+      "scope": "tags",
+      "path": "/tag/Nodejs/",
+      "pageKeys": [
+        "v-6519c5a6",
+        "v-56715e63",
+        "v-04d26464",
+        "v-005efac6"
       ]
     },
     "编辑器": {
@@ -106,21 +119,6 @@ export default {
         "v-59ebb44b"
       ]
     },
-    "JavaScript进阶": {
-      "key": "JavaScript进阶",
-      "scope": "tags",
-      "path": "/tag/JavaScript进阶/",
-      "pageKeys": [
-        "v-43b64ffd",
-        "v-1b25e39c",
-        "v-4dc17d40",
-        "v-4216b42a",
-        "v-07995389",
-        "v-c5d3e760",
-        "v-3a7d39ab",
-        "v-a22f2220"
-      ]
-    },
     "Linux": {
       "key": "Linux",
       "scope": "tags",
@@ -141,20 +139,12 @@ export default {
         "v-e4ebfae8"
       ]
     },
-    "版本控制": {
-      "key": "版本控制",
+    "Git": {
+      "key": "Git",
       "scope": "tags",
-      "path": "/tag/版本控制/",
+      "path": "/tag/Git/",
       "pageKeys": [
         "v-12f54de6"
-      ]
-    },
-    "javaScript进阶": {
-      "key": "javaScript进阶",
-      "scope": "tags",
-      "path": "/tag/javaScript进阶/",
-      "pageKeys": [
-        "v-d7d57520"
       ]
     }
   },
@@ -175,6 +165,7 @@ export default {
       "path": "/categories/Electron/",
       "pageKeys": [
         "v-2d87369c",
+        "v-482ff771",
         "v-4f10c5cf"
       ]
     },
@@ -185,18 +176,6 @@ export default {
       "pageKeys": [
         "v-798073da",
         "v-12f54de6"
-      ]
-    },
-    "后端": {
-      "key": "后端",
-      "scope": "categories",
-      "path": "/categories/后端/",
-      "pageKeys": [
-        "v-6519c5a6",
-        "v-56715e63",
-        "v-04d26464",
-        "v-d7d57520",
-        "v-005efac6"
       ]
     },
     "前端": {
@@ -211,6 +190,7 @@ export default {
         "v-1b25e39c",
         "v-5ce495d4",
         "v-4dc17d40",
+        "v-d7d57520",
         "v-4216b42a",
         "v-70e1cfd2",
         "v-10da82dc",
@@ -232,6 +212,17 @@ export default {
       "path": "/categories/移动端/",
       "pageKeys": [
         "v-2734862c"
+      ]
+    },
+    "Nodejs": {
+      "key": "Nodejs",
+      "scope": "categories",
+      "path": "/categories/Nodejs/",
+      "pageKeys": [
+        "v-6519c5a6",
+        "v-56715e63",
+        "v-04d26464",
+        "v-005efac6"
       ]
     },
     "其它": {

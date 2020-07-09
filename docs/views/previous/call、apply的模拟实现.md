@@ -3,7 +3,6 @@ title: JavaScript进阶之call/apply的模拟实现
 date: 2019-07-22 23:12:31
 tags: 
   - javaScript
-  - JavaScript进阶
 categories:
   - 前端
 ---

@@ -3,7 +3,6 @@ title: JavaScript进阶之arguments对象（类数组对象）
 date: 2019-07-12 16:52:52
 tags: 
   - javaScript
-  - JavaScript进阶
 categories:
   - 前端
 ---

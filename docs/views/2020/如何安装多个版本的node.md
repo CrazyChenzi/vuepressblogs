@@ -2,9 +2,9 @@
 title: 如何安装多个版本的Node
 date: 2020-03-25 16:50:23
 tags: 
-  - nodejs
+  - Nodejs
 categories:
-  - 后端
+  - Nodejs
 ---
 
 ::: tip

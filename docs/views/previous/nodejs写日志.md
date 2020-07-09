@@ -2,10 +2,9 @@
 title: nodejs写日志
 date: 2019-01-24  15:09:34
 tags: 
-  - javaScript
-  - nodejs
+  - Nodejs
 categories:
-  - 后端
+  - Nodejs
 ---
 
 ::: tip

@@ -3,10 +3,8 @@ title: eventloop
 date: 2019-03-07 17:42:38
 tags:
   - javaScript
-  - nodejs
-  - javaScript进阶
 categories:
-  - 后端
+  - 前端
 ---
 
 ::: tip

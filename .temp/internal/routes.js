@@ -53,6 +53,18 @@ export const routes = [
     },
   },
   {
+    name: "v-482ff771",
+    path: "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-482ff771").then(next)
+    },
+  },
+  {
+    path: "/views/2020/Electron学习笔记.html",
+    redirect: "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"
+  },
+  {
     name: "v-561cc7e6",
     path: "/views/2020/Front.specification.html",
     component: GlobalLayout,
@@ -69,19 +81,19 @@ export const routes = [
     },
   },
   {
-    name: "v-6519c5a6",
-    path: "/views/2020/koabodyparser.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6519c5a6").then(next)
-    },
-  },
-  {
     name: "v-2734862c",
     path: "/views/2020/learnDartLanguage.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2734862c").then(next)
+    },
+  },
+  {
+    name: "v-6519c5a6",
+    path: "/views/2020/koabodyparser.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6519c5a6").then(next)
     },
   },
   {
@@ -189,6 +201,14 @@ export const routes = [
     },
   },
   {
+    name: "v-d7d57520",
+    path: "/views/previous/eventloop.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d7d57520").then(next)
+    },
+  },
+  {
     name: "v-4216b42a",
     path: "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
     component: GlobalLayout,
@@ -211,14 +231,6 @@ export const routes = [
   {
     path: "/views/previous/git Please move or remove them before you can merge.html",
     redirect: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
-  },
-  {
-    name: "v-d7d57520",
-    path: "/views/previous/eventloop.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d7d57520").then(next)
-    },
   },
   {
     name: "v-8c46bd88",
@@ -494,17 +506,17 @@ export const routes = [
     redirect: "/tag/nodejs/"
   },
   {
-    name: "v-5f66a358",
-    path: "/tag/javaScript/",
+    name: "v-7213ab03",
+    path: "/tag/Electron/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5f66a358").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-7213ab03").then(next)
     },
-    meta: {"pid":"tags","id":"javaScript"}
+    meta: {"pid":"tags","id":"Electron"}
   },
   {
-    path: "/tag/javaScript/index.html",
-    redirect: "/tag/javaScript/"
+    path: "/tag/Electron/index.html",
+    redirect: "/tag/Electron/"
   },
   {
     name: "v-2d17ea9b",
@@ -522,6 +534,19 @@ export const routes = [
   {
     path: "/tag/%E6%97%A5%E5%B8%B8%E9%94%99%E8%AF%AF%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/",
     redirect: "/tag/日常错误问题收集/"
+  },
+  {
+    name: "v-5f66a358",
+    path: "/tag/javaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-5f66a358").then(next)
+    },
+    meta: {"pid":"tags","id":"javaScript"}
+  },
+  {
+    path: "/tag/javaScript/index.html",
+    redirect: "/tag/javaScript/"
   },
   {
     name: "v-18b15ff4",
@@ -548,6 +573,19 @@ export const routes = [
   {
     path: "/tag/Flutter/index.html",
     redirect: "/tag/Flutter/"
+  },
+  {
+    name: "v-61ab3e8c",
+    path: "/tag/Nodejs/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-61ab3e8c").then(next)
+    },
+    meta: {"pid":"tags","id":"Nodejs"}
+  },
+  {
+    path: "/tag/Nodejs/index.html",
+    redirect: "/tag/Nodejs/"
   },
   {
     name: "v-58d4c3a7",
@@ -593,23 +631,6 @@ export const routes = [
     redirect: "/tag/CSS/"
   },
   {
-    name: "v-8fa1de32",
-    path: "/tag/JavaScript进阶/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-8fa1de32").then(next)
-    },
-    meta: {"pid":"tags","id":"JavaScript进阶"}
-  },
-  {
-    path: "/tag/JavaScript进阶/index.html",
-    redirect: "/tag/JavaScript进阶/"
-  },
-  {
-    path: "/tag/JavaScript%E8%BF%9B%E9%98%B6/",
-    redirect: "/tag/JavaScript进阶/"
-  },
-  {
     name: "v-e14f25f6",
     path: "/tag/Linux/",
     component: GlobalLayout,
@@ -636,38 +657,17 @@ export const routes = [
     redirect: "/tag/Vue/"
   },
   {
-    name: "v-4035157a",
-    path: "/tag/版本控制/",
+    name: "v-32555732",
+    path: "/tag/Git/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-4035157a").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-32555732").then(next)
     },
-    meta: {"pid":"tags","id":"版本控制"}
+    meta: {"pid":"tags","id":"Git"}
   },
   {
-    path: "/tag/版本控制/index.html",
-    redirect: "/tag/版本控制/"
-  },
-  {
-    path: "/tag/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/",
-    redirect: "/tag/版本控制/"
-  },
-  {
-    name: "v-3ba8bdf2",
-    path: "/tag/javaScript进阶/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-3ba8bdf2").then(next)
-    },
-    meta: {"pid":"tags","id":"javaScript进阶"}
-  },
-  {
-    path: "/tag/javaScript进阶/index.html",
-    redirect: "/tag/javaScript进阶/"
-  },
-  {
-    path: "/tag/javaScript%E8%BF%9B%E9%98%B6/",
-    redirect: "/tag/javaScript进阶/"
+    path: "/tag/Git/index.html",
+    redirect: "/tag/Git/"
   },
   {
     name: "v-644c5aac",
@@ -713,23 +713,6 @@ export const routes = [
     redirect: "/categories/Git/"
   },
   {
-    name: "v-12afc5a1",
-    path: "/categories/后端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-12afc5a1").then(next)
-    },
-    meta: {"pid":"categories","id":"后端"}
-  },
-  {
-    path: "/categories/后端/index.html",
-    redirect: "/categories/后端/"
-  },
-  {
-    path: "/categories/%E5%90%8E%E7%AB%AF/",
-    redirect: "/categories/后端/"
-  },
-  {
     name: "v-14bbbf36",
     path: "/categories/前端/",
     component: GlobalLayout,
@@ -762,6 +745,19 @@ export const routes = [
   {
     path: "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
     redirect: "/categories/移动端/"
+  },
+  {
+    name: "v-466e3874",
+    path: "/categories/Nodejs/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-466e3874").then(next)
+    },
+    meta: {"pid":"categories","id":"Nodejs"}
+  },
+  {
+    path: "/categories/Nodejs/index.html",
+    redirect: "/categories/Nodejs/"
   },
   {
     name: "v-33c9dede",
@@ -822,6 +818,23 @@ export const routes = [
   {
     path: "/categories/%E5%89%8D%E7%AB%AF/page/2/",
     redirect: "/categories/前端/page/2/"
+  },
+  {
+    name: "v-260e2434",
+    path: "/categories/前端/page/3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-260e2434").then(next)
+    },
+    meta: {"pid":"categories","id":"前端"}
+  },
+  {
+    path: "/categories/前端/page/3/index.html",
+    redirect: "/categories/前端/page/3/"
+  },
+  {
+    path: "/categories/%E5%89%8D%E7%AB%AF/page/3/",
+    redirect: "/categories/前端/page/3/"
   },
   {
     path: '*',

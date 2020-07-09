@@ -2,7 +2,7 @@
 title: Electron win7 black screen
 date: 2020-02-12 15:10:31
 tags: 
-  - javaScript
+  - Electron
   - 日常错误问题收集
 categories:
   - Electron

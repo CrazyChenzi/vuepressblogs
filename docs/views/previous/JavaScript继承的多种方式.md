@@ -3,7 +3,6 @@ title: JavaScript进阶之继承的多种方式
 date: 2019-07-15 18:16:23
 tags: 
   - javaScript
-  - JavaScript进阶
 categories: 
   - 前端
 ---

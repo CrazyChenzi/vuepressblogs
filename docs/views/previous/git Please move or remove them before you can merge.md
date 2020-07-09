@@ -2,7 +2,7 @@
 title: git Please move or remove them before you can merge
 date: 2019-02-28 13:33:59
 tags: 
-  - 版本控制
+  - Git
   - 日常错误问题收集
 categories: 
   - Git
