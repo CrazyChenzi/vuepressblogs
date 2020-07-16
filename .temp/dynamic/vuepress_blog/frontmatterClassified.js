@@ -3,6 +3,21 @@
  */
 export default {
   "tags": {
+    "杂谈": {
+      "key": "杂谈",
+      "scope": "tags",
+      "path": "/tag/杂谈/",
+      "pageKeys": [
+        "v-699c6f32",
+        "v-3bf3fd5c",
+        "v-798073da",
+        "v-3244ecdc",
+        "v-8c46bd88",
+        "v-1a64f484",
+        "v-59f43e67",
+        "v-070152e4"
+      ]
+    },
     "nodejs": {
       "key": "nodejs",
       "scope": "tags",
@@ -16,23 +31,18 @@ export default {
       "scope": "tags",
       "path": "/tag/Electron/",
       "pageKeys": [
-        "v-482ff771",
-        "v-2d87369c"
+        "v-2d87369c",
+        "v-482ff771"
       ]
     },
-    "杂谈": {
-      "key": "杂谈",
+    "日常错误问题收集": {
+      "key": "日常错误问题收集",
       "scope": "tags",
-      "path": "/tag/杂谈/",
+      "path": "/tag/日常错误问题收集/",
       "pageKeys": [
-        "v-3bf3fd5c",
-        "v-798073da",
-        "v-699c6f32",
-        "v-3244ecdc",
-        "v-8c46bd88",
-        "v-1a64f484",
-        "v-59f43e67",
-        "v-070152e4"
+        "v-2d87369c",
+        "v-12f54de6",
+        "v-4f10c5cf"
       ]
     },
     "javaScript": {
@@ -42,49 +52,19 @@ export default {
       "pageKeys": [
         "v-561cc7e6",
         "v-598e59ba",
-        "v-1b25e39c",
-        "v-d7d57520",
         "v-43b64ffd",
-        "v-4f10c5cf",
+        "v-1b25e39c",
         "v-4dc17d40",
         "v-4216b42a",
+        "v-d7d57520",
+        "v-4f10c5cf",
+        "v-07995389",
         "v-c5d3e760",
+        "v-3a7d39ab",
         "v-09457a67",
         "v-7219b802",
-        "v-07995389",
-        "v-d2cd4c30",
-        "v-3a7d39ab",
-        "v-a22f2220"
-      ]
-    },
-    "日常错误问题收集": {
-      "key": "日常错误问题收集",
-      "scope": "tags",
-      "path": "/tag/日常错误问题收集/",
-      "pageKeys": [
-        "v-2d87369c",
-        "v-4f10c5cf",
-        "v-12f54de6"
-      ]
-    },
-    "Nodejs": {
-      "key": "Nodejs",
-      "scope": "tags",
-      "path": "/tag/Nodejs/",
-      "pageKeys": [
-        "v-6519c5a6",
-        "v-04d26464",
-        "v-56715e63",
-        "v-005efac6"
-      ]
-    },
-    "编辑器": {
-      "key": "编辑器",
-      "scope": "tags",
-      "path": "/tag/编辑器/",
-      "pageKeys": [
-        "v-784fb80c",
-        "v-636d1913"
+        "v-a22f2220",
+        "v-d2cd4c30"
       ]
     },
     "Dart": {
@@ -101,6 +81,26 @@ export default {
       "path": "/tag/Flutter/",
       "pageKeys": [
         "v-2734862c"
+      ]
+    },
+    "Nodejs": {
+      "key": "Nodejs",
+      "scope": "tags",
+      "path": "/tag/Nodejs/",
+      "pageKeys": [
+        "v-6519c5a6",
+        "v-56715e63",
+        "v-04d26464",
+        "v-005efac6"
+      ]
+    },
+    "编辑器": {
+      "key": "编辑器",
+      "scope": "tags",
+      "path": "/tag/编辑器/",
+      "pageKeys": [
+        "v-784fb80c",
+        "v-636d1913"
       ]
     },
     "ES6": {
@@ -155,10 +155,10 @@ export default {
       "scope": "categories",
       "path": "/categories/杂谈/",
       "pageKeys": [
+        "v-699c6f32",
         "v-7bd064d2",
-        "v-3bf3fd5c",
         "v-561cc7e6",
-        "v-699c6f32"
+        "v-3bf3fd5c"
       ]
     },
     "Electron": {
@@ -166,8 +166,8 @@ export default {
       "scope": "categories",
       "path": "/categories/Electron/",
       "pageKeys": [
-        "v-482ff771",
         "v-2d87369c",
+        "v-482ff771",
         "v-4f10c5cf"
       ]
     },
@@ -180,14 +180,50 @@ export default {
         "v-12f54de6"
       ]
     },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-2734862c",
+        "v-598e59ba",
+        "v-59ebb44b",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-5ce495d4",
+        "v-4dc17d40",
+        "v-4216b42a",
+        "v-d7d57520",
+        "v-70e1cfd2",
+        "v-10da82dc",
+        "v-5370e5e4",
+        "v-07995389",
+        "v-e4ebfae8",
+        "v-070152e4",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30"
+      ]
+    },
+    "移动端": {
+      "key": "移动端",
+      "scope": "categories",
+      "path": "/categories/移动端/",
+      "pageKeys": [
+        "v-2734862c"
+      ]
+    },
     "Nodejs": {
       "key": "Nodejs",
       "scope": "categories",
       "path": "/categories/Nodejs/",
       "pageKeys": [
         "v-6519c5a6",
-        "v-04d26464",
         "v-56715e63",
+        "v-04d26464",
         "v-005efac6"
       ]
     },
@@ -200,42 +236,6 @@ export default {
         "v-3244ecdc",
         "v-59f43e67",
         "v-636d1913"
-      ]
-    },
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
-      "pageKeys": [
-        "v-2734862c",
-        "v-598e59ba",
-        "v-59ebb44b",
-        "v-1b25e39c",
-        "v-5ce495d4",
-        "v-d7d57520",
-        "v-43b64ffd",
-        "v-70e1cfd2",
-        "v-10da82dc",
-        "v-4dc17d40",
-        "v-5370e5e4",
-        "v-e4ebfae8",
-        "v-070152e4",
-        "v-4216b42a",
-        "v-c5d3e760",
-        "v-09457a67",
-        "v-7219b802",
-        "v-07995389",
-        "v-d2cd4c30",
-        "v-3a7d39ab",
-        "v-a22f2220"
-      ]
-    },
-    "移动端": {
-      "key": "移动端",
-      "scope": "categories",
-      "path": "/categories/移动端/",
-      "pageKeys": [
-        "v-2734862c"
       ]
     },
     "hexo": {

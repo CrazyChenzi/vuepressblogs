@@ -18,8 +18,10 @@ categories:
 
 当Electron版本大于等于5，需要在BrowserWindow的实例中手动开启webviewTag标签
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/200275/1594188861828-88065b59-183e-49b8-824b-8e5583e60580.png#align=left&display=inline&height=367&margin=%5Bobject%20Object%5D&name=image.png&originHeight=367&originWidth=994&size=48600&status=done&style=none&width=994)
-[ ](https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions)[webview](https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions)
+![UB3EDJ.png](https://s1.ax1x.com/2020/07/16/UB3EDJ.png)
+
+
+[webview](https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions)
 
 <!-- more -->
 

@@ -8,12 +8,6 @@ categories:
 ---
 
 ::: tip
-Windows Terminal美化
-
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/200275/1594626542934-144c5cf4-ade5-4467-9937-378025e9caf5.png#align=left&display=inline&height=745&margin=%5Bobject%20Object%5D&name=image.png&originHeight=745&originWidth=1233&size=1485810&status=done&style=none&width=1233)
-:::
-
-<!-- more -->
 
 ## Window Terminal美化
 
@@ -24,6 +18,11 @@ Windows Terminal美化
 - posh-git、on-my-posh主题
 - ColorTool
 
+:::
+
+<!-- more -->
+
+![UB1kTI.png](https://s1.ax1x.com/2020/07/16/UB1kTI.png)
 
 ### posh-git、on-my-posh主题
 
@@ -65,7 +64,7 @@ Set-Theme ${主题名字}
 
 打开设置
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/200275/1594626288243-5e89c98d-2841-4712-9a89-b4b5556048e7.png#align=left&display=inline&height=742&margin=%5Bobject%20Object%5D&name=image.png&originHeight=742&originWidth=1233&size=1394486&status=done&style=none&width=1233)
+![UB1aX4.png](https://s1.ax1x.com/2020/07/16/UB1aX4.png)
 
 添加`defaults`和`schemes`
 
