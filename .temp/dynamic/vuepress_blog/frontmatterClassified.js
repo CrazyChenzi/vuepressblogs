@@ -67,20 +67,12 @@ export default {
         "v-d2cd4c30"
       ]
     },
-    "Dart": {
-      "key": "Dart",
+    "TypeScript": {
+      "key": "TypeScript",
       "scope": "tags",
-      "path": "/tag/Dart/",
+      "path": "/tag/TypeScript/",
       "pageKeys": [
-        "v-2734862c"
-      ]
-    },
-    "Flutter": {
-      "key": "Flutter",
-      "scope": "tags",
-      "path": "/tag/Flutter/",
-      "pageKeys": [
-        "v-2734862c"
+        "v-e6140b9c"
       ]
     },
     "Nodejs": {
@@ -103,6 +95,22 @@ export default {
         "v-636d1913"
       ]
     },
+    "Dart": {
+      "key": "Dart",
+      "scope": "tags",
+      "path": "/tag/Dart/",
+      "pageKeys": [
+        "v-2734862c"
+      ]
+    },
+    "Flutter": {
+      "key": "Flutter",
+      "scope": "tags",
+      "path": "/tag/Flutter/",
+      "pageKeys": [
+        "v-2734862c"
+      ]
+    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -110,14 +118,6 @@ export default {
       "pageKeys": [
         "v-598e59ba",
         "v-09457a67"
-      ]
-    },
-    "CSS": {
-      "key": "CSS",
-      "scope": "tags",
-      "path": "/tag/CSS/",
-      "pageKeys": [
-        "v-59ebb44b"
       ]
     },
     "Linux": {
@@ -138,6 +138,14 @@ export default {
         "v-10da82dc",
         "v-5370e5e4",
         "v-e4ebfae8"
+      ]
+    },
+    "CSS": {
+      "key": "CSS",
+      "scope": "tags",
+      "path": "/tag/CSS/",
+      "pageKeys": [
+        "v-59ebb44b"
       ]
     },
     "Git": {
@@ -171,6 +179,14 @@ export default {
         "v-4f10c5cf"
       ]
     },
+    "Learning": {
+      "key": "Learning",
+      "scope": "categories",
+      "path": "/categories/Learning/",
+      "pageKeys": [
+        "v-e6140b9c"
+      ]
+    },
     "Git": {
       "key": "Git",
       "scope": "categories",
@@ -178,42 +194,6 @@ export default {
       "pageKeys": [
         "v-798073da",
         "v-12f54de6"
-      ]
-    },
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
-      "pageKeys": [
-        "v-2734862c",
-        "v-598e59ba",
-        "v-59ebb44b",
-        "v-43b64ffd",
-        "v-1b25e39c",
-        "v-5ce495d4",
-        "v-4dc17d40",
-        "v-4216b42a",
-        "v-d7d57520",
-        "v-70e1cfd2",
-        "v-10da82dc",
-        "v-5370e5e4",
-        "v-07995389",
-        "v-e4ebfae8",
-        "v-070152e4",
-        "v-c5d3e760",
-        "v-3a7d39ab",
-        "v-09457a67",
-        "v-7219b802",
-        "v-a22f2220",
-        "v-d2cd4c30"
-      ]
-    },
-    "移动端": {
-      "key": "移动端",
-      "scope": "categories",
-      "path": "/categories/移动端/",
-      "pageKeys": [
-        "v-2734862c"
       ]
     },
     "Nodejs": {
@@ -236,6 +216,42 @@ export default {
         "v-3244ecdc",
         "v-59f43e67",
         "v-636d1913"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-2734862c",
+        "v-598e59ba",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-5ce495d4",
+        "v-4dc17d40",
+        "v-59ebb44b",
+        "v-4216b42a",
+        "v-d7d57520",
+        "v-70e1cfd2",
+        "v-10da82dc",
+        "v-5370e5e4",
+        "v-07995389",
+        "v-e4ebfae8",
+        "v-070152e4",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30"
+      ]
+    },
+    "移动端": {
+      "key": "移动端",
+      "scope": "categories",
+      "path": "/categories/移动端/",
+      "pageKeys": [
+        "v-2734862c"
       ]
     },
     "hexo": {

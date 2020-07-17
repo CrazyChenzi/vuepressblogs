@@ -87,23 +87,6 @@ export const siteData = {
       "size": "0.84kb"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "bgImage": "/323970.jpg",
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "faceImage": "/avatar.jpg"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-78d5e149",
-      "path": "/",
-      "lastUpdated": "4/7/2020, 5:00:54 PM",
-      "size": "0.11kb"
-    },
-    {
       "title": "Windows包管理器Chocolatey",
       "frontmatter": {
         "title": "Windows包管理器Chocolatey",
@@ -134,6 +117,23 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p><code>Chocolatey</code> Windows设计的包管理器，有了它，你也可以</p>\n<!--beforebegin--><div class=\"language-shell line-numbers-mode\"><!--afterbegin--><pre v-pre class=\"language-shell\"><code>choco <span class=\"token function\">install</span> docker\n</code></pre>\n<div class=\"line-numbers-wrapper\"><span class=\"line-number\">1</span><br></div><!--beforeend--></div><!--afterend--><p><a href=\"https://chocolatey.org/why-chocolatey\" target=\"_blank\" rel=\"noopener noreferrer\">Why Chocolatey<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "5/11/2020, 2:36:50 PM",
       "size": "1.29kb"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "bgImage": "/323970.jpg",
+        "bgImageStyle": {
+          "height": "350px"
+        },
+        "faceImage": "/avatar.jpg"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-78d5e149",
+      "path": "/",
+      "lastUpdated": "4/7/2020, 5:00:54 PM",
+      "size": "0.11kb"
     },
     {
       "title": "Chrome Config by flags",
@@ -194,6 +194,43 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>Electron6.0.0版本部分window7设备上黑屏问题解决方案，官方问题<a href=\"https://github.com/electron/electron/issues/19569\" target=\"_blank\" rel=\"noopener noreferrer\">issues<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "7/9/2020, 5:21:18 PM",
       "size": "0.69kb"
+    },
+    {
+      "title": "Electron学习笔记",
+      "frontmatter": {
+        "title": "Electron学习笔记",
+        "date": "2020-07-09T17:10:31.000Z",
+        "tags": [
+          "Electron"
+        ],
+        "categories": [
+          "Electron"
+        ]
+      },
+      "regularPath": "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
+      "relativePath": "views/2020/Electron学习笔记.md",
+      "key": "v-482ff771",
+      "path": "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webview",
+          "slug": "webview"
+        },
+        {
+          "level": 2,
+          "title": "BrowserWIndow",
+          "slug": "browserwindow"
+        },
+        {
+          "level": 2,
+          "title": "Dialog",
+          "slug": "dialog"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block warning\">\n<p>持续更新中...</p>\n</div>\n<h2 id=\"webview\"><a class=\"header-anchor\" href=\"#webview\">#</a> webview</h2>\n<blockquote>\n<p>By default the webview tag is disabled in Electron &gt;= 5. 在构造 BrowserWindow 时，需要通过设置 webviewTag webPreferences选项来启用标签</p>\n</blockquote>\n<p>当Electron版本大于等于5，需要在BrowserWindow的实例中手动开启webviewTag标签</p>\n<p><img src=\"https://s1.ax1x.com/2020/07/16/UB3EDJ.png\" alt=\"UB3EDJ.png\"></p>\n<p><a href=\"https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions\" target=\"_blank\" rel=\"noopener noreferrer\">webview<OutboundLink/></a></p>\n",
+      "lastUpdated": "7/16/2020, 11:13:35 AM",
+      "size": "1.19kb"
     },
     {
       "title": "Front-end specification👀",
@@ -393,43 +430,6 @@ export const siteData = {
       "size": "9.25kb"
     },
     {
-      "title": "Electron学习笔记",
-      "frontmatter": {
-        "title": "Electron学习笔记",
-        "date": "2020-07-09T17:10:31.000Z",
-        "tags": [
-          "Electron"
-        ],
-        "categories": [
-          "Electron"
-        ]
-      },
-      "regularPath": "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
-      "relativePath": "views/2020/Electron学习笔记.md",
-      "key": "v-482ff771",
-      "path": "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "webview",
-          "slug": "webview"
-        },
-        {
-          "level": 2,
-          "title": "BrowserWIndow",
-          "slug": "browserwindow"
-        },
-        {
-          "level": 2,
-          "title": "Dialog",
-          "slug": "dialog"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block warning\">\n<p>持续更新中...</p>\n</div>\n<h2 id=\"webview\"><a class=\"header-anchor\" href=\"#webview\">#</a> webview</h2>\n<blockquote>\n<p>By default the webview tag is disabled in Electron &gt;= 5. 在构造 BrowserWindow 时，需要通过设置 webviewTag webPreferences选项来启用标签</p>\n</blockquote>\n<p>当Electron版本大于等于5，需要在BrowserWindow的实例中手动开启webviewTag标签</p>\n<p><img src=\"https://s1.ax1x.com/2020/07/16/UB3EDJ.png\" alt=\"UB3EDJ.png\"></p>\n<p><a href=\"https://www.electronjs.org/docs/api/webview-tag#webviewtagprintoptions\" target=\"_blank\" rel=\"noopener noreferrer\">webview<OutboundLink/></a></p>\n",
-      "lastUpdated": "7/9/2020, 5:21:18 PM",
-      "size": "1.19kb"
-    },
-    {
       "title": "Windows Terminal美化",
       "frontmatter": {
         "title": "Windows Terminal美化",
@@ -463,8 +463,34 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\">\n<h2 id=\"window-terminal美化\"><a class=\"header-anchor\" href=\"#window-terminal美化\">#</a> Window Terminal美化</h2>\n<ul>\n<li>Window Terminal\n<ul>\n<li>Microsoft Store安装即可</li>\n</ul>\n</li>\n<li>Fira Code 字体\n<ul>\n<li><a href=\"https://github.com/tonsky/FiraCode/releases\" target=\"_blank\" rel=\"noopener noreferrer\">下载地址<OutboundLink/></a></li>\n</ul>\n</li>\n<li>posh-git、on-my-posh主题</li>\n<li>ColorTool</li>\n</ul>\n</div>\n",
-      "lastUpdated": "7/13/2020, 4:04:12 PM",
+      "lastUpdated": "7/16/2020, 11:13:35 AM",
       "size": "2.95kb"
+    },
+    {
+      "title": "TypeScript",
+      "frontmatter": {
+        "title": "TypeScript",
+        "date": "2020-07-17T17:40:31.000Z",
+        "tags": [
+          "TypeScript"
+        ],
+        "categories": [
+          "Learning"
+        ]
+      },
+      "regularPath": "/views/2020/TypeScript.html",
+      "relativePath": "views/2020/TypeScript.md",
+      "key": "v-e6140b9c",
+      "path": "/views/2020/TypeScript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "ES6 Modules default exports interop with CommonJS 😒",
+          "slug": "es6-modules-default-exports-interop-with-commonjs-😒"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>TypeScript👀📖</p>\n</div>\n",
+      "size": "0.57kb"
     },
     {
       "title": "gitignore简述",
@@ -485,35 +511,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>.gitignore简述，不忽略某些文件</p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:55:38 PM",
       "size": "0.19kb"
-    },
-    {
-      "title": "Dart语法学习",
-      "frontmatter": {
-        "title": "Dart语法学习",
-        "date": "2020-04-26T10:59:06.000Z",
-        "tags": [
-          "Dart",
-          "Flutter"
-        ],
-        "categories": [
-          "前端",
-          "移动端"
-        ]
-      },
-      "regularPath": "/views/2020/learnDartLanguage.html",
-      "relativePath": "views/2020/learnDartLanguage.md",
-      "key": "v-2734862c",
-      "path": "/views/2020/learnDartLanguage.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "@override是做什么的🙄",
-          "slug": "override是做什么的🙄"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<ol>\n<li>能够放在变量中的所有内容都是对象</li>\n<li>Dart是强类型语言，如果明确说明不需要任何类型，可以使用特殊类型<code>dynamic</code>标识</li>\n<li>与Java不同，Dart没有关键字<code>public</code>、<code>protected</code>、<code>private</code>。如果设置私有变量或函数，则变量、函数名以 <code>_</code> 开头</li>\n</ol>\n</div>\n",
-      "lastUpdated": "5/9/2020, 2:09:17 PM",
-      "size": "1.11kb"
     },
     {
       "title": "koa-bodyparser",
@@ -571,6 +568,35 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>window vscode如何运行bash终端？</p>\n<p><a href=\"https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal\" target=\"_blank\" rel=\"noopener noreferrer\">How do I use Bash on Windows from the Visual Studio Code integrated terminal?<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "3/30/2020, 4:04:48 PM",
       "size": "0.64kb"
+    },
+    {
+      "title": "Dart语法学习",
+      "frontmatter": {
+        "title": "Dart语法学习",
+        "date": "2020-04-26T10:59:06.000Z",
+        "tags": [
+          "Dart",
+          "Flutter"
+        ],
+        "categories": [
+          "前端",
+          "移动端"
+        ]
+      },
+      "regularPath": "/views/2020/learnDartLanguage.html",
+      "relativePath": "views/2020/learnDartLanguage.md",
+      "key": "v-2734862c",
+      "path": "/views/2020/learnDartLanguage.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "@override是做什么的🙄",
+          "slug": "override是做什么的🙄"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<ol>\n<li>能够放在变量中的所有内容都是对象</li>\n<li>Dart是强类型语言，如果明确说明不需要任何类型，可以使用特殊类型<code>dynamic</code>标识</li>\n<li>与Java不同，Dart没有关键字<code>public</code>、<code>protected</code>、<code>private</code>。如果设置私有变量或函数，则变量、函数名以 <code>_</code> 开头</li>\n</ol>\n</div>\n",
+      "lastUpdated": "5/9/2020, 2:09:17 PM",
+      "size": "1.11kb"
     },
     {
       "title": "如何安装多个版本的Node",
@@ -815,106 +841,47 @@ export const siteData = {
       "size": "11.91kb"
     },
     {
-      "title": "Flex布局",
+      "title": "ShadowSocks配置",
       "frontmatter": {
-        "title": "Flex布局",
-        "date": "2018-09-11T22:02:24.000Z",
-        "categories": [
-          "前端"
-        ],
+        "title": "ShadowSocks配置",
+        "date": "2018-09-10T21:12:56.000Z",
         "tags": [
-          "CSS"
+          "杂谈",
+          "Linux"
+        ],
+        "categories": [
+          "其它"
         ]
       },
-      "regularPath": "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
-      "relativePath": "views/previous/Flex布局.md",
-      "key": "v-59ebb44b",
-      "path": "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
+      "regularPath": "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
+      "relativePath": "views/previous/ShadowSocks配置.md",
+      "key": "v-3244ecdc",
+      "path": "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、Flex布局是什么",
-          "slug": "一、flex布局是什么"
+          "title": "安装",
+          "slug": "安装"
         },
         {
           "level": 2,
-          "title": "二、基本概念",
-          "slug": "二、基本概念"
+          "title": "配置开机自动启动，并先手动启动服务",
+          "slug": "配置开机自动启动，并先手动启动服务"
         },
         {
           "level": 2,
-          "title": "三、容器的属性",
-          "slug": "三、容器的属性"
+          "title": "多用户配置",
+          "slug": "多用户配置"
         },
         {
           "level": 3,
-          "title": "3.1 flex-direction属性",
-          "slug": "_3-1-flex-direction属性"
-        },
-        {
-          "level": 3,
-          "title": "3.2 flex-wrap属性",
-          "slug": "_3-2-flex-wrap属性"
-        },
-        {
-          "level": 3,
-          "title": "3.3 flex-flow",
-          "slug": "_3-3-flex-flow"
-        },
-        {
-          "level": 3,
-          "title": "3.4 justify-content属性",
-          "slug": "_3-4-justify-content属性"
-        },
-        {
-          "level": 3,
-          "title": "3.5 align-items属性",
-          "slug": "_3-5-align-items属性"
-        },
-        {
-          "level": 3,
-          "title": "3.6 align-content属性",
-          "slug": "_3-6-align-content属性"
-        },
-        {
-          "level": 2,
-          "title": "四、项目的属性",
-          "slug": "四、项目的属性"
-        },
-        {
-          "level": 3,
-          "title": "4.1 order属性",
-          "slug": "_4-1-order属性"
-        },
-        {
-          "level": 3,
-          "title": "4.2 flex-grow属性",
-          "slug": "_4-2-flex-grow属性"
-        },
-        {
-          "level": 3,
-          "title": "4.3 flex-shrink属性",
-          "slug": "_4-3-flex-shrink属性"
-        },
-        {
-          "level": 3,
-          "title": "4.4 flex-basis属性",
-          "slug": "_4-4-flex-basis属性"
-        },
-        {
-          "level": 3,
-          "title": "4.5 flex属性",
-          "slug": "_4-5-flex属性"
-        },
-        {
-          "level": 3,
-          "title": "4.6 align-self属性",
-          "slug": "_4-6-align-self属性"
+          "title": "(1)",
+          "slug": "_1"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "6.43kb"
+      "size": "1.84kb"
     },
     {
       "title": "JavaScript进阶之继承的多种方式",
@@ -972,49 +939,6 @@ export const siteData = {
       "excerpt": "<p><img src=\"https://s2.ax1x.com/2019/12/24/lCxaKs.jpg\" alt=\"lCxaKs.jpg\"></p>\n",
       "lastUpdated": "7/9/2020, 5:21:18 PM",
       "size": "5.08kb"
-    },
-    {
-      "title": "ShadowSocks配置",
-      "frontmatter": {
-        "title": "ShadowSocks配置",
-        "date": "2018-09-10T21:12:56.000Z",
-        "tags": [
-          "杂谈",
-          "Linux"
-        ],
-        "categories": [
-          "其它"
-        ]
-      },
-      "regularPath": "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
-      "relativePath": "views/previous/ShadowSocks配置.md",
-      "key": "v-3244ecdc",
-      "path": "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "配置开机自动启动，并先手动启动服务",
-          "slug": "配置开机自动启动，并先手动启动服务"
-        },
-        {
-          "level": 2,
-          "title": "多用户配置",
-          "slug": "多用户配置"
-        },
-        {
-          "level": 3,
-          "title": "(1)",
-          "slug": "_1"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\">\n<p><a href=\"https://github.com/shadowsocks/shadowsocks/wiki/\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/shadowsocks/shadowsocks/wiki/<OutboundLink/></a></p>\n<p><a href=\"https://shadowsocks.org/en/download/servers.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://shadowsocks.org/en/download/servers.html<OutboundLink/></a></p>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "1.84kb"
     },
     {
       "title": "This",
@@ -1119,6 +1043,108 @@ export const siteData = {
       "size": "3.06kb"
     },
     {
+      "title": "Flex布局",
+      "frontmatter": {
+        "title": "Flex布局",
+        "date": "2018-09-11T22:02:24.000Z",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "CSS"
+        ]
+      },
+      "regularPath": "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
+      "relativePath": "views/previous/Flex布局.md",
+      "key": "v-59ebb44b",
+      "path": "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、Flex布局是什么",
+          "slug": "一、flex布局是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、基本概念",
+          "slug": "二、基本概念"
+        },
+        {
+          "level": 2,
+          "title": "三、容器的属性",
+          "slug": "三、容器的属性"
+        },
+        {
+          "level": 3,
+          "title": "3.1 flex-direction属性",
+          "slug": "_3-1-flex-direction属性"
+        },
+        {
+          "level": 3,
+          "title": "3.2 flex-wrap属性",
+          "slug": "_3-2-flex-wrap属性"
+        },
+        {
+          "level": 3,
+          "title": "3.3 flex-flow",
+          "slug": "_3-3-flex-flow"
+        },
+        {
+          "level": 3,
+          "title": "3.4 justify-content属性",
+          "slug": "_3-4-justify-content属性"
+        },
+        {
+          "level": 3,
+          "title": "3.5 align-items属性",
+          "slug": "_3-5-align-items属性"
+        },
+        {
+          "level": 3,
+          "title": "3.6 align-content属性",
+          "slug": "_3-6-align-content属性"
+        },
+        {
+          "level": 2,
+          "title": "四、项目的属性",
+          "slug": "四、项目的属性"
+        },
+        {
+          "level": 3,
+          "title": "4.1 order属性",
+          "slug": "_4-1-order属性"
+        },
+        {
+          "level": 3,
+          "title": "4.2 flex-grow属性",
+          "slug": "_4-2-flex-grow属性"
+        },
+        {
+          "level": 3,
+          "title": "4.3 flex-shrink属性",
+          "slug": "_4-3-flex-shrink属性"
+        },
+        {
+          "level": 3,
+          "title": "4.4 flex-basis属性",
+          "slug": "_4-4-flex-basis属性"
+        },
+        {
+          "level": 3,
+          "title": "4.5 flex属性",
+          "slug": "_4-5-flex属性"
+        },
+        {
+          "level": 3,
+          "title": "4.6 align-self属性",
+          "slug": "_4-6-align-self属性"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\">\n<p>网页布局（layout）是 CSS 的一个重点应用。</p>\n<p><img src=\"https://s2.ax1x.com/2019/01/23/kA7aHx.png\" alt=\"网页布局(layout).png\"></p>\n<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "6.43kb"
+    },
+    {
       "title": "JavaScript进阶之call/apply的模拟实现",
       "frontmatter": {
         "title": "JavaScript进阶之call/apply的模拟实现",
@@ -1211,6 +1237,26 @@ export const siteData = {
       "size": "1.00kb"
     },
     {
+      "title": "gitalk搭建遇见的问题",
+      "frontmatter": {
+        "title": "gitalk搭建遇见的问题",
+        "date": "2018-10-17T21:58:17.000Z",
+        "tags": [
+          "杂谈"
+        ],
+        "categories": [
+          "hexo"
+        ]
+      },
+      "regularPath": "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "relativePath": "views/previous/gitalk搭建遇见的问题.md",
+      "key": "v-8c46bd88",
+      "path": "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
+      "lastUpdated": "4/22/2020, 3:08:35 PM",
+      "size": "7.15kb"
+    },
+    {
       "title": "git Please move or remove them before you can merge",
       "frontmatter": {
         "title": "git Please move or remove them before you can merge",
@@ -1232,24 +1278,25 @@ export const siteData = {
       "size": "0.54kb"
     },
     {
-      "title": "gitalk搭建遇见的问题",
+      "title": "jQuery is not defind",
       "frontmatter": {
-        "title": "gitalk搭建遇见的问题",
-        "date": "2018-10-17T21:58:17.000Z",
+        "title": "jQuery is not defind",
+        "date": "2019-03-18T21:32:32.000Z",
         "tags": [
-          "杂谈"
+          "javaScript",
+          "日常错误问题收集"
         ],
         "categories": [
-          "hexo"
+          "Electron"
         ]
       },
-      "regularPath": "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
-      "relativePath": "views/previous/gitalk搭建遇见的问题.md",
-      "key": "v-8c46bd88",
-      "path": "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<p><code>HomePage URL</code>  程序主页的完整地址即github仓库 eg：<a href=\"https:blacklisten.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">https:blacklisten.github.io<OutboundLink/></a>\n<code>github仓库地址必须是https 不可为http</code></p>\n<p><code>Authorization callback URL</code> Authorization callback URL：网站的callback地址 eg：<a href=\"https://blacklisten.cn\" target=\"_blank\" rel=\"noopener noreferrer\">https://blacklisten.cn<OutboundLink/></a>\n<code>callback URL 如果所绑定返回地址有SSL证书则为https 反之为http</code></p>\n</div>\n",
+      "regularPath": "/views/previous/jQuery%20is%20not%20defind.html",
+      "relativePath": "views/previous/jQuery is not defind.md",
+      "key": "v-4f10c5cf",
+      "path": "/views/previous/jQuery%20is%20not%20defind.html",
+      "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "7.15kb"
+      "size": "0.44kb"
     },
     {
       "title": "hexo next主题集成gitalk评论插件",
@@ -1307,27 +1354,6 @@ export const siteData = {
       "excerpt": "<div class=\"custom-block tip\">\n<p>gitalk: 一个基于Github issue 和 Preact开发的评论插件\n<a href=\"https://github.com/gitalk/gitalk\" target=\"_blank\" rel=\"noopener noreferrer\">gitalk<OutboundLink/></a></p>\n</div>\n",
       "lastUpdated": "4/22/2020, 3:08:35 PM",
       "size": "2.60kb"
-    },
-    {
-      "title": "jQuery is not defind",
-      "frontmatter": {
-        "title": "jQuery is not defind",
-        "date": "2019-03-18T21:32:32.000Z",
-        "tags": [
-          "javaScript",
-          "日常错误问题收集"
-        ],
-        "categories": [
-          "Electron"
-        ]
-      },
-      "regularPath": "/views/previous/jQuery%20is%20not%20defind.html",
-      "relativePath": "views/previous/jQuery is not defind.md",
-      "key": "v-4f10c5cf",
-      "path": "/views/previous/jQuery%20is%20not%20defind.html",
-      "excerpt": "<div class=\"custom-block tip\">\n<blockquote>\n<p>参考：\n<a href=\"https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined\" target=\"_blank\" rel=\"noopener noreferrer\">https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined<OutboundLink/></a>\n<a href=\"https://blog.csdn.net/xiaouncle/article/details/79678597\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.csdn.net/xiaouncle/article/details/79678597<OutboundLink/></a></p>\n</blockquote>\n</div>\n",
-      "lastUpdated": "4/22/2020, 3:08:35 PM",
-      "size": "0.44kb"
     },
     {
       "title": "markdown语法简介",
@@ -1978,20 +2004,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "Dart Tags"
+        "title": "TypeScript Tags"
       },
-      "regularPath": "/tag/Dart/",
-      "key": "v-18b15ff4",
-      "path": "/tag/Dart/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Flutter Tags"
-      },
-      "regularPath": "/tag/Flutter/",
-      "key": "v-563fc05d",
-      "path": "/tag/Flutter/"
+      "regularPath": "/tag/TypeScript/",
+      "key": "v-bee809c0",
+      "path": "/tag/TypeScript/"
     },
     {
       "frontmatter": {
@@ -2014,20 +2031,29 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "Dart Tags"
+      },
+      "regularPath": "/tag/Dart/",
+      "key": "v-18b15ff4",
+      "path": "/tag/Dart/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "Flutter Tags"
+      },
+      "regularPath": "/tag/Flutter/",
+      "key": "v-563fc05d",
+      "path": "/tag/Flutter/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "ES6 Tags"
       },
       "regularPath": "/tag/ES6/",
       "key": "v-3257dcde",
       "path": "/tag/ES6/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "CSS Tags"
-      },
-      "regularPath": "/tag/CSS/",
-      "key": "v-3259a754",
-      "path": "/tag/CSS/"
     },
     {
       "frontmatter": {
@@ -2046,6 +2072,15 @@ export const siteData = {
       "regularPath": "/tag/Vue/",
       "key": "v-32475d9a",
       "path": "/tag/Vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "CSS Tags"
+      },
+      "regularPath": "/tag/CSS/",
+      "key": "v-3259a754",
+      "path": "/tag/CSS/"
     },
     {
       "frontmatter": {
@@ -2077,29 +2112,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
+        "title": "Learning Categories"
+      },
+      "regularPath": "/categories/Learning/",
+      "key": "v-0e7b8553",
+      "path": "/categories/Learning/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
         "title": "Git Categories"
       },
       "regularPath": "/categories/Git/",
       "key": "v-7f008cdb",
       "path": "/categories/Git/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "前端 Categories"
-      },
-      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
-      "key": "v-14bbbf36",
-      "path": "/categories/前端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "移动端 Categories"
-      },
-      "regularPath": "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
-      "key": "v-5f0beb54",
-      "path": "/categories/移动端/"
     },
     {
       "frontmatter": {
@@ -2118,6 +2144,24 @@ export const siteData = {
       "regularPath": "/categories/%E5%85%B6%E5%AE%83/",
       "key": "v-33c9dede",
       "path": "/categories/其它/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "前端 Categories"
+      },
+      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
+      "key": "v-14bbbf36",
+      "path": "/categories/前端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "移动端 Categories"
+      },
+      "regularPath": "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
+      "key": "v-5f0beb54",
+      "path": "/categories/移动端/"
     },
     {
       "frontmatter": {

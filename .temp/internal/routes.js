@@ -17,6 +17,14 @@ export const routes = [
     },
   },
   {
+    name: "v-699c6f32",
+    path: "/views/2020/Chocolatey.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-699c6f32").then(next)
+    },
+  },
+  {
     name: "v-78d5e149",
     path: "/",
     component: GlobalLayout,
@@ -27,14 +35,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-699c6f32",
-    path: "/views/2020/Chocolatey.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-699c6f32").then(next)
-    },
   },
   {
     name: "v-7bd064d2",
@@ -53,14 +53,6 @@ export const routes = [
     },
   },
   {
-    name: "v-561cc7e6",
-    path: "/views/2020/Front.specification.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-561cc7e6").then(next)
-    },
-  },
-  {
     name: "v-482ff771",
     path: "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
     component: GlobalLayout,
@@ -73,6 +65,14 @@ export const routes = [
     redirect: "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"
   },
   {
+    name: "v-561cc7e6",
+    path: "/views/2020/Front.specification.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-561cc7e6").then(next)
+    },
+  },
+  {
     name: "v-3bf3fd5c",
     path: "/views/2020/WindowTerminal.html",
     component: GlobalLayout,
@@ -81,19 +81,19 @@ export const routes = [
     },
   },
   {
+    name: "v-e6140b9c",
+    path: "/views/2020/TypeScript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e6140b9c").then(next)
+    },
+  },
+  {
     name: "v-798073da",
     path: "/views/2020/gitignore.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-798073da").then(next)
-    },
-  },
-  {
-    name: "v-2734862c",
-    path: "/views/2020/learnDartLanguage.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2734862c").then(next)
     },
   },
   {
@@ -115,6 +115,14 @@ export const routes = [
   {
     path: "/views/2020/win下vscode运行bash终端.html",
     redirect: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html"
+  },
+  {
+    name: "v-2734862c",
+    path: "/views/2020/learnDartLanguage.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2734862c").then(next)
+    },
   },
   {
     name: "v-56715e63",
@@ -149,16 +157,16 @@ export const routes = [
     },
   },
   {
-    name: "v-59ebb44b",
-    path: "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
+    name: "v-3244ecdc",
+    path: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-59ebb44b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3244ecdc").then(next)
     },
   },
   {
-    path: "/views/previous/Flex布局.html",
-    redirect: "/views/previous/Flex%E5%B8%83%E5%B1%80.html"
+    path: "/views/previous/ShadowSocks配置.html",
+    redirect: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html"
   },
   {
     name: "v-43b64ffd",
@@ -171,18 +179,6 @@ export const routes = [
   {
     path: "/views/previous/JavaScript继承的多种方式.html",
     redirect: "/views/previous/JavaScript%E7%BB%A7%E6%89%BF%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E5%BC%8F.html"
-  },
-  {
-    name: "v-3244ecdc",
-    path: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3244ecdc").then(next)
-    },
-  },
-  {
-    path: "/views/previous/ShadowSocks配置.html",
-    redirect: "/views/previous/ShadowSocks%E9%85%8D%E7%BD%AE.html"
   },
   {
     name: "v-1b25e39c",
@@ -209,6 +205,18 @@ export const routes = [
     },
   },
   {
+    name: "v-59ebb44b",
+    path: "/views/previous/Flex%E5%B8%83%E5%B1%80.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-59ebb44b").then(next)
+    },
+  },
+  {
+    path: "/views/previous/Flex布局.html",
+    redirect: "/views/previous/Flex%E5%B8%83%E5%B1%80.html"
+  },
+  {
     name: "v-4216b42a",
     path: "/views/previous/call%E3%80%81apply%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%AE%9E%E7%8E%B0.html",
     component: GlobalLayout,
@@ -229,18 +237,6 @@ export const routes = [
     },
   },
   {
-    name: "v-12f54de6",
-    path: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-12f54de6").then(next)
-    },
-  },
-  {
-    path: "/views/previous/git Please move or remove them before you can merge.html",
-    redirect: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
-  },
-  {
     name: "v-8c46bd88",
     path: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html",
     component: GlobalLayout,
@@ -253,16 +249,16 @@ export const routes = [
     redirect: "/views/previous/gitalk%E6%90%AD%E5%BB%BA%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98.html"
   },
   {
-    name: "v-1a64f484",
-    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+    name: "v-12f54de6",
+    path: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-12f54de6").then(next)
     },
   },
   {
-    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
-    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
+    path: "/views/previous/git Please move or remove them before you can merge.html",
+    redirect: "/views/previous/git%20Please%20move%20or%20remove%20them%20before%20you%20can%20merge.html"
   },
   {
     name: "v-4f10c5cf",
@@ -275,6 +271,18 @@ export const routes = [
   {
     path: "/views/previous/jQuery is not defind.html",
     redirect: "/views/previous/jQuery%20is%20not%20defind.html"
+  },
+  {
+    name: "v-1a64f484",
+    path: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a64f484").then(next)
+    },
+  },
+  {
+    path: "/views/previous/hexo-next主题集成gitalk评论插件.html",
+    redirect: "/views/previous/hexo-next%E4%B8%BB%E9%A2%98%E9%9B%86%E6%88%90gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.html"
   },
   {
     name: "v-59f43e67",
@@ -557,30 +565,17 @@ export const routes = [
     redirect: "/tag/javaScript/"
   },
   {
-    name: "v-18b15ff4",
-    path: "/tag/Dart/",
+    name: "v-bee809c0",
+    path: "/tag/TypeScript/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-18b15ff4").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-bee809c0").then(next)
     },
-    meta: {"pid":"tags","id":"Dart"}
+    meta: {"pid":"tags","id":"TypeScript"}
   },
   {
-    path: "/tag/Dart/index.html",
-    redirect: "/tag/Dart/"
-  },
-  {
-    name: "v-563fc05d",
-    path: "/tag/Flutter/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-563fc05d").then(next)
-    },
-    meta: {"pid":"tags","id":"Flutter"}
-  },
-  {
-    path: "/tag/Flutter/index.html",
-    redirect: "/tag/Flutter/"
+    path: "/tag/TypeScript/index.html",
+    redirect: "/tag/TypeScript/"
   },
   {
     name: "v-61ab3e8c",
@@ -613,6 +608,32 @@ export const routes = [
     redirect: "/tag/编辑器/"
   },
   {
+    name: "v-18b15ff4",
+    path: "/tag/Dart/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-18b15ff4").then(next)
+    },
+    meta: {"pid":"tags","id":"Dart"}
+  },
+  {
+    path: "/tag/Dart/index.html",
+    redirect: "/tag/Dart/"
+  },
+  {
+    name: "v-563fc05d",
+    path: "/tag/Flutter/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-563fc05d").then(next)
+    },
+    meta: {"pid":"tags","id":"Flutter"}
+  },
+  {
+    path: "/tag/Flutter/index.html",
+    redirect: "/tag/Flutter/"
+  },
+  {
     name: "v-3257dcde",
     path: "/tag/ES6/",
     component: GlobalLayout,
@@ -624,19 +645,6 @@ export const routes = [
   {
     path: "/tag/ES6/index.html",
     redirect: "/tag/ES6/"
-  },
-  {
-    name: "v-3259a754",
-    path: "/tag/CSS/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-3259a754").then(next)
-    },
-    meta: {"pid":"tags","id":"CSS"}
-  },
-  {
-    path: "/tag/CSS/index.html",
-    redirect: "/tag/CSS/"
   },
   {
     name: "v-e14f25f6",
@@ -663,6 +671,19 @@ export const routes = [
   {
     path: "/tag/Vue/index.html",
     redirect: "/tag/Vue/"
+  },
+  {
+    name: "v-3259a754",
+    path: "/tag/CSS/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-3259a754").then(next)
+    },
+    meta: {"pid":"tags","id":"CSS"}
+  },
+  {
+    path: "/tag/CSS/index.html",
+    redirect: "/tag/CSS/"
   },
   {
     name: "v-32555732",
@@ -708,6 +729,19 @@ export const routes = [
     redirect: "/categories/Electron/"
   },
   {
+    name: "v-0e7b8553",
+    path: "/categories/Learning/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-0e7b8553").then(next)
+    },
+    meta: {"pid":"categories","id":"Learning"}
+  },
+  {
+    path: "/categories/Learning/index.html",
+    redirect: "/categories/Learning/"
+  },
+  {
     name: "v-7f008cdb",
     path: "/categories/Git/",
     component: GlobalLayout,
@@ -719,6 +753,36 @@ export const routes = [
   {
     path: "/categories/Git/index.html",
     redirect: "/categories/Git/"
+  },
+  {
+    name: "v-466e3874",
+    path: "/categories/Nodejs/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-466e3874").then(next)
+    },
+    meta: {"pid":"categories","id":"Nodejs"}
+  },
+  {
+    path: "/categories/Nodejs/index.html",
+    redirect: "/categories/Nodejs/"
+  },
+  {
+    name: "v-33c9dede",
+    path: "/categories/其它/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-33c9dede").then(next)
+    },
+    meta: {"pid":"categories","id":"其它"}
+  },
+  {
+    path: "/categories/其它/index.html",
+    redirect: "/categories/其它/"
+  },
+  {
+    path: "/categories/%E5%85%B6%E5%AE%83/",
+    redirect: "/categories/其它/"
   },
   {
     name: "v-14bbbf36",
@@ -753,36 +817,6 @@ export const routes = [
   {
     path: "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
     redirect: "/categories/移动端/"
-  },
-  {
-    name: "v-466e3874",
-    path: "/categories/Nodejs/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-466e3874").then(next)
-    },
-    meta: {"pid":"categories","id":"Nodejs"}
-  },
-  {
-    path: "/categories/Nodejs/index.html",
-    redirect: "/categories/Nodejs/"
-  },
-  {
-    name: "v-33c9dede",
-    path: "/categories/其它/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-33c9dede").then(next)
-    },
-    meta: {"pid":"categories","id":"其它"}
-  },
-  {
-    path: "/categories/其它/index.html",
-    redirect: "/categories/其它/"
-  },
-  {
-    path: "/categories/%E5%85%B6%E5%AE%83/",
-    redirect: "/categories/其它/"
   },
   {
     name: "v-62e05b9d",
