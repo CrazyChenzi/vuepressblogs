@@ -10,6 +10,7 @@ export default {
       "pageKeys": [
         "v-699c6f32",
         "v-3bf3fd5c",
+        "v-da4f3cc8",
         "v-798073da",
         "v-3244ecdc",
         "v-8c46bd88",
@@ -86,15 +87,6 @@ export default {
         "v-005efac6"
       ]
     },
-    "编辑器": {
-      "key": "编辑器",
-      "scope": "tags",
-      "path": "/tag/编辑器/",
-      "pageKeys": [
-        "v-784fb80c",
-        "v-636d1913"
-      ]
-    },
     "Dart": {
       "key": "Dart",
       "scope": "tags",
@@ -111,6 +103,15 @@ export default {
         "v-2734862c"
       ]
     },
+    "编辑器": {
+      "key": "编辑器",
+      "scope": "tags",
+      "path": "/tag/编辑器/",
+      "pageKeys": [
+        "v-784fb80c",
+        "v-636d1913"
+      ]
+    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -118,6 +119,14 @@ export default {
       "pageKeys": [
         "v-598e59ba",
         "v-09457a67"
+      ]
+    },
+    "CSS": {
+      "key": "CSS",
+      "scope": "tags",
+      "path": "/tag/CSS/",
+      "pageKeys": [
+        "v-59ebb44b"
       ]
     },
     "Linux": {
@@ -140,14 +149,6 @@ export default {
         "v-e4ebfae8"
       ]
     },
-    "CSS": {
-      "key": "CSS",
-      "scope": "tags",
-      "path": "/tag/CSS/",
-      "pageKeys": [
-        "v-59ebb44b"
-      ]
-    },
     "Git": {
       "key": "Git",
       "scope": "tags",
@@ -166,7 +167,8 @@ export default {
         "v-699c6f32",
         "v-7bd064d2",
         "v-561cc7e6",
-        "v-3bf3fd5c"
+        "v-3bf3fd5c",
+        "v-da4f3cc8"
       ]
     },
     "Electron": {
@@ -207,6 +209,42 @@ export default {
         "v-005efac6"
       ]
     },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-2734862c",
+        "v-598e59ba",
+        "v-59ebb44b",
+        "v-43b64ffd",
+        "v-1b25e39c",
+        "v-5ce495d4",
+        "v-4dc17d40",
+        "v-4216b42a",
+        "v-d7d57520",
+        "v-70e1cfd2",
+        "v-10da82dc",
+        "v-07995389",
+        "v-5370e5e4",
+        "v-070152e4",
+        "v-c5d3e760",
+        "v-3a7d39ab",
+        "v-09457a67",
+        "v-7219b802",
+        "v-a22f2220",
+        "v-d2cd4c30",
+        "v-e4ebfae8"
+      ]
+    },
+    "移动端": {
+      "key": "移动端",
+      "scope": "categories",
+      "path": "/categories/移动端/",
+      "pageKeys": [
+        "v-2734862c"
+      ]
+    },
     "其它": {
       "key": "其它",
       "scope": "categories",
@@ -216,42 +254,6 @@ export default {
         "v-3244ecdc",
         "v-59f43e67",
         "v-636d1913"
-      ]
-    },
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
-      "pageKeys": [
-        "v-2734862c",
-        "v-598e59ba",
-        "v-43b64ffd",
-        "v-1b25e39c",
-        "v-5ce495d4",
-        "v-4dc17d40",
-        "v-59ebb44b",
-        "v-4216b42a",
-        "v-d7d57520",
-        "v-70e1cfd2",
-        "v-10da82dc",
-        "v-5370e5e4",
-        "v-07995389",
-        "v-e4ebfae8",
-        "v-070152e4",
-        "v-c5d3e760",
-        "v-3a7d39ab",
-        "v-09457a67",
-        "v-7219b802",
-        "v-a22f2220",
-        "v-d2cd4c30"
-      ]
-    },
-    "移动端": {
-      "key": "移动端",
-      "scope": "categories",
-      "path": "/categories/移动端/",
-      "pageKeys": [
-        "v-2734862c"
       ]
     },
     "hexo": {
