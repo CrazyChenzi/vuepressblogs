@@ -45,14 +45,6 @@ export const routes = [
     },
   },
   {
-    name: "v-2d87369c",
-    path: "/views/2020/Electron-win7-black-screen.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2d87369c").then(next)
-    },
-  },
-  {
     name: "v-482ff771",
     path: "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html",
     component: GlobalLayout,
@@ -63,6 +55,14 @@ export const routes = [
   {
     path: "/views/2020/Electron学习笔记.html",
     redirect: "/views/2020/Electron%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"
+  },
+  {
+    name: "v-2d87369c",
+    path: "/views/2020/Electron-win7-black-screen.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2d87369c").then(next)
+    },
   },
   {
     name: "v-561cc7e6",
@@ -89,19 +89,27 @@ export const routes = [
     },
   },
   {
-    name: "v-da4f3cc8",
-    path: "/views/2020/jsonstringify.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-da4f3cc8").then(next)
-    },
-  },
-  {
     name: "v-798073da",
     path: "/views/2020/gitignore.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-798073da").then(next)
+    },
+  },
+  {
+    name: "v-84f75cc8",
+    path: "/views/2020/img.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-84f75cc8").then(next)
+    },
+  },
+  {
+    name: "v-da4f3cc8",
+    path: "/views/2020/jsonstringify.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-da4f3cc8").then(next)
     },
   },
   {
@@ -111,6 +119,18 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6519c5a6").then(next)
     },
+  },
+  {
+    name: "v-784fb80c",
+    path: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-784fb80c").then(next)
+    },
+  },
+  {
+    path: "/views/2020/win下vscode运行bash终端.html",
+    redirect: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html"
   },
   {
     name: "v-2734862c",
@@ -143,18 +163,6 @@ export const routes = [
   {
     path: "/views/2020/如何自定义切换node源.html",
     redirect: "/views/2020/%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%87%E6%8D%A2node%E6%BA%90.html"
-  },
-  {
-    name: "v-784fb80c",
-    path: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-784fb80c").then(next)
-    },
-  },
-  {
-    path: "/views/2020/win下vscode运行bash终端.html",
-    redirect: "/views/2020/win%E4%B8%8Bvscode%E8%BF%90%E8%A1%8Cbash%E7%BB%88%E7%AB%AF.html"
   },
   {
     name: "v-598e59ba",
@@ -305,14 +313,6 @@ export const routes = [
     redirect: "/views/previous/markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E4%BB%8B.html"
   },
   {
-    name: "v-70e1cfd2",
-    path: "/views/previous/registerModule.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-70e1cfd2").then(next)
-    },
-  },
-  {
     name: "v-005efac6",
     path: "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html",
     component: GlobalLayout,
@@ -323,6 +323,22 @@ export const routes = [
   {
     path: "/views/previous/nodejs写日志.html",
     redirect: "/views/previous/nodejs%E5%86%99%E6%97%A5%E5%BF%97.html"
+  },
+  {
+    name: "v-70e1cfd2",
+    path: "/views/previous/registerModule.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-70e1cfd2").then(next)
+    },
+  },
+  {
+    name: "v-10da82dc",
+    path: "/views/previous/renderVModel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-10da82dc").then(next)
+    },
   },
   {
     name: "v-636d1913",
@@ -337,11 +353,11 @@ export const routes = [
     redirect: "/views/previous/vscode%E6%8F%92%E4%BB%B6%E7%AF%87.html"
   },
   {
-    name: "v-10da82dc",
-    path: "/views/previous/renderVModel.html",
+    name: "v-5370e5e4",
+    path: "/views/previous/vue-communication.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-10da82dc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5370e5e4").then(next)
     },
   },
   {
@@ -357,24 +373,16 @@ export const routes = [
     redirect: "/views/previous/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html"
   },
   {
-    name: "v-5370e5e4",
-    path: "/views/previous/vue-communication.html",
+    name: "v-e4ebfae8",
+    path: "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5370e5e4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e4ebfae8").then(next)
     },
   },
   {
-    name: "v-070152e4",
-    path: "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-070152e4").then(next)
-    },
-  },
-  {
-    path: "/views/previous/模块规范.html",
-    redirect: "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html"
+    path: "/views/previous/探索Vue生命周期.html",
+    redirect: "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html"
   },
   {
     name: "v-c5d3e760",
@@ -387,6 +395,18 @@ export const routes = [
   {
     path: "/views/previous/正则表达式.html",
     redirect: "/views/previous/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html"
+  },
+  {
+    name: "v-070152e4",
+    path: "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-070152e4").then(next)
+    },
+  },
+  {
+    path: "/views/previous/模块规范.html",
+    redirect: "/views/previous/%E6%A8%A1%E5%9D%97%E8%A7%84%E8%8C%83.html"
   },
   {
     name: "v-3a7d39ab",
@@ -447,18 +467,6 @@ export const routes = [
   {
     path: "/views/previous/调用堆栈.html",
     redirect: "/views/previous/%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88.html"
-  },
-  {
-    name: "v-e4ebfae8",
-    path: "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e4ebfae8").then(next)
-    },
-  },
-  {
-    path: "/views/previous/探索Vue生命周期.html",
-    redirect: "/views/previous/%E6%8E%A2%E7%B4%A2Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html"
   },
   {
     name: "v-b1564aac",
@@ -599,6 +607,23 @@ export const routes = [
     redirect: "/tag/Nodejs/"
   },
   {
+    name: "v-58d4c3a7",
+    path: "/tag/编辑器/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-58d4c3a7").then(next)
+    },
+    meta: {"pid":"tags","id":"编辑器"}
+  },
+  {
+    path: "/tag/编辑器/index.html",
+    redirect: "/tag/编辑器/"
+  },
+  {
+    path: "/tag/%E7%BC%96%E8%BE%91%E5%99%A8/",
+    redirect: "/tag/编辑器/"
+  },
+  {
     name: "v-18b15ff4",
     path: "/tag/Dart/",
     component: GlobalLayout,
@@ -623,23 +648,6 @@ export const routes = [
   {
     path: "/tag/Flutter/index.html",
     redirect: "/tag/Flutter/"
-  },
-  {
-    name: "v-58d4c3a7",
-    path: "/tag/编辑器/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-58d4c3a7").then(next)
-    },
-    meta: {"pid":"tags","id":"编辑器"}
-  },
-  {
-    path: "/tag/编辑器/index.html",
-    redirect: "/tag/编辑器/"
-  },
-  {
-    path: "/tag/%E7%BC%96%E8%BE%91%E5%99%A8/",
-    redirect: "/tag/编辑器/"
   },
   {
     name: "v-3257dcde",
@@ -763,19 +771,6 @@ export const routes = [
     redirect: "/categories/Git/"
   },
   {
-    name: "v-466e3874",
-    path: "/categories/Nodejs/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-466e3874").then(next)
-    },
-    meta: {"pid":"categories","id":"Nodejs"}
-  },
-  {
-    path: "/categories/Nodejs/index.html",
-    redirect: "/categories/Nodejs/"
-  },
-  {
     name: "v-14bbbf36",
     path: "/categories/前端/",
     component: GlobalLayout,
@@ -793,21 +788,17 @@ export const routes = [
     redirect: "/categories/前端/"
   },
   {
-    name: "v-5f0beb54",
-    path: "/categories/移动端/",
+    name: "v-466e3874",
+    path: "/categories/Nodejs/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-5f0beb54").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-466e3874").then(next)
     },
-    meta: {"pid":"categories","id":"移动端"}
+    meta: {"pid":"categories","id":"Nodejs"}
   },
   {
-    path: "/categories/移动端/index.html",
-    redirect: "/categories/移动端/"
-  },
-  {
-    path: "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
-    redirect: "/categories/移动端/"
+    path: "/categories/Nodejs/index.html",
+    redirect: "/categories/Nodejs/"
   },
   {
     name: "v-33c9dede",
@@ -825,6 +816,23 @@ export const routes = [
   {
     path: "/categories/%E5%85%B6%E5%AE%83/",
     redirect: "/categories/其它/"
+  },
+  {
+    name: "v-5f0beb54",
+    path: "/categories/移动端/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-5f0beb54").then(next)
+    },
+    meta: {"pid":"categories","id":"移动端"}
+  },
+  {
+    path: "/categories/移动端/index.html",
+    redirect: "/categories/移动端/"
+  },
+  {
+    path: "/categories/%E7%A7%BB%E5%8A%A8%E7%AB%AF/",
+    redirect: "/categories/移动端/"
   },
   {
     name: "v-62e05b9d",
